@@ -313,5 +313,5 @@ pswp.updateSize(true);
 - 적어도 하나의 슬라이드가 있어야 합니다.
 -이 기술은 [반응형 이미지를 제공]하는데 사용됩니다(responsive-images.html).
 
-일부 메소드 또는 속성이 누락 됬나요? 문법적 오류를 발견 했나요? 이 페이지를 개선할수 있는 방법을 알고 계시나요? [편집을 제안 해주세요!] (https://github.com/dimsemenov/PhotoSwipe/blob/master/website/documentation/api.md)
+일부 메소드 또는 속성이 누락 되었나요? 문법적 오류를 발견 했나요? 이 페이지를 개선할수 있는 방법을 알고 계시나요? [편집을 제안 해주세요!] (https://github.com/dimsemenov/PhotoSwipe/blob/master/website/documentation/api.md)
 
