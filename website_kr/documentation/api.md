@@ -31,56 +31,56 @@ var photoswipeInstance = new PhotoSwipe( /* ... */ );
 ```javascript
 var pswp = new PhotoSwipe( /* ... */ );
 
-// Initialize and open gallery
-// (you can bind events before this method)
+// 갤러리 초기화 및 열기
+// (이 메소드 전에 이벤트를 바인딩 할 수 있습니다.)
 pswp.init();
 
-// Go to slide by index
-// @param {int} `index`
+// 인덱스로부터 슬라이드로 이동
+// 파라메터	{int}	'index'
 pswp.goTo(index);
 
-// Go to the next slide
+// 다음 슬라이드로 이동
 pswp.next();
 
-// Go to the previous slide
+// 이전 슬라이드로 이동
 pswp.prev();
 
-// Update gallery size
-// @param  {boolean} `force` If you set it to `true`, 
-// 							size of the gallery will be updated 
-// 							even if viewport size hasn't changed.
+// 갤러리 크기 업데이트
+// 파라메터	{boolean}	`force`를 'true'로 설정하면,
+// 							갤러리의 크기가 업데이트 됩니다.
+// 							뷰포트의 크기가 변경되지 않은 경우에도 마찬가지
 pswp.updateSize(force);
 
 // Close gallery
 pswp.close();
 
-// Destroy gallery,
-// automatically called after close() 
+// 갤러리 파괴,
+// close() 이후에 자동으로 호출
 pswp.destroy()
 
-// Zoom current slide to (optionally with animation)
-// @param  {number}   `destZoomLevel` Destination scale number. 1 - original.  
-// 								     pswp.currItem.fitRatio - image will fit into viewport.
-// @param  {object}   `centerPoint`   Object of x and y coordinates, relative to viewport.
-// @param  {int}      `speed`         Animation duration. Can be 0.
-// @param  {function} `easingFn`      Easing function (optional). Set to false to use default easing.
-// @param  {function} `updateFn`      Function will be called on each update frame. (optional)
+// 현재 슬라이드 확대 / 축소 (애니메이션 옵션)
+// 파라메터	{number}	`destZoomLevel` 대상의 척도. 1 - 원본.  
+// 								     pswp.currItem.fitRatio - 이미지가 뷰포트에 맞음
+// object 파라메터   `centerPoint`   뷰포트에 대한 x,y 좌표의 객체
+// 파라메터	{int}	`speed`         애니메이션 기간.  0이 될수 있음
+// 파라메터	{function}	`easingFn`      이징 기능 (옵션). 디폴트 이징을 사용하려면 false로 설정
+// 파라메터	{function}	`updateFn`      함수는 각 업데이트 프레임에서 호출 (옵션)
 //
-// Example below will 2x zoom to center of slide:
+// 슬라이드 중심에서 2배 확대시키는 예시
 // pswp.zoomTo(2, {x:pswp.viewportSize.x/2,y:pswp.viewportSize.y/2}, 2000, false, function(now) {
 // 		
 // });
 pswp.zoomTo(destZoomLevel, centerPoint, speed, easingFn, updateFn);
 
-// Apply zoom and pan to the current slide
+// 현재 슬라이드에 확대 / 축소 및 적용
 // 
-// @param   {number} `zoomLevel`
-// @param   {int}    `panX`
-// @param   {int}    `panY`
+// 파라메터   {number} `zoomLevel`
+// 파라메터   {int}    `panX`
+// 파라메터   {int}    `panY`
 // 
-// For example: `pswp.applyZoomPan(1, 0, 0)`
-// will zoom current image to the original size
-// and will place it on top left corner
+// 예 : `pswp.applyZoomPan(1, 0, 0)`
+// 현재 이미지를 원래 크기로 확대 / 축소
+// 그리고 왼쪽 상단에 배치
 // 
 // 
 pswp.applyZoomPan(zoomLevel, panX, panY);
