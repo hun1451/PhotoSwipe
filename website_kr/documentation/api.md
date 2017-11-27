@@ -297,7 +297,7 @@ pswp.items.push({
 });
 ```
 
-CURRENT, NEXT 또는 PREVIOUS 중 하나의 슬라이드를 변경한 경우 (이 문제를 해결해야 한다) &ndash; 컨텐츠를 업데이트하는 메소드를 호출해야 합니다.
+CURRENT, NEXT 또는 PREVIOUS 중 하나의 슬라이드를 변경한 경우 &ndash; 컨텐츠를 업데이트하는 메소드를 호출해야 합니다.
 
 ```javascript
 // sets a flag that slides should be updated
