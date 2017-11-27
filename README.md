@@ -32,7 +32,7 @@ JavaScript image gallery for mobile and desktop.
 - [SPIP CMS module](https://plugins.spip.net/photoswipe.html).
 - [Fork CMS MediaLibrary widget](https://github.com/forkcms/forkcms).
 
-Coded something useful? <a href='mailto:diiiimaaaa@gmail.com?subject="PhotoSwipe Plugin"'>Email me</a> and I’ll post a link to it here.
+Coded something useful? <a href='mailto:diiiimaaaa@gmail.com?subject="PhotoSwipe Plugin"'>Email me</a> and I�셪l post a link to it here.
 
 ## Build 
 
@@ -58,16 +58,31 @@ Optionally:
 
 ## Using PhotoSwipe?
 
-If you’ve used PhotoSwipe in some interesting way, or on the site of a popular brand, I’d be very grateful if you <a href='mailto:diiiimaaaa@gmail.com?subject="Site that uses PhotoSwipe"'>shoot me</a> a link to it.
+If you�셶e used PhotoSwipe in some interesting way, or on the site of a popular brand, I�셝 be very grateful if you <a href='mailto:diiiimaaaa@gmail.com?subject="Site that uses PhotoSwipe"'>shoot me</a> a link to it.
 
 ## License
 
 Script is licensed under MIT license with one exception: Do not create a public WordPress plugin based on it, as I will develop it. If you need to use it for a public WordPress plugin right now, please ask me by email first. Thanks!
 
-Attribution is not required, but much appreciated, especially if you’re making a product for developers.
+Attribution is not required, but much appreciated, especially if you�셱e making a product for developers.
 
 ## About
 
 PhotoSwipe 4.0+ is developed by [Dmitry Semenov](http://twitter.com/dimsemenov). But initially script was created in 2011 by [Code Computerlove](http://www.codecomputerlove.com/), a digital agency in Manchester, they [passed](https://twitter.com/PhotoSwipe/status/444134042787930113) on development in March 2014. You can view [source and documentation](https://github.com/dimsemenov/PhotoSwipe/tree/v3.0.3) of old PhotoSwipe (<4.0) in history of this repo.
 
 
+
+전영욱
+custom----
+api
+faq
+
+김희환
+getting
+optins
+performance----
+
+한상원
+respnsive
+seo
+updates...
