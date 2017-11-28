@@ -20,7 +20,7 @@ markdownpage: true
 
 특히 베타 시간 동안 PhotoSwipe를 최신 상태로 유지하는 것이 매우 중요합니다.
 
-PhtoSwipe 가 업데이트를 가져올때마다  - [GitHub releases](https://github.com/dimsemenov/PhotoSwipe/releases) page is updated with details about release. 
+PhtoSwipe 가 업데이트를 가져올때마다  - [GitHub releases] URL참조 (https://github.com/dimsemenov/PhotoSwipe/releases) page is updated with details about release. 
 Releases page has an [Atom feed](https://github.com/dimsemenov/PhotoSwipe/releases.atom), you may setup email notifications when feed is updated [using IFTTT](https://ifttt.com/recipes/230902-photoswipe-update-notification):
 
 <div>
