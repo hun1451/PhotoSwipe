@@ -51,7 +51,7 @@ pswp.prev();
 // 							뷰포트의 크기가 변경되지 않은 경우에도 마찬가지
 pswp.updateSize(force);
 
-// Close gallery
+// 갤러리 닫기
 pswp.close();
 
 // 갤러리 파괴,
@@ -90,51 +90,51 @@ pswp.applyZoomPan(zoomLevel, panX, panY);
 
 ```javascript
 
-// current slide object
+// 현재 슬라이드 객체
 pswp.currItem
 
-// items array (slides, images)
+// 배열 items (슬라이드, 이미지)
 pswp.items
 
-// size of sliding viewport
+// 슬라이딩 뷰포트의 크기
 pswp.viewportSize
 
-// object holds all functions from framework
+// 객체는 프레임 워크에서 모든 기능을 유지
 // framework-bridge.js
 pswp.framework
 
-// UI object (e.g. PhotoSwipeUI_Default instance)
+// UI 객체 (예. PhotoSwipeUI_Default 인스턴스)
 pswp.ui
 
-// background element (pswp__bg)
+// 배경 요소 (pswp__bg)
 pswp.bg
 
-// container element (pswp__container)
+// 컨테이너 요소 (pswp__container)
 pswp.container
 
-// options
+// 옵션들
 pswp.options
 
 
 
-// Even though methods below aren't technically properties, we list them here:
+// 아래의 메소드가 기술적인 속성이 아닐지라도, 여기에 이 메소드 나열 합니다:
 
-// current item index (int)
+// 현재 항목의 인덱스 (int)
 pswp.getCurrentIndex();
 
-// total number of items
+// 총 항목의 수
 pswp.options.getNumItemsFn()
 
-// current zoom level (number)
+// 현재 줌 레벨 (number)
 pswp.getZoomLevel();
 
-// one (or more) pointer is used
+// 하나 이상의 포인터가 사용
 pswp.isDragging();
 
-// two (or more) pointers are used
+// 두개 이상의 포인터가 사용
 pswp.isZooming();
 
-// `true` when transition between is running (after swipe)
+// 둘 사이의 전환이 실행 중일때 '참' (스와이프 후에)
 pswp.isMainScrollAnimating();
 ```
 
