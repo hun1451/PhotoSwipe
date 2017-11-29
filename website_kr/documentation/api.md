@@ -145,45 +145,45 @@ PhotoSwipe는 아주 간단한 이벤트/메세징 시스템을 사용합니다. 이 것은 두가지 메소�
 ```javascript
 var pswp = new PhotoSwipe(/* ... */);
 
-// Listen for "helloWorld" event
+// "helloWorld" 이벤트 듣기
 pswp.listen('helloWorld', function(name) {
 	alert('Name is: ' + name);
 });
 
-// Trigger "helloWorld" event
-pswp.shout('helloWorld', 'John' /* you may pass more arguments */);
+// "helloWorld" 이벤트 트리거
+pswp.shout('helloWorld', 'John');
 ```
 
 사용가능한 이벤트:
 
 ```javascript
 
-// Before slides change
-// (before the content is changed, but after navigation)
-// Update UI here (like "1 of X" indicator)
+// 슬라이드가 변경되기 전에
+// (내용이 변경되기 전에, 탐색 후에)
+// 여기에 UI를 업데이트 (예. "1 of X" 표시기)
 pswp.listen('beforeChange', function() { });
 
-// After slides change
-// (after content changed)
+// 슬라이드가 변경된 이후
+// (내용 변경 후)
 pswp.listen('afterChange', function() { });
 
-// Image loaded
+// 이미지 로드
 pswp.listen('imageLoadComplete', function(index, item) { 
-	// index - index of a slide that was loaded
-	// item - slide object
+	// index - 로드 된 슬라이드의 인덱스
+	// item - 슬라이드 개체
 });
 
-// Viewport size changed
+// 뷰포트 크기 변경
 pswp.listen('resize', function() { });
 
-// Triggers when PhotoSwipe "reads" slide object data,
-// which happens before content is set, or before lazy-loading is initiated.
-// Use it to dynamically change properties
+// PhotoSwipe가 슬라이드 개체 데이터를 "읽는"경우의 트리거는,
+// 컨텐츠가 설정 되기 전 또는 지연로드가 시작 되기 전에 발생
+// 동적으로 속성을 변경하는 데 사용
 pswp.listen('gettingData', function(index, item) {
-	// index - index of a slide that was loaded
-	// item - slide object
+	// index - 로드 된 슬라이드 인덱스
+	// item - 슬라이드 개체
 
-	// e.g. change path to the image based on `something`
+	// 예. 'something'을 기반으로 이미지 경로 변경
 	if( something ) {
 		item.src = item.something;
 	} else {
@@ -191,36 +191,36 @@ pswp.listen('gettingData', function(index, item) {
 	}
 });
 
-// Mouse was used (triggers only once)
+// 마우스 사용 됨(한번 만 트리거 됨)
 pswp.listen('mouseUsed', function() { });
 
 
-// Opening zoom in animation starting
+// 애니메이션 시작 시 확대 시작
 pswp.listen('initialZoomIn', function() { });
 
-// Opening zoom in animation finished
+// 애니메이션 확대/축소 완료
 pswp.listen('initialZoomInEnd', function() { });
 
-// Closing zoom out animation started
+// 애니메이션 닫기/축소 시작
 pswp.listen('initialZoomOut', function() { });
 
-// Closing zoom out animation finished
+// 애니메이션 닫기/축소 완료
 pswp.listen('initialZoomOutEnd', function() { });
 
 
-// Allows overriding vertical margin for individual items
+// 개별 항목에 대한 수직 여백 재정의 허용
 pswp.listen('parseVerticalMargin', function(item) { 
-	// For example:
+	// 예시:
 	var gap = item.vGap;
 
-	gap.top = 50; // There will be 50px gap from top of viewport
-	gap.bottom = 100; // and 100px gap from the bottom
+	gap.top = 50; // 뷰포트 위쪽에서 50px 갭이 있음
+	gap.bottom = 100; // 그리고 하단에서 100px 간격
 })
 
-// Gallery starts closing
+// 갤러리 닫기를 시작
 pswp.listen('close', function() { });
 
-// Gallery unbinds events
+// 갤러리가 이벤트 바인딩 해제
 // (triggers before closing animation)
 pswp.listen('unbindEvents', function() { });
 
