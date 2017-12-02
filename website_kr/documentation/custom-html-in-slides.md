@@ -23,12 +23,12 @@ PhotoSwipe가 슬라이드에 HTML컨텐츠를 표시하게 하려면 슬라이드 객체에서 'html'속�
 ```javascript
 
 var items = [
-	// slide 1 with HTML
+	// 슬라이드 1 with HTML
 	{
 		html: '<div><h1>Any HTML <a href="http://example.com">content</a></h1></div>'
 	},
 
-	// slide 2 with image
+	// 슬라이드 2 with image
 	{
 		src: 'path/to/image.jpg',
 		w:600,
@@ -37,11 +37,11 @@ var items = [
 ];
 
 
-// initialise as usual
+// 평소대로 초기화
 var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
 
-// You don't necessarily need to have "html" property in slide object initially.
-// You may create it dynamically in gettingData event:
+// 평소대로 초기화
+// getData이벤트에서 동적으로 만들 수 있음.
 /*
 	gallery.listen('gettingData', function(index, item) {
 		if(index === 3) {
@@ -51,7 +51,7 @@ var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options)
 	});
 */
 
-// Note that init() method is called after gettingData event is bound
+// getData이벤트가 바인드 된 후 init() 메소드가 호출됨에 유의
 gallery.init();
 ```
 
