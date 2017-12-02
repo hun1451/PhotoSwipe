@@ -132,7 +132,7 @@ var slides = [
 ];
 ```
 
-- PhotoSwipe는 초기화하고 열기 전까지 코드를 실행하지 않습니다. 처음 페이지를 로드할 때 URL을 직접 파싱해야 합니다. [시작하기]의 기본 코드(http://photoswipe.com/documentation/getting-started.html#dom-to-slide-objects) 섹션에는 이 기능이 포함되어 있습니다. (수정이 필요한 경우`photoswipeParseHash`기능을 확인 하십시오)
+- PhotoSwipe는 초기화하고 열기 전까지 코드를 실행하지 않습니다. 처음 페이지를 로드할 때 URL을 직접 파싱해야 합니다. [시작하기](http://photoswipe.com/documentation/getting-started.html#dom-to-slide-objects)의 기본 코드 섹션에는 이 기능이 포함되어 있습니다. (수정이 필요한 경우`photoswipeParseHash`기능을 확인 하십시오)
 - PhotoSwipe v4.0.8부터`galleryPIDs` 옵션을 사용할 수 있습니다. ([옵션 설명](options.html#galleryPIDs)).
 
 
@@ -140,8 +140,7 @@ var slides = [
 
 ### <a name="gif-freeze-ios"></a> iOS8에서 GIF이미지가 고정되는 경우가 있습니다.
 
-iOS Safari애는 창 외부로 이동한 GIF이미지가 고정되는 버그가 있습니다.(또는 'overflow:hidden'이 있는 요소 외부) 권장 사항은 PhotoSwipe에서 애니메이션 GIF를 사용하지 않는 것입니다. 모바일 브라우저에서 애니메이션 성능이 느려지므로 좋습니다. 하지만 정말로 사용해야하는 경우 [이 해킹]을 참조하십시오. (https://github.com/dimsemenov/PhotoSwipe/issues/662#issuecomment-66420874).
-
+iOS Safari애는 창 외부로 이동한 GIF이미지가 고정되는 버그가 있습니다.(또는 'overflow:hidden'이 있는 요소 외부) 권장 사항은 PhotoSwipe에서 애니메이션 GIF를 사용하지 않는 것입니다. 모바일 브라우저에서 애니메이션 성능이 느려지므로 좋습니다. 하지만 정말로 사용해야하는 경우 [이 해킹](https://github.com/dimsemenov/PhotoSwipe/issues/662#issuecomment-66420874)을 참조하십시오.
 
 ### <a name="mobile-crash"></a> 거대한 이미지가 갤러리를 열면 모바일 브라우저가 다운됩니다
 
@@ -157,14 +156,14 @@ iOS Safari애는 창 외부로 이동한 GIF이미지가 고정되는 버그가 
 
 ### <a name="keep-updated"></a> 변경 내역은 어디에 있습니까, 업데이트에 대한 알림을 받는 방법은 무엇입니까?
 
-PhotoSwipe가 업데이트를 얻을 때마다 - [GitHub releases](https://github.com/dimsemenov/PhotoSwipe/releases) page is updated with details. 
-출시 페이지에는 [Atom feed]가 있습니다.(https://github.com/dimsemenov/PhotoSwipe/releases.atom), 피드가 업데이트 되면 이메일 알림을 설정할 수 있습니다 [using IFTTT](https://ifttt.com/recipes/230902-photoswipe-update-notification).
+PhotoSwipe가 업데이트를 얻을 때마다 - [GitHub releases](https://github.com/dimsemenov/PhotoSwipe/releases)페이지가 세부 정보로 업데이트 됩니다.
+출시 페이지에는 [Atom feed](https://github.com/dimsemenov/PhotoSwipe/releases.atom)가 있습니다., 피드가 업데이트 되면 이메일 알림을 설정할 수 있습니다 [using IFTTT](https://ifttt.com/recipes/230902-photoswipe-update-notification).
 
-또한 저의 [email newsletter](http://dimsemenov.com/subscribe.html?i=pswp) (1년에 3~4회 발신), [@PhotoSwipe on Twitter]를 팔로우 하세요.(http://twitter.com/photoswipe), 그리고  [PhotoSwipe on GitHub]에서 star를 누르시고 읽어주세요.(https://github.com/dimsemenov/PhotoSwipe/).
+또한 저의 [email newsletter](http://dimsemenov.com/subscribe.html?i=pswp) (1년에 3~4회 발신), [@PhotoSwipe on Twitter](http://twitter.com/photoswipe)를 팔로우 하세요. 그리고  [PhotoSwipe on GitHub](https://github.com/dimsemenov/PhotoSwipe/)에서 star를 누르시고 읽어주세요.
 
 ### <a name="wordpress-release"></a> WordPress 플러그인이 출시 될 때?
 
-플러그인은 개발 중이며 2015년에 출시 될 예정입니다. 알림을 받으려면 [뉴스레터 구독]하세요.(http://dimsemenov.com/subscribe.html?i=pswp-wp).
+플러그인은 개발 중이며 2015년에 출시 될 예정입니다. 알림을 받으려면 [뉴스레터 구독](http://dimsemenov.com/subscribe.html?i=pswp-wp)하세요.
 
 
 ### <a name="can-i-use-in-theme"></a> WordPress / Magento / Joomla ... PhotoSwipe를 사용하고 싶습니다. 템플릿을 사용할 수 있습니까?
