@@ -172,7 +172,7 @@ PhotoSwipe가 업데이트를 얻을 때마다 - [GitHub releases](https://githu
 그렇습니다. PhotoSwipe는 제한없이 무료 또는 상업용 테마로 사용할 수 있습니다. 가능한 경우 테마 설명을 관리 영역에 크레딧 (PhotoSwipe 홈페이지 링크)을 남겨 두십시오.
 
 
-<div style="margin-top:30px;"><p>Know how this page can be improved? Found a grammatical mistake? <a href="https://github.com/dimsemenov/PhotoSwipe/blob/master/website/documentation/responsive-images.md">Please suggest an edit!</a></p></div>
+<div style="margin-top:30px;"><p>이 페이지를 개선할 수 있는 방법을 알고 있습니까? 문법적 오류를 발견 했습니까? <a href="https://github.com/dimsemenov/PhotoSwipe/blob/master/website/documentation/responsive-images.md">편집을 제안하십시오!</a></p></div>
 
 <iframe src="http://ghbtns.com/github-btn.html?user=dimsemenov&amp;repo=photoswipe&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="155" height="30" style=""></iframe>
 
