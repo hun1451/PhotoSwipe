@@ -77,7 +77,7 @@ var options = {
     modal: false,
     closeOnScroll: false,
     getThumbBoundsFn: function(index) {
-        // rect was the original bounds
+        // rect는 본래의 경계
         var rect = {x: ..., y: ..., w: ...},
 
         var templateBounds = template.parentElement.getBoundingClientRect();
