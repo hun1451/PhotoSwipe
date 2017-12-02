@@ -112,7 +112,7 @@ http://example.com/#&gid=1&pid=1
 http://example.com/#&gid=1&pid=2
 ```
 
-... `history:true, galleryPIDs:true`옵션을 가능하게 하고 `pid` (고유의 그림 식별자)속성을 슬라이드 객체에 추가합니다. (`pid`는 정수나 문자열), for example:
+... `history:true, galleryPIDs:true`옵션을 가능하게 하고 `pid` (고유의 그림 식별자)속성을 슬라이드 객체에 추가합니다. (`pid`는 정수나 문자열), 예시:
 
 ```js
 var slides = [
