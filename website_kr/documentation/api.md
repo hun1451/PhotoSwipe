@@ -1,6 +1,6 @@
 ---
 
-layout: 기본
+layout: 기본 값
 
 title: PhotoSwipe API
 
@@ -10,7 +10,7 @@ description: 공용 메소드, PhotoSwipe 자바스크립트 이미지 갤러리의 속성 및 이벤트
 
 addjs: true
 
-canonical_url: http://photoswipe.com/documentation/api.html
+정식_url: http://photoswipe.com/documentation/api.html
 
 buildtool: true
 
@@ -221,65 +221,64 @@ pswp.listen('parseVerticalMargin', function(item) {
 pswp.listen('close', function() { });
 
 // 갤러리가 이벤트 바인딩 해제
-// (triggers before closing animation)
+// (애니메이션을 닫기 전의 트리거)
 pswp.listen('unbindEvents', function() { });
 
-// After gallery is closed and closing animation finished.
-// Clean up your stuff here.
+// 갤러리가 닫히고 애니메이션이 끝난 후
+// 여기애서 정리
 pswp.listen('destroy', function() { });
 
-// Called when the page scrolls.
-// The callback is passed an offset with properties {x: number, y: number}.
+// 페이지가 스크롤 될 때 호출
+// 콜백은 속성{x: number, y: number}이 있는 오프셋이 전달
 //
-// PhotoSwipe uses the offset to determine the top-left of the template,
-// which by default is the top-left of the viewport. When using modal: false,
-// you should listen to this event (before calling .init()) and modify the offset
-// with the template's getBoundingClientRect().
+// PhotoSwipe는 오프셋을 사용하여 템플릿의 왼쪽 상단을 결정하고,
+// 기본적으로 뷰포트의 왼쪽 상단에 있음. modal을 사용할때 : false
+// 이 이벤트가 진행되고(.init()를 호출하기 전에) 오프셋을 변경해야 함
+// getBoundingClientRect()를 사용.
 //
-// Look at the "Implementing inline gallery display" FAQ section for more info.
 pswp.listen('updateScrollOffset', function(_offset) {
     var r = gallery.template.getBoundingClientRect();
     _offset.x += r.left;
     _offset.y += r.top;
 });
 
-// PhotoSwipe has a special event called pswpTap.
-// It's dispatched using default JavaScript event model.
-// So you can, for example, call stopPropagation on it.
-// pswp.framework.bind - is a shorthand for addEventListener
-pswp.framework.bind( pswp.scrollWrap /* bind on any element of gallery */, 'pswpTap', function(e) {
+// PhotoSwipe에는 pswpTap라는 특별한 이벤트가 있음.
+// pswpTap은 기본 자바스크립트 이벤트 모델을 사용하여 전달
+// 예를 들어, stopPropagation을 호출 할 수 있음.
+// pswp.framework.bind - addEventListener의 줄임말
+pswp.framework.bind( pswp.scrollWrap /* 갤러리의 모든 요소에 바인딩 */, 'pswpTap', function(e) {
     console.log('tap', e, e.detail);
-    // e.detail.origEvent  // original event that finished tap (e.g. mouseup or touchend)
-    // e.detail.target // e.target of original event
-    // e.detail.releasePoint // object with x/y coordinates of tap
-    // e.detail.pointerType // mouse, touch, or pen
+    // e.detail.origEvent  // 탭을 종료한 본래 이벤트 (예. 마우스및 터치)
+    // e.detail.target // e.target의 본래 이벤트
+    // e.detail.releasePoint // 탭의 x/y 좌표를 가진 객체
+    // e.detail.pointerType // 마우스, 터치 또는 펜
 });
 
 // Allow to call preventDefault on down and up events
 pswp.listen('preventDragEvent', function(e, isDown, preventObj) {
-	// e - original event
-	// isDown - true = drag start, false = drag release
+	// e - 본래 이벤트
+	// isDown - true = 드래그 시작, false = 드래그 릴리즈
 
-	// Line below will force e.preventDefault() on:
-	// touchstart/mousedown/pointerdown events
-	// as well as on:
-	// touchend/mouseup/pointerup events
+	// 아래는 e.preventDefault()를 강제 실행:
+	// 터치 시작 / 마우스 다운  / 포인터 다운 이벤트
+	// 뿐만 아니라:
+	// touchend/mouseup/pointerup 이벤트들
 	preventObj.prevent = true;
 });
 
 
 
-// Default UI events
+// 기본 UI 이벤트
 // -------------------------
 
-// Share link clicked
+// 클릭한 링크 공유
 pswp.listen('shareLinkClick', function(e, target) { 
-	// e - original click event
-	// target - link that was clicked
+	// e - 본래의 클릭 이벤트
+	// target - 클릭된 링크
 
-	// If `target` has `href` attribute and 
-	// does not have `download` attribute - 
-	// share modal window will popup
+	// `target`이 `href` 속성을 가지고 있고, 
+	// 'download' 속성을 가지고 있지 않음 - 
+	// 공유 modal 창이 팝업
 });
 
 
@@ -300,9 +299,9 @@ pswp.items.push({
 CURRENT, NEXT 또는 PREVIOUS 중 하나의 슬라이드를 변경한 경우 &ndash; 컨텐츠를 업데이트하는 메소드를 호출해야 합니다.
 
 ```javascript
-// sets a flag that slides should be updated
+// 슬라이드를 업데이트 해야 한다는 플래그를 설정
 pswp.invalidateCurrItems();
-// updates the content of slides
+// 슬라이드 내용 업데이트
 pswp.updateSize(true);
 ```
 
