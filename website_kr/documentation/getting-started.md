@@ -248,3 +248,277 @@ var slides = [
 
 PhotoSwipe가 슬라이드 객체 속성을 읽기 전에 동적으로 객체 속성을 정의 할 수 있습니다. 'gettingData` 이벤트를 사용하십시오 (자세한 내용은 [API 섹션의 문서](api.html)). 예를 들어이 기술을 사용하여 다양한 화면 크기에 대해 [다른 이미지 제공](responsive-images.html)을 사용할 수 있습니다.
 
+
+## <a class="anchor" name="dom-to-slide-objects"></a> 링크 목록에서 슬라이드 배열을 만드는 방법
+
+다음과 같은 링크 / 축소판 목록이 있다고 가정 해 보겠습니다 ([갤러리 마크 업에 대한 자세한 내용](seo.html)).
+
+```html
+<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		<a href="large-image.jpg" itemprop="contentUrl" data-size="600x400">
+		    <img src="small-image.jpg" itemprop="thumbnail" alt="Image description" />
+		</a>
+		<figcaption itemprop="caption description">Image caption</figcaption>
+	</figure>
+
+	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+		<a href="large-image.jpg" itemprop="contentUrl" data-size="600x400">
+		    <img src="small-image.jpg" itemprop="thumbnail" alt="Image description" />
+		</a>
+		<figcaption itemprop="caption description">Image caption</figcaption>
+	</figure>
+
+
+</div>
+ ```
+
+... 미리보기 이미지를 클릭하여 PhotoSwipe를 큰 이미지로 엽니 다 (데모 페이지에서 완료 한 것처럼). 당신이해야 할 일은 :
+
+1. 클릭 이벤트를 링크 / 축소판에 바인딩하십시오.
+2. 사용자가 미리보기 이미지를 클릭하면 해당 색인을 찾습니다.
+3. DOM 요소로부터 슬라이드 객체의 배열을 생성 - 모든 링크를 반복하고`href` 속성 (큰 이미지 URL),`data-size` 속성 (크기), 썸네일의`src` 및 캡션의 내용을 가져옵니다.
+
+PhotoSwipe는 당신이 어떻게 할 것인지 정말로 신경 쓰지 않습니다. jQuery 또는 MooTools와 같은 프레임 워크를 사용하거나 IE8을 지원할 필요가없는 경우 코드를 크게 단순화 할 수 있습니다.
+
+다음은 IE8을 지원하는 순수 바닐라 JS 구현입니다.
+
+```javascript
+var initPhotoSwipeFromDOM = function(gallerySelector) {
+
+	// DOM 요소에서 슬라이드 데이터 (url, title, size ...)를 파싱합니다.
+	// (children of gallerySelector)
+	var parseThumbnailElements = function(el) {
+		var thumbElements = el.childNodes,
+			numNodes = thumbElements.length,
+			items = [],
+			figureEl,
+			linkEl,
+			size,
+			item;
+
+		for(var i = 0; i < numNodes; i++) {
+
+			figureEl = thumbElements[i]; // <figure> element
+
+			// 요소 노드 만 포함
+			if(figureEl.nodeType !== 1) {
+				continue;
+			}
+
+			linkEl = figureEl.children[0]; // <a> element
+			
+			size = linkEl.getAttribute('data-size').split('x');
+
+			// 슬라이드 객체를 생성
+			item = {
+				src: linkEl.getAttribute('href'),
+				w: parseInt(size[0], 10),
+				h: parseInt(size[1], 10)
+			};
+
+			
+
+			if(figureEl.children.length > 1) {
+				// <figcaption> content
+				item.title = figureEl.children[1].innerHTML; 
+			}
+ 
+			if(linkEl.children.length > 0) {
+				// <img> thumbnail element, retrieving thumbnail url
+				item.msrc = linkEl.children[0].getAttribute('src');
+			} 
+		   
+			item.el = figureEl; // getThumbBoundsFn의 요소에 대한 링크 저장
+			items.push(item);
+		}
+
+		return items;
+	};
+
+	// 가장 가까운 부모 요소 찾기
+	var closest = function closest(el, fn) {
+		return el && ( fn(el) ? el : closest(el.parentNode, fn) );
+	};
+
+	// 사용자가 미리보기 이미지를 클릭하면 트리거됩니다.
+	var onThumbnailsClick = function(e) {
+		e = e || window.event;
+		e.preventDefault ? e.preventDefault() : e.returnValue = false;
+
+		var eTarget = e.target || e.srcElement;
+
+		// 슬라이드의 루트 요소 찾기
+		var clickedListItem = closest(eTarget, function(el) {
+			return (el.tagName && el.tagName.toUpperCase() === 'FIGURE');
+		});
+
+		if(!clickedListItem) {
+			return;
+		}
+
+		// 모든 자식 노드를 반복하여 클릭 된 항목의 색인을 찾습니다.
+		// 또는 데이터 속성을 통해 색인을 정의 할 수 있습니다
+		var clickedGallery = clickedListItem.parentNode,
+			childNodes = clickedListItem.parentNode.childNodes,
+			numChildNodes = childNodes.length,
+			nodeIndex = 0,
+			index;
+
+		for (var i = 0; i < numChildNodes; i++) {
+			if(childNodes[i].nodeType !== 1) { 
+				continue; 
+			}
+
+			if(childNodes[i] === clickedListItem) {
+				index = nodeIndex;
+				break;
+			}
+			nodeIndex++;
+		}
+
+
+
+		if(index >= 0) {
+			// open PhotoSwipe if valid index found
+			openPhotoSwipe( index, clickedGallery );
+		}
+		return false;
+	};
+
+	// URL (#&pid=1&gid=2)에서 사진 색인 및 갤러리 색인을 구문 분석합니다.
+	var photoswipeParseHash = function() {
+		var hash = window.location.hash.substring(1),
+		params = {};
+
+		if(hash.length < 5) {
+			return params;
+		}
+
+		var vars = hash.split('&');
+		for (var i = 0; i < vars.length; i++) {
+			if(!vars[i]) {
+				continue;
+			}
+			var pair = vars[i].split('=');  
+			if(pair.length < 2) {
+				continue;
+			}           
+			params[pair[0]] = pair[1];
+		}
+
+		if(params.gid) {
+			params.gid = parseInt(params.gid, 10);
+		}
+
+		return params;
+	};
+
+	var openPhotoSwipe = function(index, galleryElement, disableAnimation, fromURL) {
+		var pswpElement = document.querySelectorAll('.pswp')[0],
+			gallery,
+			options,
+			items;
+
+		items = parseThumbnailElements(galleryElement);
+
+		// 옵션을 정의하십시오 (필요한 경우).
+		options = {
+
+			// 갤러리 색인 정의 (URL 용)
+			galleryUID: galleryElement.getAttribute('data-pswp-uid'),
+
+			getThumbBoundsFn: function(index) {
+				// 자세한 내용은 설명서의 옵션 -> getThumbBoundsFn 섹션을 참조하십시오.
+				var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
+					pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
+					rect = thumbnail.getBoundingClientRect(); 
+
+				return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
+			}
+
+		};
+
+		// PhotoSwipe URL에서 열림
+		if(fromURL) {
+	    	if(options.galleryPIDs) {
+	    		// 사용자 정의 PID가 사용될 때 실제 색인을 구문 분석합니다.
+	    		// http://photoswipe.com/documentation/faq.html#custom-pid-in-url
+	    		for(var j = 0; j < items.length; j++) {
+	    			if(items[j].pid == index) {
+	    				options.index = j;
+	    				break;
+	    			}
+	    		}
+		    } else {
+		    	// URL 인덱스는 1부터 시작합니다.
+		    	options.index = parseInt(index, 10) - 1;
+		    }
+	    } else {
+	    	options.index = parseInt(index, 10);
+	    }
+
+	    // 색인을 찾을 수없는 경우 종료하십시오.
+	    if( isNaN(options.index) ) {
+	    	return;
+	    }
+
+		if(disableAnimation) {
+			options.showAnimationDuration = 0;
+		}
+
+		// PhotoSwipe에 데이터를 전달하고 초기화하십시오.
+		gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+		gallery.init();
+	};
+
+	// 모든 갤러리 요소와 바인드 이벤트를 반복합니다.
+	var galleryElements = document.querySelectorAll( gallerySelector );
+
+	for(var i = 0, l = galleryElements.length; i < l; i++) {
+		galleryElements[i].setAttribute('data-pswp-uid', i+1);
+		galleryElements[i].onclick = onThumbnailsClick;
+	}
+
+	// #&pid=3&gid=1 인 경우 URL을 구문 분석하고 갤러리를 엽니 다.
+	var hashData = photoswipeParseHash();
+	if(hashData.pid && hashData.gid) {
+		openPhotoSwipe( hashData.pid ,  galleryElements[ hashData.gid - 1 ], true, true );
+	}
+};
+
+// 위의 함수를 실행합니다.
+initPhotoSwipeFromDOM('.my-gallery');
+```
+
+
+CodePen에 대한 예제 (embed 문제로 인해`focus` 및`history` 옵션이 비활성화되었습니다) :
+
+<div class="codepen-embed">
+	<p data-height="600" data-theme-id="10447" data-slug-hash="ZYbPJM" data-default-tab="result" data-user="dimsemenov" class='codepen'>
+		<a href="http://codepen.io/dimsemenov/pen/ZYbPJM/" target="_blank"><strong>View example on CodePen &rarr;</strong></a>
+	</p>
+</div>
+
+팁 : CodePen에서 예제를 다운로드하여 로컬로 재생할 수 있습니다 (`Edit on CodePen` ->`Share` ->`Export .zip`).
+
+-이 예제와 다른 마크 업을 사용한다면`parseThumbnailElements` 함수를 편집해야합니다.
+- 순수 자바 스크립트에 익숙하지 않고 DOM을 파싱하는 방법을 모르는 경우 [QuirksMode](http://quirksmode.org/dom/core/#gettingelements) 및 [MDN에 대한 설명서](https : //developer.mozilla.org/en-US/docs/Web/API/Element.getElementsByTagName).
+- IE8은 HTML5`<figure>`와`<figcaption>`요소를 지원하지 않으므로`<head>`섹션에 [html5shiv](https://github.com/aFarkas/html5shiv)를 포함시켜야한다. 예를 들어 [cdnjs hosted version](http://cdnjs.com/libraries/html5shiv/)이 사용됩니다.
+
+    ```html
+    <!--[if lt IE 9]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+    ```
+
+
+## 요약
+
+[계속 스크립트를 업데이트하십시오](faq.html # keep-updated), [GitHub](https://github.com/dimsemenov/PhotoSwipe)를 통해 버그를보고하고, [UserVoice](https : //photoswipe.uservoice)의 기능을 제안하십시오. .com / forums / 275302-feature-requests-ideas). [StackOverflow](http://stackoverflow.com/questions/ask?tags=javascript,photoswipe)를 통해 질문하십시오.
+
+이 페이지를 개선 할 수있는 방법을 알고 있습니까? 오타가있는 걸까요? [Suggest an edit!](https://github.com/dimsemenov/PhotoSwipe/blob/master/website/documentation/getting-started.md)
+
+
+<iframe src="http://ghbtns.com/github-btn.html?user=dimsemenov&amp;repo=photoswipe&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="155" height="30" style=""></iframe>
