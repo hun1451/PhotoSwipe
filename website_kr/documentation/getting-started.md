@@ -516,7 +516,7 @@ CodePen에 대한 예제 (embed 문제로 인해`focus` 및`history` 옵션이 비활성화되었습�
 
 ## 요약
 
-[계속 스크립트를 업데이트하십시오](faq.html # keep-updated), [GitHub](https://github.com/dimsemenov/PhotoSwipe)를 통해 버그를보고하고, [UserVoice](https : //photoswipe.uservoice)의 기능을 제안하십시오. .com / forums / 275302-feature-requests-ideas). [StackOverflow](http://stackoverflow.com/questions/ask?tags=javascript,photoswipe)를 통해 질문하십시오.
+[계속 스크립트를 업데이트하십시오](faq.html#keep-updated), [GitHub](https://github.com/dimsemenov/PhotoSwipe)를 통해 버그를보고하고, [UserVoice](https://photoswipe.uservoice)의 기능을 제안하십시오. .com/forums/275302-feature-requests-ideas). [StackOverflow](http://stackoverflow.com/questions/ask?tags=javascript,photoswipe)를 통해 질문하십시오.
 
 이 페이지를 개선 할 수있는 방법을 알고 있습니까? 오타가있는 걸까요? [Suggest an edit!](https://github.com/dimsemenov/PhotoSwipe/blob/master/website/documentation/getting-started.md)
 
