@@ -143,3 +143,108 @@ JS를 통해 (초기화 직전의) JS 코드를 통해 HTML 코드를 동적으로 추가하거나, 초기에
 
 
 ```
+
+`pswp__bg`,`pswp__scroll-wrap`,`pswp__container` 및`pswp__item` 요소의 순서는 변경하면 안됩니다.
+
+PhotoSwipe가 JS를 통해 이 코드를 자동으로 추가하지 않는 이유는 간단합니다. 레이아웃 수정이 필요한 경우를 대비하여 파일 크기를 절약 할 수 있기 때문입니다.
+
+### Step 3: initialize (초기화)
+
+`PhotoSwipe` 생성자를 실행합니다. 그것은 4 개의 인수를받습니다 :
+
+1. 2 단계의`.pswp` 요소 (DOM에 추가되어야 함).
+2. PhotoSwipe UI 클래스. 기본`photoswipe-ui-default.js`를 포함하면 클래스는`PhotoSwipeUI_Default`가됩니다. 'false' 값 일 수 있습니다.
+3. 객체 (슬라이드)가있는 배열.
+4. [Option](options.html).
+
+
+```javascript
+var pswpElement = document.querySelectorAll('.pswp')[0];
+
+// build items array
+var items = [
+	{
+		src: 'https://placekitten.com/600/400',
+		w: 600,
+		h: 400
+	},
+	{
+		src: 'https://placekitten.com/1200/900',
+		w: 1200,
+		h: 900
+	}
+];
+
+// 옵션을 정의 (필요할 경우)
+var options = {
+	// optionName: 'option value'
+	// 예를 들면:
+	index: 0 // 첫 번째 슬라이드에서 시작
+};
+
+// PhtoSwipe를 초기화하고 열기.
+var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+gallery.init();
+```
+
+결국 당신은 다음과 같은 것을 얻어야한다 :
+
+<div class="codepen-embed">
+	<p data-height="600" data-theme-id="10447" data-slug-hash="gbadPv" data-default-tab="result" data-user="dimsemenov" class='codepen'>
+		<a href="http://codepen.io/dimsemenov/pen/gbadPv/" target="_blank"><strong>View example on CodePen &rarr;</strong></a>
+	</p>
+	<!-- <script async src="//assets.codepen.io/assets/embed/ei.js"></script> -->
+</div>
+
+
+## <a name="creating-slide-objects-array"></a> 슬라이드 객체의 배열 만들기
+
+배열의 각 객체는 슬라이드에 대한 데이터를 포함해야하며 PhotoSwipe에 표시하려는 모든 것 (이미지 경로, 캡션 문자열, 공유 수, 설명 등) 일 수 있습니다.
+
+기본적으로 PhotoSwipe는 단 5개의 속성만을 사용합니다 : 'src'(이미지 경로), 'w'(이미지 너비), 'h'(이미지 높이), 'msrc'(작은 이미지 자리 표시 자, 큰 이미지가 위에로드됩니다. ),`html` (맞춤 HTML, [더 자세히](custom-html-in-slides.html)).
+
+네비게이션 중 PhotoSwipe는이 객체에 자신의 속성을 추가합니다 (예 :`minZoom` 또는`loaded`).
+
+```javascript
+var slides = [
+
+	// slide 1
+	{
+
+		src: 'path/to/image1.jpg', // path to image
+		w: 1024, // image width
+		h: 768, // image height
+
+		msrc: 'path/to/small-image.jpg', // small image placeholder,
+						// 메인(큰) 이미지가 이 이위에 로드되고,
+						// 이 매개 변수를 건너 뛰면 회색 사각형이 표시되고,
+						// 작은 이미지가로드되기 전에이 속성을 정의하려고 시도하십시오.
+
+
+
+		title: 'Image Caption'  // 기본 PhotoSwipe UI에서 사용됩니다.
+								// 당신이 그것을 건너 뛸 경우, 어떤 캡션도 없을 것입니다.
+								
+
+		// 여기에 속성을 더 추가하고 사용할 수 있습니다.
+		// 예를 들어, 데모 갤러리는 캡션에 사용되는 "author"속성을 사용합니다.
+		// author: 'John Doe'
+		
+	},
+
+	// slide 2
+	{
+		src: 'path/to/image2.jpg', 
+		w: 600, 
+		h: 600
+
+		// etc.
+	}
+
+	// etc.
+
+];
+```
+
+PhotoSwipe가 슬라이드 객체 속성을 읽기 전에 동적으로 객체 속성을 정의 할 수 있습니다. 'gettingData` 이벤트를 사용하십시오 (자세한 내용은 [API 섹션의 문서](api.html)). 예를 들어이 기술을 사용하여 다양한 화면 크기에 대해 [다른 이미지 제공](responsive-images.html)을 사용할 수 있습니다.
+
