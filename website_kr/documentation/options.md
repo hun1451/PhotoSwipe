@@ -194,6 +194,108 @@ getDoubleTapZoom: function(isMouseClick, item) {
 
 ### `closeOnScroll` <code class="default">boolean</code> <code class="default">true</code>
 
-페이지 스크롤에서 갤러리를 닫습니다. 옵션은 하드웨어 터치 지원 기능이없는 장치에서만 작동합니다
+페이지 스크롤에서 갤러리를 닫습니다. 옵션은 하드웨어 터치 지원 기능이없는 장치에서만 작동합니다.
 
 
+### `closeOnVerticalDrag` <code class="default">boolean</code> <code class="default">true</code>
+
+세로로 드래그하거나 이미지가 확대되지 않을 때 갤러리를 닫습니다. 마우스를 사용하면 항상 false입니다..
+ 
+
+### `mouseUsed` <code class="default">boolean</code> <code class="default">false</code>
+
+옵션을 사용하면 마우스를 사용했는지 여부를 미리 정의 할 수 있습니다. 일부 PhotoSwipe 기능은이 기능에 의존합니다. 예를 들어 마우스를 사용한 후에 만 기본 UI의 왼쪽 / 오른쪽 화살표가 표시됩니다. `false`로 설정하면 마우스가 단독으로 사용될 때 PhotoSwipe가 감지를 시작하고 마우스가 발견되면 `mouseUsed` 이벤트가 발생합니다.
+
+
+### `escKey` <code class="default">boolean</code> <code class="default">true</code>
+
+`esc` 키보드 키를 눌러 PhotoSwipe를 닫습니다. 옵션을 동적으로 변경할 수 있습니다 (`yourPhotoSwipeInstance.options.escKey = false;`).
+
+
+### `arrowKeys` <code class="default">boolean</code> <code class="default">true</code>
+
+키보드 왼쪽 또는 오른쪽 화살표 키 탐색. 옵션을 동적으로 변경할 수 있습니다 (`yourPhotoSwipeInstance.options.arrowKeys = false;`).
+
+
+### `history` <code class="default">boolean</code> <code class="default">true</code>
+
+`false`로 설정하면 히스토리 모듈을 비활성화합니다 (갤러리를 닫으려면 뒤로 버튼, 각 슬라이드의 고유 URL). 빌드에서`history.js` 모듈을 제외시킬 수도 있습니다.
+
+
+### `galleryUID` <code class="default">integer</code> <code class="default">1</code>
+
+갤러리 고유 ID. URL을 작성할 때 History 모듈에서 사용됩니다. 예를 들어, UID 1 갤러리의 두 번째 그림은 URL이 있습니다 : `http://example.com/#&gid=1&pid=2`.
+
+
+### <a name="galleryPIDs"></a> `galleryPIDs` <code class="default">boolean</code> <code class="default">false</code>
+
+URL을 작성할 때 사용되는 각 슬라이드 개체에 대한 사용자 지정 ID를 사용합니다. 옵션 세트가 `true`로 설정되면 슬라이드 객체는 문자열 또는 정수가 될 수있는 `pid`(그림 식별자) 속성을 가져야합니다. 예 :
+
+```js
+var slides = [
+	{
+		src: 'path/to/1.jpg',
+		w:500,
+		h:400,
+		pid: 'image-one'
+	},
+	{
+		src: 'path/to/2.jpg',
+		w:300,
+		h:700,
+		pid: 'image-two'
+	},
+
+	... 
+];
+```
+
+... 두 번째 슬라이드에는 URL이 있습니다.`http://example.com/#&gid=1&pid=image-two`.
+
+[FAQ 섹션](faq.html#custom-pid-in-url)에서 맞춤 PID를 구현하는 방법에 대해 자세히 알아보십시오.
+
+
+### `errorMsg` <code class="default">string</code>
+
+이미지가로드되지 않았을 때의 오류 메시지. `%url%`는 image의 URL로 대체 될 것입니다.
+
+기본값:
+
+```html
+<div class="pswp__error-msg"><a href="%url%" target="_blank">The image</a> could not be loaded.</div>
+```
+
+
+### `preload` <code class="default">array</code> <code class="default">[1,1]</code>
+
+움직이는 방향을 기준으로 인근 슬라이드의 지연로드 두 개의 정수가있는 배열이어야합니다. 첫 번째는 현재 이미지 앞에 두 번째로로드 할 항목의 수이고 두 번째 정수는 현재 이미지 뒤에 미리로드 할 항목의 수입니다. 예 : [1,3]로 설정하면 현재 이미지보다 1이미지, 현재 이미지보다 3이미지가로드됩니다. 값은 1보다 작을 수 없습니다.
+
+
+### `mainClass` <code class="default">string</code> <code class="default">undefined</code>
+
+PhotoSwipe의 루트 요소에 추가 될 클래스의 이름을 가진 문자열 (`.pswp`). 공백으로 구분 된 여러 클래스를 포함 할 수 있습니다.
+
+
+### `getNumItemsFn` <code class="default">function</code>
+
+갤러리에있는 총 항목 수를 반환해야하는 함수. 기본적으로 슬라이드 배열의 길이를 반환합니다. 여기에 매우 복잡한 코드를 넣지 마십시오. 함수가 자주 실행됩니다.
+
+### `focus` <code class="default">boolean</code> <code class="default">true</code>
+
+PhotoSwipe 요소가 열린 후에 포커스를 설정합니다.
+
+### `isClickableElement` <code class="default">function</code>
+
+Default value:
+
+```javascript
+isClickableElement: function(el) {
+	return el.tagName === 'A';
+}
+```
+
+함수는 요소 (`el`)를 클릭 할 수 있는지 확인해야합니다. & ndash; PhotoSwipe는`preventDefault`를 호출하지 않고`click` 이벤트가 통과합니다. 함수는 드래그 시작 및 드래그 릴리스에서 여러 번 실행되므로 가볍게 수행 할 수 있어야합니다.
+
+### `modal` <code class="default">boolean</code> <code class="default">true</code>
+
+전체 뷰포트를 차지하기 위해 PhotoSwipe를 확장해야하는지 여부를 조정합니다. `false` 인 경우 PhotoSwipe 요소는 템플릿의 위치 지정된 부모 크기를 사용합니다. 자세한 내용은 [FAQ] (faq.html # inline-gallery)를 참조하십시오.
