@@ -18,7 +18,7 @@ markdownpage: true
 
 ---
 
-이 페이지에 나열된 모든 메소드와 속성은 공개 됩니다. 만약 API가 할수 있는 일의 예를 보고 싶다면 [기본 PhotoSwipe UI의 소스]를 살펴 주세요.(https://github.com/dimsemenov/PhotoSwipe/blob/master/src/js/ui/photoswipe-ui-default.js).
+이 페이지에 나열된 모든 메소드와 속성은 공개 됩니다. 만약 API가 할수 있는 일의 예를 보고 싶다면 [기본 PhotoSwipe UI의 소스](https://github.com/hun1451/PhotoSwipe/blob/master/src/js/ui/photoswipe-ui-default.js)를 살펴 주세요.
 
 당신은 초기화 중 PhotoSwipe 인스턴스 객체를 얻을수 있습니다.
 
@@ -286,7 +286,7 @@ pswp.listen('shareLinkClick', function(e, target) {
 
 ## 동적으로 슬라이드 추가하기
 
-PhotoSwipe가 열린 후 슬라이드를 추가, 편집 또는 제거하려면 'items'이라는 배열을 수정만 하면 됩니다. 예를 들어, 새 슬라이드 객체를 'items' 배열에 넣을 수 있습니다
+PhotoSwipe가 열린 후 슬라이드를 추가, 편집 또는 제거하려면 `items`이라는 배열을 수정만 하면 됩니다. 예를 들어, 새 슬라이드 객체를 `items` 배열에 넣을 수 있습니다
 
 ```javascript
 pswp.items.push({
@@ -305,12 +305,12 @@ pswp.invalidateCurrItems();
 pswp.updateSize(true);
 ```
 
-그렇지 않다면 `pswp.ui.update()`를 호출하는 것 외에는 다른 작업을 수행 할 필요가 없습니다. 기본 UI의 일부를 업데이트하려는 경우 (예 : '1 of X' 카운터) 참고사항 : 
+그렇지 않다면 `pswp.ui.update()`를 호출하는 것 외에는 다른 작업을 수행 할 필요가 없습니다. 기본 UI의 일부를 업데이트하려는 경우 (예 : `1 of X` 카운터) 참고사항 : 
 
-- 전체 배열을 재 할당 할 수는 없으며 수정할 수 있습니다.(예 : 'splice'를 사용한 요소 제거)
-- 현재 슬라이드를 제거 하려는 경우 &ndash; 그 전에 'goTo'메소드를 먼저 호출해야 됩니다.
+- 전체 배열을 재 할당 할 수는 없으며 수정할 수 있습니다.(예 : `splice`를 사용한 요소 제거)
+- 현재 슬라이드를 제거 하려는 경우 &ndash; 그 전에 `goTo`메소드를 먼저 호출해야 됩니다.
 - 적어도 하나의 슬라이드가 있어야 합니다.
--이 기술은 [반응형 이미지를 제공]하는데 사용됩니다(responsive-images.html).
+-이 기술은 [반응형 이미지를 제공](responsive-images.html)하는데 사용됩니다.
 
-일부 메소드 또는 속성이 누락 되었나요? 문법적 오류를 발견 했나요? 이 페이지를 개선할수 있는 방법을 알고 계시나요? [편집을 제안 해주세요!] (https://github.com/dimsemenov/PhotoSwipe/blob/master/website/documentation/api.md)
+일부 메소드 또는 속성이 누락 되었나요? 문법적 오류를 발견 했나요? 이 페이지를 개선할수 있는 방법을 알고 계시나요? [편집을 제안 해주세요!](https://github.com/hun1451/PhotoSwipe/blob/master/website/documentation/api.md)
 

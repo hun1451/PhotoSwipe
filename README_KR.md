@@ -41,7 +41,7 @@ PhotoSwipe를 직접 컴파일하려면 [Node.js](http://nodejs.org/),[Grunt.js](https://
 1) 저장소 복제(Clone the repository) 
 
 	git clone 
-	https://github.com/dimsemenov/PhotoSwipe.git 
+	https://github.com/hun1451/PhotoSwipe.git 
 
 2) 가져온 PhotoSwipe 폴더로 이동하여 노드 종속성을 설치하십시오. 
 	cd PhotoSwipe && npm install 
