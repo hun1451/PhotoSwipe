@@ -6,7 +6,7 @@
 
 모바일 및 데스크탑용 JavaScript 이미지 갤러리. 
  
-- [오픈소스소프트웨어 보고서](http://github.com/hun1451/PhotoSwipe/tree/master/REPORT.md) <<--------REPORT ! ! 
+- [**오픈소스소프트웨어 보고서**](http://github.com/hun1451/PhotoSwipe/tree/master/REPORT.md) <<--------**REPORT** ! ! 
 - [설명서 및 시작 안내서](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/documentation/getting-started.md). 
 - [데모 및 스크립트 홈 페이지](http://photoswipe.com/). 
 - [NPM](https://www.npmjs.com/package/photoswipe) `npm install photoswipe`. 
