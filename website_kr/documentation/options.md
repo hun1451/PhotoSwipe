@@ -299,3 +299,122 @@ isClickableElement: function(el) {
 ### `modal` <code class="default">boolean</code> <code class="default">true</code>
 
 전체 뷰포트를 차지하기 위해 PhotoSwipe를 확장해야하는지 여부를 조정합니다. `false` 인 경우 PhotoSwipe 요소는 템플릿의 위치 지정된 부모 크기를 사용합니다. 자세한 내용은 [FAQ] (faq.html # inline-gallery)를 참조하십시오.
+
+
+## 기본 UI 옵션
+
+`PhotoSwipeUI_Default` 옵션 (`dist/ui/photoswipe-ui-default.js`)은 코어 옵션과 같은 방법으로 동일한 객체에 추가됩니다.
+
+```javascript
+// 위쪽 및 아래쪽 막대의 크기 (픽셀)
+// `bottom`매개 변수는 `auto`(캡션의 높이를 계산합니다) 일 수 있습니다.
+// 옵션은 마우스가 사용될 때만 적용됩니다.
+// 화면 너비가 1200px 이상입니다.
+//
+// (`parseVerticalMargin` 이벤트 참조)
+barsSize: {top:44, bottom:'auto'}, 
+
+// 마우스가 4000ms 동안 움직이지 않으면 pswp__ui 클래스를 pswp__ui 요소에 추가합니다.
+timeToIdle: 4000,
+
+// 위와 같지만 마우스가 창을 나갈 때이 타이머가 적용됩니다.
+timeToIdleOutside: 1000,
+
+// 로드 인디케이터가 표시 될 때까지 지연
+loadingIndicatorDelay: 1000,
+
+// 함수는 캡션 마크 업을 만듭니다.
+addCaptionHTMLFn: function(item, captionEl, isFake) {
+	// item      - 슬라이드 개체
+	// captionEl - 자막 DOM 요소
+	// isFake    - 가짜 자막 컨테이너에 내용이 추가되면 true입니다.
+	// 			   (다음 또는 이전 캡션의 크기를 가져 오는 데 사용됩니다.)
+	
+	if(!item.title) {
+		captionEl.children[0].innerHTML = '';
+		return false;
+	}
+	captionEl.children[0].innerHTML = item.title;
+	return true;
+},
+
+// Buttons/elements
+closeEl:true,
+captionEl: true,
+fullscreenEl: true,
+zoomEl: true,
+shareEl: true,
+counterEl: true,
+arrowEl: true,
+preloaderEl: true,
+
+// 갤러리를 닫아야하는 슬라이딩 영역을 누릅니다.
+tapToClose: false,
+
+// 탭은 컨트롤의 가시성을 전환해야합니다.
+tapToToggleControls: true,
+
+// 이미지를 마우스로 클릭하면 갤러리를 닫아야합니다.
+// 이미지가 뷰포트의 크기보다 작은 경우에만
+clickToCloseNonZoomable: true,
+
+// 요소 클래스 클릭하면 PhotoSwipe를 닫아야합니다.
+// HTML 마크 업에서 class는 항상 `pswp__`로 시작해야합니다 (예 : "pswp__item", "pswp__caption").
+// 마우스가 이러한 요소 중 하나 위에있을 때 
+// `pswp__ui - over-close`클래스가 UI의 루트 요소에 추가됩니다.
+// 기본적으로 닫기 버튼을 강조 표시하는 데 사용됩니다.
+closeElClasses: ['item', 'caption', 'zoom-wrap', 'ui', 'top-bar'], 
+
+//"1 of X"카운터 용 구분 기호
+indexIndicatorSep: ' / ',
+
+
+{% raw %}
+// 공유 버튼
+//
+// URL에 사용할 수있는 변수 :
+// {{url}}             - url to current page
+// {{text}}            - title
+// {{image_url}}       - encoded image url
+// {{raw_image_url}}   - raw image url
+shareButtons: [
+	{id:'facebook', label:'Share on Facebook', url:'https://www.facebook.com/sharer/sharer.php?u={{url}}'},
+	{id:'twitter', label:'Tweet', url:'https://twitter.com/intent/tweet?text={{text}}&url={{url}}'},
+	{id:'pinterest', label:'Pin it', url:'http://www.pinterest.com/pin/create/button/?url={{url}}&media={{image_url}}&description={{text}}'},
+	{id:'download', label:'Download image', url:'{{raw_image_url}}', download:true}
+],
+{% endraw %}
+
+// 다음 세 함수는 공유 링크에 대한 데이터를 반환합니다.
+//
+// 공유 모달을 여는 버튼을 클릭하면 함수가 실행됩니다.
+// 데이터가 현재 (활성) 슬라이드에 있어야 함을 의미합니다.
+getImageURLForShare: function( shareButtonData ) {
+	//`shareButtonData` - shareButtons 배열의 객체
+	//
+	//`pswp`는 갤러리 인스턴스 객체입니다.
+	// 직접 정의해야합니다.
+	// 
+	return pswp.currItem.src || '';
+},
+getPageURLForShare: function( shareButtonData ) {
+	return window.location.href;
+},
+getTextForShare: function( shareButtonData ) {
+	return pswp.currItem.title || '';
+},
+
+// 공유 링크 출력 분석
+parseShareButtonOut: function(shareButtonData, shareButtonOut) {
+	// `shareButtonData` - object from shareButtons array
+	// `shareButtonOut` - raw string of share link element
+	return shareButtonOut;
+}
+```
+
+Know how this page can be improved? Found a typo? [Suggest an edit!](https://github.com/dimsemenov/PhotoSwipe/blob/master/website/documentation/responsive-images.md)
+
+<iframe src="http://ghbtns.com/github-btn.html?user=dimsemenov&amp;repo=photoswipe&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="155" height="30" style=""></iframe>
+
+
+
