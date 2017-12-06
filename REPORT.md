@@ -55,6 +55,7 @@
   - 이에 따른 링크 수정, 보고서, 상세설명서 링크 추가함.
   - `README.md`로 ( > [이동](https://github.com/hun1451/PhotoSwipe/blob/master/README.md). )
 <br>
+
 - `보고서` 작성. ( 현재페이지 )
 <br>
 
@@ -62,6 +63,7 @@
 - `index.md` 작성 ( PhotoSwipe 소개 페이지 번역) > [이동](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/index.md)
   - 기술, 라이센스 문제점 등 정리되어있는 http://photoswipe.com/ 페이지 번역 작성.
 <br>
+
 - `시작하기(getting-started)` 작성. > [이동](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/getting-started.md).
   - `PhotoSwipe` 사진갤러리를 시작하기 위한 가이드
   - 초기화하는 3단계 순서 작성.
@@ -69,15 +71,18 @@
   - 링크 목록에서 슬라이드 배열을 만드는 방법 작성.
   - 원작자의 코드펜 링크 추가.
 <br>
+
 - `옵션 상세(options)` 작성. > [이동](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/options.md).
   - PhotoSwipe 전체 옵션들에 대한 설명 작성.
   - 옵션 값에 따른 프로그램의 변화 설명 및 소스코드 주석 설명 작성.
   - UI 옵션에 대한 설명 작성
 <br>
+
 - `갤러리 성능향상 방법(performance-tips)` 작성. > [이동](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/performance-tips.md).
   - 애니메이션에 따른 성능향상 방법 작성
   - 파일 포함하는 방법 작성.
 <br>
+
 ------------
 ### 5. 오류 개선
 
