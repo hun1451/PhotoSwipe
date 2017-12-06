@@ -29,7 +29,7 @@ markdownpage: true
 
 PhotoSwipe를 분리 한 후에도 빠르게 작동하지 않으면 & ndash; [GitHub의 문제](https://github.com/dimsemenov/PhotoSwipe/issues)를 열고 [축소 된 테스트 케이스] (http://css-tricks.com/reduced-test-cases/) 링크를 제공하십시오. .
 
-## 파일 포함하기
+## 파일 포함하기 
 
 - 기본 PhotoSwipe UI에는`png`와`svg` 스프라이트가 있습니다. 기본적으로 PhotoSwipe를 연 후에 만로드됩니다. 즉시 컨트롤을 표시하려면 갤러리 스프라이트를 사이트 "기본"스프라이트와 병합하거나 CSS를 통해 미리 스프레드 할 수 있습니다.
 갤러리가 페이지의 주요 기능이 아닌 경우 PhotoSwipe JS 파일로드를 지연합니다.
