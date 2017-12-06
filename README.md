@@ -4,21 +4,22 @@
 [![devDependency Status](https://david-dm.org/dimsemenov/PhotoSwipe/dev-status.svg)](https://david-dm.org/dimsemenov/PhotoSwipe#info=devDependencies) 
 [![Flattr](http://api.flattr.com/button/flattr-badge-large.png)](http://flattr.com/thing/3698358/dimsemenovPhotoSwipe-on-GitHub) 
 
-¸ğ¹ÙÀÏ ¹× µ¥½ºÅ©Å¾¿ë JavaScript ÀÌ¹ÌÁö °¶·¯¸®. 
+ëª¨ë°”ì¼ ë° ë°ìŠ¤í¬íƒ‘ìš© JavaScript ì´ë¯¸ì§€ ê°¤ëŸ¬ë¦¬. 
  
-- [¼³¸í¼­ ¹× ½ÃÀÛ ¾È³»¼­](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/documentation/getting-started.md). 
-- [µ¥¸ğ ¹× ½ºÅ©¸³Æ® È¨ ÆäÀÌÁö](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/index.html). 
+- [ì˜¤í”ˆì†ŒìŠ¤ì†Œí”„íŠ¸ì›¨ì–´ ë³´ê³ ì„œ](http://github.com/hun1451/PhotoSwipe/tree/master/REPORT.md) <<--------REPORT ! ! 
+- [ì„¤ëª…ì„œ ë° ì‹œì‘ ì•ˆë‚´ì„œ](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/documentation/getting-started.md). 
+- [ë°ëª¨ ë° ìŠ¤í¬ë¦½íŠ¸ í™ˆ í˜ì´ì§€](http://photoswipe.com/). 
 - [NPM](https://www.npmjs.com/package/photoswipe) `npm install photoswipe`. 
 - Bower `bower install photoswipe`. 
  
--## ÆÄÀÏ À§Ä¡ 
+## íŒŒì¼ ìœ„ì¹˜  
 
-- ÄÄÆÄÀÏ µÈ PhotoSwipe JS ¹× CSS ÆÄÀÏ, SVG ¹× PNG ½ºÇÁ¶óÀÌÆ®´Â[dist/](https://github.com/hun1451/PhotoSwipe/tree/master/dist) Æú´õ. 
-- ¼Ò½º ÆÄÀÏ(.JS and .SCSS)Àº [src/](https://github.com/hun1451/PhotoSwipe/tree/master/src) Æú´õ¿¡ ÀÖ½À´Ï´Ù. PhotoSwipe´Â SASS ÆÄÀÏÀ» ÄÄÆÄÀÏ ÇÒ ¶§ Autoprefixer¸¦ »ç¿ëÇÕ´Ï´Ù. 
-- µ¥¸ğ À¥»çÀÌÆ®´Â [website/](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr) Æú´õ¿¡ ÀÖ½À´Ï´Ù. 
-- ¹®¼­ ¸¶Å© ¾÷ ÆÄÀÏÀº [À¥ »çÀÌÆ®/¹®¼­/](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/documentation)¿¡ ÀÖ½À´Ï´Ù. 
+- ì»´íŒŒì¼ ëœ PhotoSwipe JS ë° CSS íŒŒì¼, SVG ë° PNG ìŠ¤í”„ë¼ì´íŠ¸ëŠ”[dist/](https://github.com/hun1451/PhotoSwipe/tree/master/dist) í´ë”. 
+- ì†ŒìŠ¤ íŒŒì¼(.JS and .SCSS)ì€ [src/](https://github.com/hun1451/PhotoSwipe/tree/master/src) í´ë”ì— ìˆìŠµë‹ˆë‹¤. PhotoSwipeëŠ” SASS íŒŒì¼ì„ ì»´íŒŒì¼ í•  ë•Œ Autoprefixerë¥¼ ì‚¬ìš©í•©ë‹ˆë‹¤. 
+- ë°ëª¨ ì›¹ì‚¬ì´íŠ¸ëŠ” [website/](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr) í´ë”ì— ìˆìŠµë‹ˆë‹¤. 
+- ë¬¸ì„œ ë§ˆí¬ ì—… íŒŒì¼ì€ [ì›¹ ì‚¬ì´íŠ¸/ë¬¸ì„œ/](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/documentation)ì— ìˆìŠµë‹ˆë‹¤. 
 
-## ÇÃ·¯±×ÀÎ / È®Àå±â´É / ¾Öµå¿Â 
+## í”ŒëŸ¬ê·¸ì¸ / í™•ì¥ê¸°ëŠ¥ / ì• ë“œì˜¨ 
 
 - [Ruby gem](https://rubygems.org/gems/photoswipe-rails). 
 - [Ember.js addon](https://github.com/poetic/ember-cli-photoswipe). 
@@ -32,18 +33,18 @@
 - [SPIP CMS module](https://plugins.spip.net/photoswipe.html). 
 - [Fork CMS MediaLibrary widget](https://github.com/forkcms/forkcms). 
  
-À¯¿ëÇÑ ÄÚµå°¡ ÀÖ½À´Ï±î? <a href='mailto:diiiimaaaa@gmail.com?subject="PhotoSwipe Plugin"'>Email me</a> Àú¿¡°Ô ÀÌ¸ŞÀÏÀ» º¸³»ÁÖ½Ê½Ã¿À </a>. ¿©±â¿¡ ´ëÇÑ ¸µÅ©¸¦ °Ô½ÃÇÕ´Ï´Ù. 
+ìœ ìš©í•œ ì½”ë“œê°€ ìˆìŠµë‹ˆê¹Œ? <a href='mailto:diiiimaaaa@gmail.com?subject="PhotoSwipe Plugin"'>Email me</a> ì €ì—ê²Œ ì´ë©”ì¼ì„ ë³´ë‚´ì£¼ì‹­ì‹œì˜¤ </a>. ì—¬ê¸°ì— ëŒ€í•œ ë§í¬ë¥¼ ê²Œì‹œí•©ë‹ˆë‹¤. 
 
-## ºôµå 
+## ë¹Œë“œ 
 
-PhotoSwipe¸¦ Á÷Á¢ ÄÄÆÄÀÏÇÏ·Á¸é [Node.js](http://nodejs.org/),[Grunt.js](https://github.com/cowboy/grunt),[Ruby](http://www.ruby-lang.org/) ¹× [Jekyll](https://github.com/mojombo/jekyll/)ÀÌ ¼³Ä¡µÈ °æ¿ì : 
+PhotoSwipeë¥¼ ì§ì ‘ ì»´íŒŒì¼í•˜ë ¤ë©´ [Node.js](http://nodejs.org/),[Grunt.js](https://github.com/cowboy/grunt),[Ruby](http://www.ruby-lang.org/) ë° [Jekyll](https://github.com/mojombo/jekyll/)ì´ ì„¤ì¹˜ëœ ê²½ìš° : 
 
-1) ÀúÀå¼Ò º¹Á¦(Clone the repository) 
+1) ì €ì¥ì†Œ ë³µì œ(Clone the repository) 
 
 	git clone 
 	https://github.com/hun1451/PhotoSwipe.git 
 
-2) °¡Á®¿Â PhotoSwipe Æú´õ·Î ÀÌµ¿ÇÏ¿© ³ëµå Á¾¼Ó¼ºÀ» ¼³Ä¡ÇÏ½Ê½Ã¿À. 
+2) ê°€ì ¸ì˜¨ PhotoSwipe í´ë”ë¡œ ì´ë™í•˜ì—¬ ë…¸ë“œ ì¢…ì†ì„±ì„ ì„¤ì¹˜í•˜ì‹­ì‹œì˜¤. 
 	cd PhotoSwipe && npm install 
 
-3) 'grunt'À» ½ÇÇàÇÏ¿© 'dist'Æú´õ¿¡ JSÆÄÀÏ°ú CSSÆÄÀÏÀ» »ı¼ºÇÏ°í '_site/'Æú´õ¿¡ »çÀÌÆ®¸¦ »ı¼ºÇÏ½Ê½Ã¿À. 
+3) 'grunt'ì„ ì‹¤í–‰í•˜ì—¬ 'dist'í´ë”ì— JSíŒŒì¼ê³¼ CSSíŒŒì¼ì„ ìƒì„±í•˜ê³  '_site/'í´ë”ì— ì‚¬ì´íŠ¸ë¥¼ ìƒì„±í•˜ì‹­ì‹œì˜¤. 
