@@ -121,7 +121,7 @@ PhotoSwipe는 HTML과 하나로 연결되는 것을 강요하지 않으며, 완전한 통제력을 가지고
 - 검색 엔진은 특히 이미지 파일에 대한 직접적인 링크를 상당히 잘 보여 주고 있다. 특히 Schema.org markup 그러나 각 이미지에 대해 별도의 HTML페이지를 갖는 것은 서술적이고 독특한 제목, 설명, 설명이 있을 때 더 좋습니다.
 
 
-이 페이지를 개선할 수 있는 방법을 알고 계십니까? [편집을 제안하시기 바랍니다.](https://github.com/dimsemenov/PhotoSwipe/blob/master/website/documentation/seo.md)
+이 페이지를 개선할 수 있는 방법을 알고 계십니까? [편집을 제안하시기 바랍니다.](https://github.com/hun1451/PhotoSwipe/blob/master/website/documentation/seo.md)
 
 
 

@@ -18,21 +18,21 @@ markdownpage: true
 
 ---
 
-## ì• ë‹ˆë©”ì´ì…˜
+## ¾Ö´Ï¸ÞÀÌ¼Ç
 
-- ì• ë‹ˆë©”ì´ì…˜ ì„±ëŠ¥ì€ ì´ë¯¸ì§€ì˜ í¬ê¸°ì— ë”°ë¼ í¬ê²Œ ë‹¬ë¼ì§‘ë‹ˆë‹¤. ë” ìž‘ì€ ì´ë¯¸ì§€ & ndash; ë” ë¶€ë“œëŸ¬ìš´ ì• ë‹ˆë©”ì´ì…˜. ë”°ë¼ì„œ ê²Œìœ¼ë¥´ì§€ ì•Šê³  [ë°˜ì‘ í˜• ì´ë¯¸ì§€ ì œê³µ](responsive-images.html) ë˜ëŠ” ì ì–´ë„ íœ´ëŒ€ ì „í™” ìš© 1200x1200 ì´ìƒì˜ ì´ë¯¸ì§€ëŠ” ì œê³µí•˜ì§€ ë§ˆì‹­ì‹œì˜¤
-- íŽ˜ì¸íŠ¸ ë˜ëŠ” ë ˆì´ì•„ì›ƒì„ ìœ ë°œí•  ìˆ˜ìžˆëŠ” ì• ë‹ˆë©”ì´ì…˜ ì¤‘ì—ëŠ” ì•„ë¬´ ê²ƒë„í•˜ì§€ ë§ˆì‹­ì‹œì˜¤. DOMì— ìƒˆ ìš”ì†Œë¥¼ ì¶”ê°€í•˜ì§€ ë§ˆì‹­ì‹œì˜¤. `í‘œì‹œ`ë˜ëŠ” `ê°€ì‹œì„±`ì„ ë³€ê²½í•˜ì§€ ë§ˆì‹­ì‹œì˜¤. `ë³€í˜•`ê³¼ `ë¶ˆíˆ¬ëª…ë„`ë§Œ ë³€ê²½í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ì• ë‹ˆë©”ì´ì…˜ì´ ëë‚œ í›„ ëª¨ë“  ë³€ê²½ ì‚¬í•­ì„ ì§€ì—°í•˜ì‹­ì‹œì˜¤. & ndash; `beforeChange` (ìŠ¬ë¼ì´ë“œ ì „í™˜),`initialZoomInEnd` (ì• ë‹ˆë©”ì´ì…˜ì˜ ì´ˆê¸° í™•ëŒ€ê°€ ëë‚¨) ë°`initialZoomOutEnd` (ì´ˆê¸° ì¶•ì†Œ ì• ë‹ˆë©”ì´ì…˜ì´ ì¢…ë£Œ ë¨) ì´ë²¤íŠ¸ë¥¼ ì‚¬ìš©í•©ë‹ˆë‹¤.
-- í™•ëŒ€ / ì¶•ì†Œ ì• ë‹ˆë©”ì´ì…˜ì´ í™œì„±í™” ëœ ê²½ìš° (ì²« ë²ˆì§¸ ê·œì¹™ ì ìš©) PhotoSwipeë¥¼ ì—¬ëŠ” ì¶•ì†ŒíŒì— ë³µìž¡í•œ`: hover` ë°`: active` íš¨ê³¼ë¥¼ í”¼í•˜ì‹­ì‹œì˜¤.
-- PhotoSwipe ìŠ¬ë¼ì´ë”© ì˜ì—­ì„ í†µí•´ UIì— ë³µìž¡í•œ ìŠ¤íƒ€ì¼ì´ ì—†ëŠ”ì§€ í™•ì¸í•˜ì‹­ì‹œì˜¤. ì˜ˆë¥¼ ë“¤ì–´, ìº¡ì…˜ í…ìŠ¤íŠ¸ì˜`text-shadow`ëŠ” ë¬¸ì œë¥¼ ì¼ìœ¼í‚¬ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
+- ¾Ö´Ï¸ÞÀÌ¼Ç ¼º´ÉÀº ÀÌ¹ÌÁöÀÇ Å©±â¿¡ µû¶ó Å©°Ô ´Þ¶óÁý´Ï´Ù. ´õ ÀÛÀº ÀÌ¹ÌÁö & ndash; ´õ ºÎµå·¯¿î ¾Ö´Ï¸ÞÀÌ¼Ç. µû¶ó¼­ °ÔÀ¸¸£Áö ¾Ê°í [¹ÝÀÀ Çü ÀÌ¹ÌÁö Á¦°ø](responsive-images.html) ¶Ç´Â Àû¾îµµ ÈÞ´ë ÀüÈ­ ¿ë 1200x1200 ÀÌ»óÀÇ ÀÌ¹ÌÁö´Â Á¦°øÇÏÁö ¸¶½Ê½Ã¿À
+- ÆäÀÎÆ® ¶Ç´Â ·¹ÀÌ¾Æ¿ôÀ» À¯¹ßÇÒ ¼öÀÖ´Â ¾Ö´Ï¸ÞÀÌ¼Ç Áß¿¡´Â ¾Æ¹« °ÍµµÇÏÁö ¸¶½Ê½Ã¿À. DOM¿¡ »õ ¿ä¼Ò¸¦ Ãß°¡ÇÏÁö ¸¶½Ê½Ã¿À. `Ç¥½Ã`¶Ç´Â `°¡½Ã¼º`À» º¯°æÇÏÁö ¸¶½Ê½Ã¿À. `º¯Çü`°ú `ºÒÅõ¸íµµ`¸¸ º¯°æÇÒ ¼ö ÀÖ½À´Ï´Ù. ¾Ö´Ï¸ÞÀÌ¼ÇÀÌ ³¡³­ ÈÄ ¸ðµç º¯°æ »çÇ×À» Áö¿¬ÇÏ½Ê½Ã¿À. & ndash; `beforeChange` (½½¶óÀÌµå ÀüÈ¯),`initialZoomInEnd` (¾Ö´Ï¸ÞÀÌ¼ÇÀÇ ÃÊ±â È®´ë°¡ ³¡³²) ¹×`initialZoomOutEnd` (ÃÊ±â Ãà¼Ò ¾Ö´Ï¸ÞÀÌ¼ÇÀÌ Á¾·á µÊ) ÀÌº¥Æ®¸¦ »ç¿ëÇÕ´Ï´Ù.
+- È®´ë / Ãà¼Ò ¾Ö´Ï¸ÞÀÌ¼ÇÀÌ È°¼ºÈ­ µÈ °æ¿ì (Ã¹ ¹øÂ° ±ÔÄ¢ Àû¿ë) PhotoSwipe¸¦ ¿©´Â Ãà¼ÒÆÇ¿¡ º¹ÀâÇÑ`: hover` ¹×`: active` È¿°ú¸¦ ÇÇÇÏ½Ê½Ã¿À.
+- PhotoSwipe ½½¶óÀÌµù ¿µ¿ªÀ» ÅëÇØ UI¿¡ º¹ÀâÇÑ ½ºÅ¸ÀÏÀÌ ¾ø´ÂÁö È®ÀÎÇÏ½Ê½Ã¿À. ¿¹¸¦ µé¾î, Ä¸¼Ç ÅØ½ºÆ®ÀÇ`text-shadow`´Â ¹®Á¦¸¦ ÀÏÀ¸Å³ ¼ö ÀÖ½À´Ï´Ù.
 
-ìœ„ ë‹¨ê³„ë¥¼ ìˆ˜í–‰í•˜ê³  ê°¤ëŸ¬ë¦¬ì˜ ì„±ëŠ¥ì´ [PhotoSwipe í™ˆíŽ˜ì´ì§€](http://photoswipe.com)ì™€ ë‹¤ë¥¸ ê²½ìš° ê´€ë ¨ë˜ì§€ ì•Šì€ ëª¨ë“  JS / CSS / HTML ì½”ë“œë¥¼ ì œì™¸í•˜ì—¬ íŽ˜ì´ì§€ì—ì„œ PhotoSwipeë¥¼ ê²©ë¦¬í•˜ì‹­ì‹œì˜¤. PhotoSwipe ë’¤ì— ê³„ì†í•´ì„œ ì• ë‹ˆë©”ì´ì…˜ì„ ì‹¤í–‰í•˜ëŠ” ë°°ë„ˆ ë¡œí…Œì´í„°ê°€ ì—†ëŠ”ì§€ í™•ì¸í•˜ì‹­ì‹œì˜¤.
+À§ ´Ü°è¸¦ ¼öÇàÇÏ°í °¶·¯¸®ÀÇ ¼º´ÉÀÌ [PhotoSwipe È¨ÆäÀÌÁö](http://photoswipe.com)¿Í ´Ù¸¥ °æ¿ì °ü·ÃµÇÁö ¾ÊÀº ¸ðµç JS / CSS / HTML ÄÚµå¸¦ Á¦¿ÜÇÏ¿© ÆäÀÌÁö¿¡¼­ PhotoSwipe¸¦ °Ý¸®ÇÏ½Ê½Ã¿À. PhotoSwipe µÚ¿¡ °è¼ÓÇØ¼­ ¾Ö´Ï¸ÞÀÌ¼ÇÀ» ½ÇÇàÇÏ´Â ¹è³Ê ·ÎÅ×ÀÌÅÍ°¡ ¾ø´ÂÁö È®ÀÎÇÏ½Ê½Ã¿À.
 
-PhotoSwipeë¥¼ ë¶„ë¦¬ í•œ í›„ì—ë„ ë¹ ë¥´ê²Œ ìž‘ë™í•˜ì§€ ì•Šìœ¼ë©´ & ndash; [GitHubì˜ ë¬¸ì œ](https://github.com/dimsemenov/PhotoSwipe/issues)ë¥¼ ì—´ê³  [ì¶•ì†Œ ëœ í…ŒìŠ¤íŠ¸ ì¼€ì´ìŠ¤] (http://css-tricks.com/reduced-test-cases/) ë§í¬ë¥¼ ì œê³µí•˜ì‹­ì‹œì˜¤. .
+PhotoSwipe¸¦ ºÐ¸® ÇÑ ÈÄ¿¡µµ ºü¸£°Ô ÀÛµ¿ÇÏÁö ¾ÊÀ¸¸é & ndash; [GitHubÀÇ ¹®Á¦](https://github.com/hun1451/PhotoSwipe/issues)¸¦ ¿­°í [Ãà¼Ò µÈ Å×½ºÆ® ÄÉÀÌ½º] (http://css-tricks.com/reduced-test-cases/) ¸µÅ©¸¦ Á¦°øÇÏ½Ê½Ã¿À. .
 
-## íŒŒì¼ í¬í•¨í•˜ê¸° 
+## ÆÄÀÏ Æ÷ÇÔÇÏ±â 
 
-- ê¸°ë³¸ PhotoSwipe UIì—ëŠ”`png`ì™€`svg` ìŠ¤í”„ë¼ì´íŠ¸ê°€ ìžˆìŠµë‹ˆë‹¤. ê¸°ë³¸ì ìœ¼ë¡œ PhotoSwipeë¥¼ ì—° í›„ì— ë§Œë¡œë“œë©ë‹ˆë‹¤. ì¦‰ì‹œ ì»¨íŠ¸ë¡¤ì„ í‘œì‹œí•˜ë ¤ë©´ ê°¤ëŸ¬ë¦¬ ìŠ¤í”„ë¼ì´íŠ¸ë¥¼ ì‚¬ì´íŠ¸ "ê¸°ë³¸"ìŠ¤í”„ë¼ì´íŠ¸ì™€ ë³‘í•©í•˜ê±°ë‚˜ CSSë¥¼ í†µí•´ ë¯¸ë¦¬ ìŠ¤í”„ë ˆë“œ í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-ê°¤ëŸ¬ë¦¬ê°€ íŽ˜ì´ì§€ì˜ ì£¼ìš” ê¸°ëŠ¥ì´ ì•„ë‹Œ ê²½ìš° PhotoSwipe JS íŒŒì¼ë¡œë“œë¥¼ ì§€ì—°í•©ë‹ˆë‹¤.
-- JSë¥¼ ê²°í•©í•˜ê³ , CSS íŒŒì¼ì„ ì¶•ì†Œí•˜ê³  ê²°í•©í•©ë‹ˆë‹¤.
+- ±âº» PhotoSwipe UI¿¡´Â`png`¿Í`svg` ½ºÇÁ¶óÀÌÆ®°¡ ÀÖ½À´Ï´Ù. ±âº»ÀûÀ¸·Î PhotoSwipe¸¦ ¿¬ ÈÄ¿¡ ¸¸·ÎµåµË´Ï´Ù. Áï½Ã ÄÁÆ®·ÑÀ» Ç¥½ÃÇÏ·Á¸é °¶·¯¸® ½ºÇÁ¶óÀÌÆ®¸¦ »çÀÌÆ® "±âº»"½ºÇÁ¶óÀÌÆ®¿Í º´ÇÕÇÏ°Å³ª CSS¸¦ ÅëÇØ ¹Ì¸® ½ºÇÁ·¹µå ÇÒ ¼ö ÀÖ½À´Ï´Ù.
+°¶·¯¸®°¡ ÆäÀÌÁöÀÇ ÁÖ¿ä ±â´ÉÀÌ ¾Æ´Ñ °æ¿ì PhotoSwipe JS ÆÄÀÏ·Îµå¸¦ Áö¿¬ÇÕ´Ï´Ù.
+- JS¸¦ °áÇÕÇÏ°í, CSS ÆÄÀÏÀ» Ãà¼ÒÇÏ°í °áÇÕÇÕ´Ï´Ù.
 
-ì´ íŽ˜ì´ì§€ë¥¼ ê°œì„  í•  ìˆ˜ìžˆëŠ” ë°©ë²•ì„ ì•Œê³  ìžˆìŠµë‹ˆê¹Œ? [Suggest an edit!](https://github.com/dimsemenov/PhotoSwipe/blob/master/website/documentation/responsive-images.md)
+ÀÌ ÆäÀÌÁö¸¦ °³¼± ÇÒ ¼öÀÖ´Â ¹æ¹ýÀ» ¾Ë°í ÀÖ½À´Ï±î? [Suggest an edit!](https://github.com/hun1451/PhotoSwipe/blob/master/website/documentation/responsive-images.md)

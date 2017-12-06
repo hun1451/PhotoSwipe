@@ -1,16 +1,16 @@
 ---
 
-layout: ê¸°ë³¸ê°’
+layout: ±âº»°ª
 
 title: PhotoSwipe FAQ
 
 h1_title: FAQ
 
-description: PhotoSwipe ì´ë¯¸ì§€ ê°¤ëŸ¬ë¦¬ì— ëŒ€í•´ ìžì£¼ ë¬»ëŠ” ì§ˆë¬¸ê³¼ ì•Œë ¤ì§„ ë¬¸ì œì .
+description: PhotoSwipe ÀÌ¹ÌÁö °¶·¯¸®¿¡ ´ëÇØ ÀÚÁÖ ¹¯´Â Áú¹®°ú ¾Ë·ÁÁø ¹®Á¦Á¡.
 
 addjs: true
 
-ì •ì‹_url: http://photoswipe.com/documentation/faq.html
+Á¤½Ä_url: http://photoswipe.com/documentation/faq.html
 
 buildtool: true
 
@@ -18,50 +18,50 @@ markdownpage: true
 
 ---
 
-## êµ¬í˜„
+## ±¸Çö
 
-### <a name="image-size"></a> ì´ë¯¸ì§€ í¬ê¸°ë¥¼ ë¯¸ë¦¬ ì •ì˜ í•  ìˆ˜ ì—†ìœ¼ë¯€ë¡œ ì–´ë–»ê²Œ í•´ì•¼ í•˜ë‚˜?
+### <a name="image-size"></a> ÀÌ¹ÌÁö Å©±â¸¦ ¹Ì¸® Á¤ÀÇ ÇÒ ¼ö ¾øÀ¸¹Ç·Î ¾î¶»°Ô ÇØ¾ß ÇÏ³ª?
 
-ë‹¤ë¥¸ ê°¤ëŸ¬ë¦¬ ìŠ¤í¬ë¦½íŠ¸ ì‚¬ìš© ([1](http://dimsemenov.com/plugins/magnific-popup/), [2](http://dimsemenov.com/plugins/royal-slider/gallery/)), ë˜ëŠ” ë°©ë²• ìž¦ê¸°:
+´Ù¸¥ °¶·¯¸® ½ºÅ©¸³Æ® »ç¿ë ([1](http://dimsemenov.com/plugins/magnific-popup/), [2](http://dimsemenov.com/plugins/royal-slider/gallery/)), ¶Ç´Â ¹æ¹ý Àæ±â:
 
-- ì´ë¯¸ì§€ì˜ ìž‘ì€ ë¶€ë¶„ë§Œ ë‹¤ìš´ë¡œë“œí•´ì„œ ì´ë¯¸ì§€ì˜ í¬ê¸°ë¥¼ ì½ì„ ìˆ˜ ìžˆìŠµë‹ˆë‹¤ ([PHP ë²„ì „](http://stackoverflow.com/questions/4635936/super-fast-getimagesize-in-php), [Ruby](https://github.com/sdsykes/fastimage), [Node.js](http://stackoverflow.com/a/20111234/331460)).
-- íŒŒì¼ ì´ë¦„ì— ì§ì ‘ ì´ë¯¸ì§€ì˜ í¬ê¸°ë¥¼ ì €ìž¥í•˜ê³  PhotoSwipe ì´ˆê¸°í™” ì¤‘ì— í”„ë¡ íŠ¸ ì—”ë“œì—ì„œ íŒŒì‹± í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤  (API ì„¹ì…˜ì˜ `gettingData` ì´ë²¤íŠ¸). 
-- ëŒ€ë¶€ë¶„ì˜ CMSëŠ” ì´ë¯¸ì§€ì˜ í¬ê¸°ë¥¼ ë°ì´í„°ë² ì´ìŠ¤ì— ì €ìž¥í•˜ê³  ì´ë¥¼ ê²€ìƒ‰í•˜ëŠ” APIë¥¼ ê°€ì§€ê³  ìžˆìŠµë‹ˆë‹¤.
-- ëŒ€ë¶€ë¶„ì˜ ì›¹ API (Facebook, 500px, Instagram, Flickr, Twitter, YouTube, Vimeo ë“±)ëŠ” ì´ë¯¸ì§€ í¬ê¸°ë¥¼ ë°˜í™˜í•©ë‹ˆë‹¤.
+- ÀÌ¹ÌÁöÀÇ ÀÛÀº ºÎºÐ¸¸ ´Ù¿î·ÎµåÇØ¼­ ÀÌ¹ÌÁöÀÇ Å©±â¸¦ ÀÐÀ» ¼ö ÀÖ½À´Ï´Ù ([PHP ¹öÀü](http://stackoverflow.com/questions/4635936/super-fast-getimagesize-in-php), [Ruby](https://github.com/sdsykes/fastimage), [Node.js](http://stackoverflow.com/a/20111234/331460)).
+- ÆÄÀÏ ÀÌ¸§¿¡ Á÷Á¢ ÀÌ¹ÌÁöÀÇ Å©±â¸¦ ÀúÀåÇÏ°í PhotoSwipe ÃÊ±âÈ­ Áß¿¡ ÇÁ·ÐÆ® ¿£µå¿¡¼­ ÆÄ½Ì ÇÒ ¼ö ÀÖ½À´Ï´Ù  (API ¼½¼ÇÀÇ `gettingData` ÀÌº¥Æ®). 
+- ´ëºÎºÐÀÇ CMS´Â ÀÌ¹ÌÁöÀÇ Å©±â¸¦ µ¥ÀÌÅÍº£ÀÌ½º¿¡ ÀúÀåÇÏ°í ÀÌ¸¦ °Ë»öÇÏ´Â API¸¦ °¡Áö°í ÀÖ½À´Ï´Ù.
+- ´ëºÎºÐÀÇ À¥ API (Facebook, 500px, Instagram, Flickr, Twitter, YouTube, Vimeo µî)´Â ÀÌ¹ÌÁö Å©±â¸¦ ¹ÝÈ¯ÇÕ´Ï´Ù.
 
-ì¹˜ìˆ˜ëŠ” ì ì§„ì  ë¡œë“œ, í™•ìž¥ëœ ìžë¦¬ í‘œì‹œìž, ì´ˆê¸° ì¤Œì¸(zoom-in)  / ì¤Œì•„ì›ƒ (zoom-out)ì „í™˜, ì´ë™, ì¤Œìž‰(zooming), ìº¡ì…˜ ìœ„ì¹˜ ì§€ì •ì— ì‚¬ìš©ë©ë‹ˆë‹¤. GitHubì—ì„œì˜ í† ë¡  : [issue #741](https://github.com/dimsemenov/PhotoSwipe/issues/741).
-
-
-### <a name="different-thumbnail-dimensions"></a> ë¯¸ë¦¬ë³´ê¸° ì´ë¯¸ì§€ëŠ” ì •ì‚¬ê°í˜• ì´ì§€ë§Œ í¬ê¸°ê°€ í° ì´ë¯¸ì§€ëŠ” í¬ê¸°ê°€ ë‹¤ë¥´ë©°, ì—´ê¸°/ë‹«ê¸° ì „í™˜ì„ ì–´ë–»ê²Œ í•´ì•¼ í•˜ë‚˜ìš”?
-
-1. ì¸ë„¤ì¼ì˜ ì¢…íš¡ë¹„ê°€ í° ì´ë¯¸ì§€ì™€ ì¼ì¹˜í•˜ì§€ ì•Šìœ¼ë©´ ìŠ¬ë¼ì´ë“œì— ëŒ€í•´ 'msrc'ì†ì„±ì„ ì •ì˜í•˜ì§€ ì•Šê³  ë¶ˆíˆ¬ëª… ì „í™˜ ì˜µì…˜ì„ í™œì„±í™” í•˜ì„¸ìš” (`showHideOpacity:true, getThumbBoundsFn:false`).
-2. ì¸ë„¤ì¼ ì´ë¯¸ì§€ íŒŒì¼ì˜ ì¢…íš¡ë¹„ê°€ í° ì´ë¯¸ì§€ì™€ ì¼ì¹˜í•˜ë©´, **ê·¸ëŸ¬ë‚˜ ì¸ë„¤ì¼ ì˜ì—­ì€ CSSë¥¼ í†µí•´ ìž˜ë¦½ë‹ˆë‹¤.**, `showHideOpacity:true` ì„ ì¶”ê°€í•˜ê³  `getThumbBoundsFn`ì˜µì…˜ì´ ìžë¥´ê¸° ì˜ì—­ì„ ê³ ë ¤í•œ ì¢Œí‘œë¥¼ ë°˜í™˜í•˜ëŠ”ì§€ í™•ì¸ í•˜ì„¸ìš”.
-
-í° ì´ë¯¸ì§€ì˜ ê°€ë¡œ ì„¸ë¡œ ë¹„ìœ¨ê°€ ì¼ì¹˜í•˜ëŠ” ì¶•ì†ŒíŒì„ í‘œì‹œí•˜ê±°ë‚˜ CSSë¥¼ í†µí•´ ë³´ì´ëŠ” ì˜ì—­ ìžë¥´ê¸°ë¥¼ ê°•ë ¥ížˆ ê¶Œìž¥í•©ë‹ˆë‹¤. (2).
-
-ì´ê²ƒì´ ì•„ì§ êµ¬í˜„ë˜ì§€ ì•Šì€ ì´ìœ ë¥¼ ì„¤ëª…í•˜ë ¤ê³  ë…¸ë ¥í•  ê²ƒìž…ë‹ˆë‹¤. ì˜ì—­ ì• ë‹ˆë©”ì´ì…˜ì„ í™•ìž¥í•˜ëŠ”ë°ëŠ” ë‘ ê°€ì§€ ë°©ë²•ì´ ìžˆìŠµë‹ˆë‹¤.
-
-1. 'clip'ì†ì„±ì— ì• ë‹ˆë©”ì´ì…˜ì„ ì ìš©í•˜ì‹­ì‹œì˜¤. í•˜ì§€ë§Œ [Paintë¥¼ ê°•ì œë¡œ](http://csstriggers.com/#clip) í•˜ë©´, ë§¤ë²ˆ ì• ë‹ˆë©”ì´ì…˜ì´ ì–´ìƒ‰í•´ì§‘ë‹ˆë‹¤.
-2. `overflow:hidden`ì„ ê°€ì§„ ë‘ divë¡œ íŽ¼ì³ì§€ëŠ” ì´ë¯¸ì§€ë¥¼ ê°ì‹¸ê³  ì• ë‹ˆë©”ì´ì…˜ ì¤‘ì— `transform:translate`ë¥¼ í†µí•´ ìœ„ì¹˜ë¥¼ ë³€ê²¨ì•„ë©´ ì˜¤ë¥¸ìª½ ë¶€ë¶„ì— í´ë¦½ë©ë‹ˆë‹¤. ì´ ë°©ë²•ì€ íŽ˜ì¸íŠ¸ ë˜ëŠ” ë ˆì´ì•„ì›ƒì„ ê°•ìš”í•˜ì§€ ì•Šì§€ë§Œ ê° ìŠ¬ë¼ì´ë“œì˜ ë§ˆí¬ ì—…ì— ë‘ ê°€ì§€ ìš”ì†Œê°€ ì¶”ê°€ë¡œ í•„ìš”í•©ë‹ˆë‹¤. í…ŒìŠ¤íŠ¸ í”„ë¡œí† íƒ€ìž…ì€ ê³ ê¸‰ ëª¨ë°”ì¼ ê¸°ê¸°(ì˜ˆ: Chromeì´ ìž¥ì°©ëœ Nexus 5)ì—ì„œë§Œ ì›í™œí•˜ê²Œ ìž‘ë™í•œë‹¤ëŠ”ê±¸ ë³´ì—¬ì¤¬ìŠµë‹ˆë‹¤. ì–´ì©Œë©´ ì–¸ì  ê°€ëŠ” ê·¸ ê²ƒì„ êµ¬í˜„í•  ê²ƒ ìž…ë‹ˆë‹¤.
+Ä¡¼ö´Â Á¡ÁøÀû ·Îµå, È®ÀåµÈ ÀÚ¸® Ç¥½ÃÀÚ, ÃÊ±â ÁÜÀÎ(zoom-in)  / ÁÜ¾Æ¿ô (zoom-out)ÀüÈ¯, ÀÌµ¿, ÁÜÀ×(zooming), Ä¸¼Ç À§Ä¡ ÁöÁ¤¿¡ »ç¿ëµË´Ï´Ù. GitHub¿¡¼­ÀÇ Åä·Ð : [issue #741](https://github.com/dimsemenov/PhotoSwipe/issues/741).
 
 
-### <a name="scroll-in-caption"></a> ìº¡ì…˜ì´ í¬ë‹¤ë©´ ìŠ¤í¬ë¡¤ì„ ì¶”ê°€ í•  ìˆ˜ ìžˆìŠµë‹ˆê¹Œ?
+### <a name="different-thumbnail-dimensions"></a> ¹Ì¸®º¸±â ÀÌ¹ÌÁö´Â Á¤»ç°¢Çü ÀÌÁö¸¸ Å©±â°¡ Å« ÀÌ¹ÌÁö´Â Å©±â°¡ ´Ù¸£¸ç, ¿­±â/´Ý±â ÀüÈ¯À» ¾î¶»°Ô ÇØ¾ß ÇÏ³ª¿ä?
 
-ì°¸ì¡° : [issue #657](https://github.com/dimsemenov/PhotoSwipe/issues/657).
+1. ½æ³×ÀÏÀÇ Á¾È¾ºñ°¡ Å« ÀÌ¹ÌÁö¿Í ÀÏÄ¡ÇÏÁö ¾ÊÀ¸¸é ½½¶óÀÌµå¿¡ ´ëÇØ 'msrc'¼Ó¼ºÀ» Á¤ÀÇÇÏÁö ¾Ê°í ºÒÅõ¸í ÀüÈ¯ ¿É¼ÇÀ» È°¼ºÈ­ ÇÏ¼¼¿ä (`showHideOpacity:true, getThumbBoundsFn:false`).
+2. ½æ³×ÀÏ ÀÌ¹ÌÁö ÆÄÀÏÀÇ Á¾È¾ºñ°¡ Å« ÀÌ¹ÌÁö¿Í ÀÏÄ¡ÇÏ¸é, **±×·¯³ª ½æ³×ÀÏ ¿µ¿ªÀº CSS¸¦ ÅëÇØ Àß¸³´Ï´Ù.**, `showHideOpacity:true` À» Ãß°¡ÇÏ°í `getThumbBoundsFn`¿É¼ÇÀÌ ÀÚ¸£±â ¿µ¿ªÀ» °í·ÁÇÑ ÁÂÇ¥¸¦ ¹ÝÈ¯ÇÏ´ÂÁö È®ÀÎ ÇÏ¼¼¿ä.
+
+Å« ÀÌ¹ÌÁöÀÇ °¡·Î ¼¼·Î ºñÀ²°¡ ÀÏÄ¡ÇÏ´Â Ãà¼ÒÆÇÀ» Ç¥½ÃÇÏ°Å³ª CSS¸¦ ÅëÇØ º¸ÀÌ´Â ¿µ¿ª ÀÚ¸£±â¸¦ °­·ÂÈ÷ ±ÇÀåÇÕ´Ï´Ù. (2).
+
+ÀÌ°ÍÀÌ ¾ÆÁ÷ ±¸ÇöµÇÁö ¾ÊÀº ÀÌÀ¯¸¦ ¼³¸íÇÏ·Á°í ³ë·ÂÇÒ °ÍÀÔ´Ï´Ù. ¿µ¿ª ¾Ö´Ï¸ÞÀÌ¼ÇÀ» È®ÀåÇÏ´Âµ¥´Â µÎ °¡Áö ¹æ¹ýÀÌ ÀÖ½À´Ï´Ù.
+
+1. 'clip'¼Ó¼º¿¡ ¾Ö´Ï¸ÞÀÌ¼ÇÀ» Àû¿ëÇÏ½Ê½Ã¿À. ÇÏÁö¸¸ [Paint¸¦ °­Á¦·Î](http://csstriggers.com/#clip) ÇÏ¸é, ¸Å¹ø ¾Ö´Ï¸ÞÀÌ¼ÇÀÌ ¾î»öÇØÁý´Ï´Ù.
+2. `overflow:hidden`À» °¡Áø µÎ div·Î ÆîÃÄÁö´Â ÀÌ¹ÌÁö¸¦ °¨½Î°í ¾Ö´Ï¸ÞÀÌ¼Ç Áß¿¡ `transform:translate`¸¦ ÅëÇØ À§Ä¡¸¦ º¯°Ü¾Æ¸é ¿À¸¥ÂÊ ºÎºÐ¿¡ Å¬¸³µË´Ï´Ù. ÀÌ ¹æ¹ýÀº ÆäÀÎÆ® ¶Ç´Â ·¹ÀÌ¾Æ¿ôÀ» °­¿äÇÏÁö ¾ÊÁö¸¸ °¢ ½½¶óÀÌµåÀÇ ¸¶Å© ¾÷¿¡ µÎ °¡Áö ¿ä¼Ò°¡ Ãß°¡·Î ÇÊ¿äÇÕ´Ï´Ù. Å×½ºÆ® ÇÁ·ÎÅäÅ¸ÀÔÀº °í±Þ ¸ð¹ÙÀÏ ±â±â(¿¹: ChromeÀÌ ÀåÂøµÈ Nexus 5)¿¡¼­¸¸ ¿øÈ°ÇÏ°Ô ÀÛµ¿ÇÑ´Ù´Â°É º¸¿©Áá½À´Ï´Ù. ¾îÂ¼¸é ¾ðÁ¨°¡´Â ±× °ÍÀ» ±¸ÇöÇÒ °Í ÀÔ´Ï´Ù.
 
 
-### <a name="inline-gallery"></a>ì¸ë¼ì¸ ê°¤ëŸ¬ë¦¬ ë””ìŠ¤í”Œë ˆì´ êµ¬í˜„ ë°©ë²•
+### <a name="scroll-in-caption"></a> Ä¸¼ÇÀÌ Å©´Ù¸é ½ºÅ©·ÑÀ» Ãß°¡ ÇÒ ¼ö ÀÖ½À´Ï±î?  
 
-ì´ ê²ƒì€ ì‹¤í—˜ì ì¸ ê¸°ëŠ¥ìž…ë‹ˆë‹¤. ì§€ê¸ˆì€ í„°ì¹˜ ì´ë²¤íŠ¸ì—ì„œ 'prvetDefault()'ë¥¼ í˜¸ì¶œ í•  ë•Œ ëª¨ë°”ì¼ì—ì„œ ê°¤ëŸ¬ë¦¬ ìœ„ì— íŽ˜ì´ì§€ë¥¼ ìˆ˜ì§ìœ¼ë¡œ ìŠ¤í¬ë¡¤í•˜ëŠ” ê²ƒì„ í—ˆìš©í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤. ë¬¸ì œê°€ ìžˆìœ¼ë©´ ì•Œë ¤ì£¼ì„¸ìš”. ë¬¸ì„œì˜ ë‚˜ë¨¸ì§€ ë¶€ë¶„ê³¼ í•¨ê»˜ íë¥´ëŠ” ë‚´ìž¥ëœ ê°¤ëŸ¬ë¦¬ë¥¼ êµ¬í˜„í•˜ë ¤ë©´ ë‹¤ìŒ ë‹¨ê³„ë¥¼ ë”°ë¥´ì‹­ì‹œì˜¤
+ÂüÁ¶ : [issue #657](https://github.com/dimsemenov/PhotoSwipe/issues/657).
 
-1. ìœ„ì¹˜ê°€ ì§€ì •ëœ ë¶€ëª¨ ìš”ì†Œì•ˆì—`.pswp` í…œí”Œë¦¿ì„ ë„£ìœ¼ì‹­ì‹œì˜¤
-2. `modal: false, closeOnScroll: false`ì˜µì…˜ì„ ì„¤ì •í•˜ì‹­ì‹œì˜¤.
-3. `getThumbBoundsFn` (ì‚¬ìš©í•˜ê³  ìžˆëŠ” ê²½ìš°)ì„ ìˆ˜ì •í•˜ì—¬ í…œí”Œë¦¿ ë¶€ëª¨ì˜ ê²½ê³„ ì§ì‚¬ê°í˜•(rect)ì„ ëºë‹ˆë‹¤.
-4. PhotoSwipe ìƒì„±í•©ë‹ˆë‹¤.
-5. `updateScrollOffset` ì´ë²¤íŠ¸ë¥¼ ë³´ê³  í…œí”Œë¦¿ì˜ ê²½ê³„ ì‚¬ê°í˜•ì„ ì˜¤í”„ì…‹ì— ì¶”ê°€í•˜ì‹­ì‹œì˜¤
+
+### <a name="inline-gallery"></a>ÀÎ¶óÀÎ °¶·¯¸® µð½ºÇÃ·¹ÀÌ ±¸Çö ¹æ¹ý
+
+ÀÌ °ÍÀº ½ÇÇèÀûÀÎ ±â´ÉÀÔ´Ï´Ù. Áö±ÝÀº ÅÍÄ¡ ÀÌº¥Æ®¿¡¼­ 'prvetDefault()'¸¦ È£Ãâ ÇÒ ¶§ ¸ð¹ÙÀÏ¿¡¼­ °¶·¯¸® À§¿¡ ÆäÀÌÁö¸¦ ¼öÁ÷À¸·Î ½ºÅ©·ÑÇÏ´Â °ÍÀ» Çã¿ëÇÏÁö ¾Ê½À´Ï´Ù. ¹®Á¦°¡ ÀÖÀ¸¸é ¾Ë·ÁÁÖ¼¼¿ä. ¹®¼­ÀÇ ³ª¸ÓÁö ºÎºÐ°ú ÇÔ²² Èå¸£´Â ³»ÀåµÈ °¶·¯¸®¸¦ ±¸ÇöÇÏ·Á¸é ´ÙÀ½ ´Ü°è¸¦ µû¸£½Ê½Ã¿À
+
+1. À§Ä¡°¡ ÁöÁ¤µÈ ºÎ¸ð ¿ä¼Ò¾È¿¡`.pswp` ÅÛÇÃ¸´À» ³ÖÀ¸½Ê½Ã¿À
+2. `modal: false, closeOnScroll: false`¿É¼ÇÀ» ¼³Á¤ÇÏ½Ê½Ã¿À.
+3. `getThumbBoundsFn` (»ç¿ëÇÏ°í ÀÖ´Â °æ¿ì)À» ¼öÁ¤ÇÏ¿© ÅÛÇÃ¸´ ºÎ¸ðÀÇ °æ°è Á÷»ç°¢Çü(rect)À» »®´Ï´Ù.
+4. PhotoSwipe »ý¼ºÇÕ´Ï´Ù.
+5. `updateScrollOffset` ÀÌº¥Æ®¸¦ º¸°í ÅÛÇÃ¸´ÀÇ °æ°è »ç°¢ÇüÀ» ¿ÀÇÁ¼Â¿¡ Ãß°¡ÇÏ½Ê½Ã¿À
 6. `init()` PhotoSwipe.
 
-[**CodePenì˜ ë¼ì´ë¸Œ ì˜ˆì œ &rarr;**](http://codepen.io/dimsemenov/pen/JogxWM)
+[**CodePenÀÇ ¶óÀÌºê ¿¹Á¦ &rarr;**](http://codepen.io/dimsemenov/pen/JogxWM)
 
 ```html
 <div style="position: relative;" class="parent">
@@ -77,7 +77,7 @@ var options = {
     modal: false,
     closeOnScroll: false,
     getThumbBoundsFn: function(index) {
-        // rectëŠ” ë³¸ëž˜ì˜ ê²½ê³„
+        // rect´Â º»·¡ÀÇ °æ°è
         var rect = {x: ..., y: ..., w: ...},
 
         var templateBounds = template.parentElement.getBoundingClientRect();
@@ -96,23 +96,23 @@ photoSwipe.listen('updateScrollOffset', function(_offset) {
 photoSwipe.init();
 ```
 
-### <a name="custom-pid-in-url"></a>URLì—ì„œ ìƒ‰ì¸ ëŒ€ì‹  ë§žì¶¤ ì‹ë³„ìžë¥¼ ì‚¬ìš©í•˜ëŠ” ë°©ë²•
+### <a name="custom-pid-in-url"></a>URL¿¡¼­ »öÀÎ ´ë½Å ¸ÂÃã ½Äº°ÀÚ¸¦ »ç¿ëÇÏ´Â ¹æ¹ý
 
-ë‹¨ì¼ ì´ë¯¸ì§€ URLì„ ë‹¤ìŒê³¼ ê°™ì´ ë§Œë“œë ¤ë©´
+´ÜÀÏ ÀÌ¹ÌÁö URLÀ» ´ÙÀ½°ú °°ÀÌ ¸¸µå·Á¸é
 
 ```
 http://example.com/#&gid=1&pid=custom-first-id
 http://example.com/#&gid=1&pid=custom-second-id
 ```
 
-ëŒ€ì‹ ì— :
+´ë½Å¿¡ :
 
 ```
 http://example.com/#&gid=1&pid=1
 http://example.com/#&gid=1&pid=2
 ```
 
-... `history:true, galleryPIDs:true`ì˜µì…˜ì„ ê°€ëŠ¥í•˜ê²Œ í•˜ê³  `pid` (ê³ ìœ ì˜ ê·¸ë¦¼ ì‹ë³„ìž)ì†ì„±ì„ ìŠ¬ë¼ì´ë“œ ê°ì²´ì— ì¶”ê°€í•©ë‹ˆë‹¤. (`pid`ëŠ” ì •ìˆ˜ë‚˜ ë¬¸ìžì—´), ì˜ˆì‹œ:
+... `history:true, galleryPIDs:true`¿É¼ÇÀ» °¡´ÉÇÏ°Ô ÇÏ°í `pid` (°íÀ¯ÀÇ ±×¸² ½Äº°ÀÚ)¼Ó¼ºÀ» ½½¶óÀÌµå °´Ã¼¿¡ Ãß°¡ÇÕ´Ï´Ù. (`pid`´Â Á¤¼ö³ª ¹®ÀÚ¿­), ¿¹½Ã:
 
 ```js
 var slides = [
@@ -132,124 +132,43 @@ var slides = [
 ];
 ```
 
-- PhotoSwipeëŠ” ì´ˆê¸°í™”í•˜ê³  ì—´ê¸° ì „ê¹Œì§€ ì½”ë“œë¥¼ ì‹¤í–‰í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤. ì²˜ìŒ íŽ˜ì´ì§€ë¥¼ ë¡œë“œí•  ë•Œ URLì„ ì§ì ‘ íŒŒì‹±í•´ì•¼ í•©ë‹ˆë‹¤. [ì‹œìž‘í•˜ê¸°](http://photoswipe.com/documentation/getting-started.html#dom-to-slide-objects)ì˜ ê¸°ë³¸ ì½”ë“œ ì„¹ì…˜ì—ëŠ” ì´ ê¸°ëŠ¥ì´ í¬í•¨ë˜ì–´ ìžˆìŠµë‹ˆë‹¤. (ìˆ˜ì •ì´ í•„ìš”í•œ ê²½ìš°`photoswipeParseHash`ê¸°ëŠ¥ì„ í™•ì¸ í•˜ì‹­ì‹œì˜¤)
-- PhotoSwipe v4.0.8ë¶€í„°`galleryPIDs` ì˜µì…˜ì„ ì‚¬ìš©í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ([ì˜µì…˜ ì„¤ëª…](options.html#galleryPIDs)).
+- PhotoSwipe´Â ÃÊ±âÈ­ÇÏ°í ¿­±â Àü±îÁö ÄÚµå¸¦ ½ÇÇàÇÏÁö ¾Ê½À´Ï´Ù. Ã³À½ ÆäÀÌÁö¸¦ ·ÎµåÇÒ ¶§ URLÀ» Á÷Á¢ ÆÄ½ÌÇØ¾ß ÇÕ´Ï´Ù. [½ÃÀÛÇÏ±â](http://photoswipe.com/documentation/getting-started.html#dom-to-slide-objects)ÀÇ ±âº» ÄÚµå ¼½¼Ç¿¡´Â ÀÌ ±â´ÉÀÌ Æ÷ÇÔµÇ¾î ÀÖ½À´Ï´Ù. (¼öÁ¤ÀÌ ÇÊ¿äÇÑ °æ¿ì`photoswipeParseHash`±â´ÉÀ» È®ÀÎ ÇÏ½Ê½Ã¿À)
+- PhotoSwipe v4.0.8ºÎÅÍ`galleryPIDs` ¿É¼ÇÀ» »ç¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù. ([¿É¼Ç ¼³¸í](options.md#galleryPIDs)).
 
 
-## ë²„ê·¸
+## ¹ö±×
 
-### <a name="gif-freeze-ios"></a> iOS8ì—ì„œ GIFì´ë¯¸ì§€ê°€ ê³ ì •ë˜ëŠ” ê²½ìš°ê°€ ìžˆìŠµë‹ˆë‹¤.
+### <a name="gif-freeze-ios"></a> iOS8¿¡¼­ GIFÀÌ¹ÌÁö°¡ °íÁ¤µÇ´Â °æ¿ì°¡ ÀÖ½À´Ï´Ù.
 
-iOS Safariì• ëŠ” ì°½ ì™¸ë¶€ë¡œ ì´ë™í•œ GIFì´ë¯¸ì§€ê°€ ê³ ì •ë˜ëŠ” ë²„ê·¸ê°€ ìžˆìŠµë‹ˆë‹¤.(ë˜ëŠ” 'overflow:hidden'ì´ ìžˆëŠ” ìš”ì†Œ ì™¸ë¶€) ê¶Œìž¥ ì‚¬í•­ì€ PhotoSwipeì—ì„œ ì• ë‹ˆë©”ì´ì…˜ GIFë¥¼ ì‚¬ìš©í•˜ì§€ ì•ŠëŠ” ê²ƒìž…ë‹ˆë‹¤. ëª¨ë°”ì¼ ë¸Œë¼ìš°ì €ì—ì„œ ì• ë‹ˆë©”ì´ì…˜ ì„±ëŠ¥ì´ ëŠë ¤ì§€ë¯€ë¡œ ì¢‹ìŠµë‹ˆë‹¤. í•˜ì§€ë§Œ ì •ë§ë¡œ ì‚¬ìš©í•´ì•¼í•˜ëŠ” ê²½ìš° [ì´ í•´í‚¹](https://github.com/dimsemenov/PhotoSwipe/issues/662#issuecomment-66420874)ì„ ì°¸ì¡°í•˜ì‹­ì‹œì˜¤.
+iOS Safari¾Ö´Â Ã¢ ¿ÜºÎ·Î ÀÌµ¿ÇÑ GIFÀÌ¹ÌÁö°¡ °íÁ¤µÇ´Â ¹ö±×°¡ ÀÖ½À´Ï´Ù.(¶Ç´Â 'overflow:hidden'ÀÌ ÀÖ´Â ¿ä¼Ò ¿ÜºÎ) ±ÇÀå »çÇ×Àº PhotoSwipe¿¡¼­ ¾Ö´Ï¸ÞÀÌ¼Ç GIF¸¦ »ç¿ëÇÏÁö ¾Ê´Â °ÍÀÔ´Ï´Ù. ¸ð¹ÙÀÏ ºê¶ó¿ìÀú¿¡¼­ ¾Ö´Ï¸ÞÀÌ¼Ç ¼º´ÉÀÌ ´À·ÁÁö¹Ç·Î ÁÁ½À´Ï´Ù. ÇÏÁö¸¸ Á¤¸»·Î »ç¿ëÇØ¾ßÇÏ´Â °æ¿ì [ÀÌ ÇØÅ·](https://github.com/dimsemenov/PhotoSwipe/issues/662#issuecomment-66420874)À» ÂüÁ¶ÇÏ½Ê½Ã¿À.
 
-### <a name="mobile-crash"></a> ê±°ëŒ€í•œ ì´ë¯¸ì§€ê°€ ê°¤ëŸ¬ë¦¬ë¥¼ ì—´ë©´ ëª¨ë°”ì¼ ë¸Œë¼ìš°ì €ê°€ ë‹¤ìš´ë©ë‹ˆë‹¤
+### <a name="mobile-crash"></a> °Å´ëÇÑ ÀÌ¹ÌÁö°¡ °¶·¯¸®¸¦ ¿­¸é ¸ð¹ÙÀÏ ºê¶ó¿ìÀú°¡ ´Ù¿îµË´Ï´Ù
 
-ëŒ€ë¶€ë¶„ ë©”ëª¨ë¦¬ ë¶€ì¡±ìœ¼ë¡œ ëª¨ë°”ì¼ ìž¥ì¹˜ì—ì„œ ë°œìƒí•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. (iOS Safari, ì˜¤ëž˜ëœ Androidì˜ ê¸°ë³¸ ë¸Œë¼ìš°ì € (KitKat ì´ì „)) ì¶©ëŒì˜ ê°€ìž¥ í”í•œ ì›ì¸ì€ ë„ˆë¬´ í° ì´ë¯¸ì§€ìž…ë‹ˆë‹¤.(ì¼ë°˜ì ìœ¼ë¡œ 2000x1500pxë³´ë‹¤ í¼) PhotoSwipeëŠ” ì´ë¯¸ì§€ì— í•˜ë“œì›¨ì–´ ê°€ì†ì„ ì ìš©í•˜ì—¬ íŽ˜ì´ì§€ì˜ ì¼ë°˜ ì´ë¯¸ì§€ë³´ë‹¤ ë§Žì€ ë©”ëª¨ë¦¬ë¥¼ ì†Œë¹„í•˜ë¯€ë¡œ ì œí•œ ë¸Œë¼ìš°ì €ë¥¼ ëª¨ë‘ ì‚¬ìš©í•˜ì§€ ì•Šìœ¼ë©´ ì§€ì—°ë˜ê±°ë‚˜ ì¶©ëŒì´ ë°œìƒí•©ë‹ˆë‹¤.
+´ëºÎºÐ ¸Þ¸ð¸® ºÎÁ·À¸·Î ¸ð¹ÙÀÏ ÀåÄ¡¿¡¼­ ¹ß»ýÇÒ ¼ö ÀÖ½À´Ï´Ù. (iOS Safari, ¿À·¡µÈ AndroidÀÇ ±âº» ºê¶ó¿ìÀú (KitKat ÀÌÀü)) Ãæµ¹ÀÇ °¡Àå ÈçÇÑ ¿øÀÎÀº ³Ê¹« Å« ÀÌ¹ÌÁöÀÔ´Ï´Ù.(ÀÏ¹ÝÀûÀ¸·Î 2000x1500pxº¸´Ù Å­) PhotoSwipe´Â ÀÌ¹ÌÁö¿¡ ÇÏµå¿þ¾î °¡¼ÓÀ» Àû¿ëÇÏ¿© ÆäÀÌÁöÀÇ ÀÏ¹Ý ÀÌ¹ÌÁöº¸´Ù ¸¹Àº ¸Þ¸ð¸®¸¦ ¼ÒºñÇÏ¹Ç·Î Á¦ÇÑ ºê¶ó¿ìÀú¸¦ ¸ðµÎ »ç¿ëÇÏÁö ¾ÊÀ¸¸é Áö¿¬µÇ°Å³ª Ãæµ¹ÀÌ ¹ß»ýÇÕ´Ï´Ù.
 
-ë”°ë¼ì„œ [ë°˜ì‘í˜• ì´ë¯¸ì§€ ì œê³µ](responsive-images.html), ë˜ëŠ” ì ì–´ë„ ê±°ëŒ€í•œ ì´ë¯¸ì§€ë¥¼ ì œê³µí•˜ì§€ ë§ˆì‹­ì‹œì˜¤. í‰ê·  900x600ì˜ í•¸ë“œí°ì˜ ê²½ìš° 1200px ë„ˆë¹„ì˜ ì´ë¯¸ì§€ë¥¼ ìž¬ê³µí•˜ëŠ” ê²ƒì´ ê°€ìž¥ ì´ìƒì ìž…ë‹ˆë‹¤ . iOS Simulatorì—ì„œ ëª¨ë“  ê²ƒì´ ì›í™œí•˜ê²Œ ìž‘ë™í•œë‹¤ê³ í•´ì„œ ì‹¤ì œ ìž¥ì¹˜ì—ì„œ ì¶©ëŒì´ ë°œìƒí•˜ì§€ëŠ” ì•ŠìŠµë‹ˆë‹¤.
+µû¶ó¼­ [¹ÝÀÀÇü ÀÌ¹ÌÁö Á¦°ø](responsive-images.md), ¶Ç´Â Àû¾îµµ °Å´ëÇÑ ÀÌ¹ÌÁö¸¦ Á¦°øÇÏÁö ¸¶½Ê½Ã¿À. Æò±Õ 900x600ÀÇ ÇÚµåÆùÀÇ °æ¿ì 1200px ³ÊºñÀÇ ÀÌ¹ÌÁö¸¦ Àç°øÇÏ´Â °ÍÀÌ °¡Àå ÀÌ»óÀûÀÔ´Ï´Ù . iOS Simulator¿¡¼­ ¸ðµç °ÍÀÌ ¿øÈ°ÇÏ°Ô ÀÛµ¿ÇÑ´Ù°íÇØ¼­ ½ÇÁ¦ ÀåÄ¡¿¡¼­ Ãæµ¹ÀÌ ¹ß»ýÇÏÁö´Â ¾Ê½À´Ï´Ù.
 
-ë“œë¬¸ ê²½ìš°ì´ì§€ë§Œ íŽ˜ì´ì§€ì˜ ì¼ë¶€ í”„ë¡œì„¸ìŠ¤ ì¤‘ì— PhotoSwipeë¥¼ ì—´ë©´ ì¶©ëŒì´ ë°œìƒí•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤ (ì´ˆê¸° íŽ˜ì´ì§€ë¡œë“œ / ë Œë”ë§ ë˜ëŠ” íŽ˜ì´ì§€ì˜ ë³µìž¡í•œ ì• ë‹ˆë©”ì´ì…˜ ì¼ ìˆ˜ ìžˆìŒ), íŽ˜ì´ì§€ê°€ ë Œë”ë§ ë  ë•Œê¹Œì§€ PhotoSwipe ì´ˆê¸°í™” ì§€ì—° (document.ready í›„ 18-300ms), íŠ¹ížˆ í° ì´ë¯¸ì§€ë¥¼ í‘œì‹œí•˜ëŠ” ê²½ìš°.
+µå¹® °æ¿ìÀÌÁö¸¸ ÆäÀÌÁöÀÇ ÀÏºÎ ÇÁ·Î¼¼½º Áß¿¡ PhotoSwipe¸¦ ¿­¸é Ãæµ¹ÀÌ ¹ß»ýÇÒ ¼ö ÀÖ½À´Ï´Ù (ÃÊ±â ÆäÀÌÁö·Îµå / ·»´õ¸µ ¶Ç´Â ÆäÀÌÁöÀÇ º¹ÀâÇÑ ¾Ö´Ï¸ÞÀÌ¼Ç ÀÏ ¼ö ÀÖÀ½), ÆäÀÌÁö°¡ ·»´õ¸µ µÉ ¶§±îÁö PhotoSwipe ÃÊ±âÈ­ Áö¿¬ (document.ready ÈÄ 18-300ms), Æ¯È÷ Å« ÀÌ¹ÌÁö¸¦ Ç¥½ÃÇÏ´Â °æ¿ì.
 
-**UPD.:** in [v4.1.0](https://github.com/dimsemenov/PhotoSwipe/releases/tag/v4.1.0) ì´ê²ƒì€ ë¶€ë¶„ì ìœ¼ë¡œ ìˆ˜ì •ë˜ì—ˆìŠµë‹ˆë‹¤. 
+**UPD.:** in [v4.1.0](https://github.com/hun1451/PhotoSwipe/releases/tag/v4.1.0) ÀÌ°ÍÀº ºÎºÐÀûÀ¸·Î ¼öÁ¤µÇ¾ú½À´Ï´Ù. 
 
-## ê¸°íƒ€
+## ±âÅ¸
 
-### <a name="keep-updated"></a> ë³€ê²½ ë‚´ì—­ì€ ì–´ë””ì— ìžˆìŠµë‹ˆê¹Œ, ì—…ë°ì´íŠ¸ì— ëŒ€í•œ ì•Œë¦¼ì„ ë°›ëŠ” ë°©ë²•ì€ ë¬´ì—‡ìž…ë‹ˆê¹Œ?
+### <a name="keep-updated"></a> º¯°æ ³»¿ªÀº ¾îµð¿¡ ÀÖ½À´Ï±î, ¾÷µ¥ÀÌÆ®¿¡ ´ëÇÑ ¾Ë¸²À» ¹Þ´Â ¹æ¹ýÀº ¹«¾ùÀÔ´Ï±î?
 
-PhotoSwipeê°€ ì—…ë°ì´íŠ¸ë¥¼ ì–»ì„ ë•Œë§ˆë‹¤ - [GitHub releases](https://github.com/dimsemenov/PhotoSwipe/releases)íŽ˜ì´ì§€ê°€ ì„¸ë¶€ ì •ë³´ë¡œ ì—…ë°ì´íŠ¸ ë©ë‹ˆë‹¤.
-ì¶œì‹œ íŽ˜ì´ì§€ì—ëŠ” [Atom feed](https://github.com/dimsemenov/PhotoSwipe/releases.atom)ê°€ ìžˆìŠµë‹ˆë‹¤., í”¼ë“œê°€ ì—…ë°ì´íŠ¸ ë˜ë©´ ì´ë©”ì¼ ì•Œë¦¼ì„ ì„¤ì •í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤ [using IFTTT](https://ifttt.com/recipes/230902-photoswipe-update-notification).
+PhotoSwipe°¡ ¾÷µ¥ÀÌÆ®¸¦ ¾òÀ» ¶§¸¶´Ù - [GitHub releases](https://github.com/hun1451/PhotoSwipe/releases)ÆäÀÌÁö°¡ ¼¼ºÎ Á¤º¸·Î ¾÷µ¥ÀÌÆ® µË´Ï´Ù.
+Ãâ½Ã ÆäÀÌÁö¿¡´Â [Atom feed](https://github.com/hun1451/PhotoSwipe/releases.atom)°¡ ÀÖ½À´Ï´Ù., ÇÇµå°¡ ¾÷µ¥ÀÌÆ® µÇ¸é ÀÌ¸ÞÀÏ ¾Ë¸²À» ¼³Á¤ÇÒ ¼ö ÀÖ½À´Ï´Ù [using IFTTT](https://ifttt.com/recipes/230902-photoswipe-update-notification).
 
-ë˜í•œ ì €ì˜ [email newsletter](http://dimsemenov.com/subscribe.html?i=pswp) (1ë…„ì— 3~4íšŒ ë°œì‹ ), [@PhotoSwipe on Twitter](http://twitter.com/photoswipe)ë¥¼ íŒ”ë¡œìš° í•˜ì„¸ìš”. ê·¸ë¦¬ê³   [PhotoSwipe on GitHub](https://github.com/dimsemenov/PhotoSwipe/)ì—ì„œ starë¥¼ ëˆ„ë¥´ì‹œê³  ì½ì–´ì£¼ì„¸ìš”.
+¶ÇÇÑ ÀúÀÇ [email newsletter](http://dimsemenov.com/subscribe.html?i=pswp) (1³â¿¡ 3~4È¸ ¹ß½Å), [@PhotoSwipe on Twitter](http://twitter.com/photoswipe)¸¦ ÆÈ·Î¿ì ÇÏ¼¼¿ä. ±×¸®°í  [PhotoSwipe on GitHub](https://github.com/hun1451/PhotoSwipe/)¿¡¼­ star¸¦ ´©¸£½Ã°í ÀÐ¾îÁÖ¼¼¿ä.
 
-### <a name="wordpress-release"></a> WordPress í”ŒëŸ¬ê·¸ì¸ì´ ì¶œì‹œ ë  ë•Œ?
+### <a name="wordpress-release"></a> WordPress ÇÃ·¯±×ÀÎÀÌ Ãâ½Ã µÉ ¶§?
 
-í”ŒëŸ¬ê·¸ì¸ì€ ê°œë°œ ì¤‘ì´ë©° 2015ë…„ì— ì¶œì‹œ ë  ì˜ˆì •ìž…ë‹ˆë‹¤. ì•Œë¦¼ì„ ë°›ìœ¼ë ¤ë©´ [ë‰´ìŠ¤ë ˆí„° êµ¬ë…](http://dimsemenov.com/subscribe.html?i=pswp-wp)í•˜ì„¸ìš”.
-
-
-### <a name="can-i-use-in-theme"></a> WordPress / Magento / Joomla ... PhotoSwipeë¥¼ ì‚¬ìš©í•˜ê³  ì‹¶ìŠµë‹ˆë‹¤. í…œí”Œë¦¿ì„ ì‚¬ìš©í•  ìˆ˜ ìžˆìŠµë‹ˆê¹Œ?
-
-ê·¸ë ‡ìŠµë‹ˆë‹¤. PhotoSwipeëŠ” ì œí•œì—†ì´ ë¬´ë£Œ ë˜ëŠ” ìƒì—…ìš© í…Œë§ˆë¡œ ì‚¬ìš©í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ê°€ëŠ¥í•œ ê²½ìš° í…Œë§ˆ ì„¤ëª…ì„ ê´€ë¦¬ ì˜ì—­ì— í¬ë ˆë”§ (PhotoSwipe í™ˆíŽ˜ì´ì§€ ë§í¬)ì„ ë‚¨ê²¨ ë‘ì‹­ì‹œì˜¤.
+ÇÃ·¯±×ÀÎÀº °³¹ß ÁßÀÌ¸ç 2015³â¿¡ Ãâ½Ã µÉ ¿¹Á¤ÀÔ´Ï´Ù. ¾Ë¸²À» ¹ÞÀ¸·Á¸é [´º½º·¹ÅÍ ±¸µ¶](http://dimsemenov.com/subscribe.html?i=pswp-wp)ÇÏ¼¼¿ä.
 
 
-<div style="margin-top:30px;"><p>ì´ íŽ˜ì´ì§€ë¥¼ ê°œì„ í•  ìˆ˜ ìžˆëŠ” ë°©ë²•ì„ ì•Œê³  ìžˆìŠµë‹ˆê¹Œ? ë¬¸ë²•ì  ì˜¤ë¥˜ë¥¼ ë°œê²¬ í–ˆìŠµë‹ˆê¹Œ? <a href="https://github.com/dimsemenov/PhotoSwipe/blob/master/website/documentation/responsive-images.md">íŽ¸ì§‘ì„ ì œì•ˆí•˜ì‹­ì‹œì˜¤!</a></p></div>
+### <a name="can-i-use-in-theme"></a> WordPress / Magento / Joomla ... PhotoSwipe¸¦ »ç¿ëÇÏ°í ½Í½À´Ï´Ù. ÅÛÇÃ¸´À» »ç¿ëÇÒ ¼ö ÀÖ½À´Ï±î?
 
-<iframe src="http://ghbtns.com/github-btn.html?user=dimsemenov&amp;repo=photoswipe&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="155" height="30" style=""></iframe>
+±×·¸½À´Ï´Ù. PhotoSwipe´Â Á¦ÇÑ¾øÀÌ ¹«·á ¶Ç´Â »ó¾÷¿ë Å×¸¶·Î »ç¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù. °¡´ÉÇÑ °æ¿ì Å×¸¶ ¼³¸íÀ» °ü¸® ¿µ¿ª¿¡ Å©·¹µ÷ (PhotoSwipe È¨ÆäÀÌÁö ¸µÅ©)À» ³²°Ü µÎ½Ê½Ã¿À.
 
-<style type="text/css">
-body {
-    overflow-y:scroll;
-}
-h3 {
-    cursor: pointer;
-    font-weight: normal;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    user-select:none;
-    color: #3169B3;
-    padding-left: 18px;
-    position: relative;
-}
-h3:hover {
-    color: #C00;
-}
-h3:before {
-    content:'ï¿½ë¼¹';
-    font-size: 12px;
-    position: absolute;
-    left: 0;
-    top: 2px;
-}
-h3.tab-closed:before {
-    content: 'ï¿½ë¼·';
-}
-</style>
 
-<script>
-(function() {
-
-    // tabs
-
-    if(!document.addEventListener) {
-        return;
-    }
-
-    var els = document.getElementsByClassName('row--docs')[0].children,
-        el;
-
-    var isContentEl = function(el) {
-            if(!el) {
-                return;
-            }
-            if( (/(P|UL|OL)/i).test(el.tagName) || el.className === 'highlight' ) {
-                return true;
-            }
-            return;
-        },
-        toggleTab = function(el) {
-            var dStyle = el.classList.contains('tab-closed') ? 'block' : 'none';
-            el.classList.toggle('tab-closed');
-
-            var s = el.nextElementSibling;
-            while( isContentEl(s) ) {
-                s.style.display = dStyle;
-                s = s.nextElementSibling;
-            }
-        };
-
-    for(var i = 0; i < els.length; i++) {
-        el = els[i];
-
-        if(el.tagName === 'H3') {
-
-            if(window.location.hash !== '#' + el.firstElementChild.name) {
-                toggleTab(el);
-            }
-            
-            el.onclick = function() {
-                toggleTab(this);
-            };
-        }
-    }
-
-})();
-</script>
+<div style="margin-top:30px;"><p>ÀÌ ÆäÀÌÁö¸¦ °³¼±ÇÒ ¼ö ÀÖ´Â ¹æ¹ýÀ» ¾Ë°í ÀÖ½À´Ï±î? ¹®¹ýÀû ¿À·ù¸¦ ¹ß°ß Çß½À´Ï±î? <a href="https://github.com/hun1451/PhotoSwipe/blob/master/website/documentation/responsive-images.md">ÆíÁýÀ» Á¦¾ÈÇÏ½Ê½Ã¿À!</a></p></div>

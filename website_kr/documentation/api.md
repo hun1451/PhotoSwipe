@@ -310,7 +310,7 @@ pswp.updateSize(true);
 - 전체 배열을 재 할당 할 수는 없으며 수정할 수 있습니다.(예 : `splice`를 사용한 요소 제거)
 - 현재 슬라이드를 제거 하려는 경우 &ndash; 그 전에 `goTo`메소드를 먼저 호출해야 됩니다.
 - 적어도 하나의 슬라이드가 있어야 합니다.
--이 기술은 [반응형 이미지를 제공](responsive-images.html)하는데 사용됩니다.
+-이 기술은 [반응형 이미지를 제공](responsive-images.md)하는데 사용됩니다.
 
 일부 메소드 또는 속성이 누락 되었나요? 문법적 오류를 발견 했나요? 이 페이지를 개선할수 있는 방법을 알고 계시나요? [편집을 제안 해주세요!](https://github.com/hun1451/PhotoSwipe/blob/master/website/documentation/api.md)
 

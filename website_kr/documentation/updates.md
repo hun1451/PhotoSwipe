@@ -20,8 +20,8 @@ markdownpage: true
 
 특히 베타 시간 동안 PhotoSwipe를 최신 상태로 유지하는 것이 매우 중요합니다.
 
-PhtoSwipe 가 업데이트를 가져올때마다  - [GitHub releases] 아래 URL참조 (https://github.com/dimsemenov/PhotoSwipe/releases) 페이지는 releases에 대한 세부 정보로 업데이트됩니다. 
-Releases 페이지는 가집니다 URL 참조 [Atom feed](https://github.com/dimsemenov/PhotoSwipe/releases.atom), 피드가 업데이트될 때 이메일 알림을 설정할 수 있습니다[IFTTT사용].(https://ifttt.com/recipes/230902-photoswipe-update-notification):
+PhtoSwipe 가 업데이트를 가져올때마다  - [GitHub releases] 아래 URL참조 (https://github.com/hun1451/PhotoSwipe/releases) 페이지는 releases에 대한 세부 정보로 업데이트됩니다. 
+Releases 페이지는 가집니다 URL 참조 [Atom feed](https://github.com/hun1451/PhotoSwipe/releases.atom), 피드가 업데이트될 때 이메일 알림을 설정할 수 있습니다[IFTTT사용].(https://ifttt.com/recipes/230902-photoswipe-update-notification):
 
 <div>
 	<a href="https://ifttt.com/view_embed_recipe/230902-photoswipe-update-notification" target = "_blank" class="embed_recipe embed_recipe-l_30" id= "embed_recipe-230902"><img src= 'https://ifttt.com/recipe_embed_img/230902' alt="IFTTT Recipe: PhotoSwipe업데이트 알림은 피드에 피드를 연결합니다." width="370px" style="max-width:100%"/></a><script async type="text/javascript" src= "//ifttt.com/assets/embed_recipe.js"></script>

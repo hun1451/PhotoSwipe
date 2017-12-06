@@ -18,7 +18,7 @@ markdownpage: true
 
 ---
 
-ì˜µì…˜ì€ í‚¤ - ê°’ ìŒì— ì¶”ê°€ë˜ê³  'PhotoSwipe` ìƒì„±ìžì— ì¸ìˆ˜ë¡œ ì „ë‹¬ë©ë‹ˆë‹¤ (ì˜ˆ :
+¿É¼ÇÀº Å° - °ª ½Ö¿¡ Ãß°¡µÇ°í 'PhotoSwipe` »ý¼ºÀÚ¿¡ ÀÎ¼ö·Î Àü´ÞµË´Ï´Ù (¿¹ :
 
 ```javascript
 var options = {
@@ -31,12 +31,12 @@ var options = {
 var gallery = new PhotoSwipe( someElement, PhotoSwipeUI_Default, someItems, options);
 gallery.init();
 
-// options ê°ì²´ëŠ” ì´ˆê¸°í™”í•˜ëŠ” ë™ì•ˆ ë³µì œë©ë‹ˆë‹¤.
-// ê·¸ë ‡ì§€ë§Œ`gallery.options`ë¥¼ í†µí•´ ì ‘ê·¼ í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-// ì˜ˆë¥¼ ë“¤ì–´`escKey`ë¥¼ ë™ì ìœ¼ë¡œ ë³€ê²½í•˜ë ¤ë©´ :
+// options °´Ã¼´Â ÃÊ±âÈ­ÇÏ´Â µ¿¾È º¹Á¦µË´Ï´Ù.
+// ±×·¸Áö¸¸`gallery.options`¸¦ ÅëÇØ Á¢±Ù ÇÒ ¼ö ÀÖ½À´Ï´Ù.
+// ¿¹¸¦ µé¾î`escKey`¸¦ µ¿ÀûÀ¸·Î º¯°æÇÏ·Á¸é :
 gallery.options.escKey = false;
 
-// `options.escKey = false` will not work
+// `options.escKey = false` will not work 
 
 ```
 
@@ -45,58 +45,58 @@ gallery.options.escKey = false;
 
 ### `index` <code class="default">integer</code> <code class="default">0</code>
 
-ìŠ¬ë¼ì´ë“œ ìƒ‰ì¸ì„ ì‹œìž‘í•˜ì‹­ì‹œì˜¤. '0'ì´ ì²« ë²ˆì§¸ ìŠ¬ë¼ì´ë“œìž…ë‹ˆë‹¤. ë¬¸ìžì—´ì´ ì•„ë‹Œ ì •ìˆ˜ ì—¬ì•¼í•©ë‹ˆë‹¤.
+½½¶óÀÌµå »öÀÎÀ» ½ÃÀÛÇÏ½Ê½Ã¿À. '0'ÀÌ Ã¹ ¹øÂ° ½½¶óÀÌµåÀÔ´Ï´Ù. ¹®ÀÚ¿­ÀÌ ¾Æ´Ñ Á¤¼ö ¿©¾ßÇÕ´Ï´Ù.
 
 ### `getThumbBoundsFn` <code class="default">function</code> <code class="default">undefined</code>
 
-í•¨ìˆ˜ëŠ” ì´ˆê¸° í™•ëŒ€ ì• ë‹ˆë©”ì´ì…˜ì´ ì‹œìž‘ë  ì¢Œí‘œ (ë˜ëŠ” ì¶•ì†Œ ì• ë‹ˆë©”ì´ì…˜ì´ ì¢…ë£Œ ë¨)ê°€ìžˆëŠ” ê°ì²´ë¥¼ ë°˜í™˜í•´ì•¼í•©ë‹ˆë‹¤.
+ÇÔ¼ö´Â ÃÊ±â È®´ë ¾Ö´Ï¸ÞÀÌ¼ÇÀÌ ½ÃÀÛµÉ ÁÂÇ¥ (¶Ç´Â Ãà¼Ò ¾Ö´Ï¸ÞÀÌ¼ÇÀÌ Á¾·á µÊ)°¡ÀÖ´Â °´Ã¼¸¦ ¹ÝÈ¯ÇØ¾ßÇÕ´Ï´Ù.
 
-ê°ì²´ëŠ” 'x'(ë¬¸ì„œì— ëŒ€í•œ ìƒëŒ€ì ì¸ X ìœ„ì¹˜), 'y'(ë¬¸ì„œì— ëŒ€í•œ ìƒëŒ€ì ì¸ Y ìœ„ì¹˜), 'w'(ìš”ì†Œì˜ í­)ì˜ ì„¸ ê°€ì§€ ì†ì„±ì„ í¬í•¨í•´ì•¼í•©ë‹ˆë‹¤. ë†’ì´ëŠ” í° ì´ë¯¸ì§€ì˜ í¬ê¸°ì— ë”°ë¼ ìžë™ìœ¼ë¡œ ê³„ì‚°ë©ë‹ˆë‹¤. ì˜ˆë¥¼ ë“¤ì–´`{x : 0, y : 0, w : 50} 'ì„ ë°˜í™˜í•˜ë©´ ì¤Œ ì• ë‹ˆë©”ì´ì…˜ì€ íŽ˜ì´ì§€ì˜ ì™¼ìª½ ìƒë‹¨ì—ì„œ ì‹œìž‘ë©ë‹ˆë‹¤.
+°´Ã¼´Â 'x'(¹®¼­¿¡ ´ëÇÑ »ó´ëÀûÀÎ X À§Ä¡), 'y'(¹®¼­¿¡ ´ëÇÑ »ó´ëÀûÀÎ Y À§Ä¡), 'w'(¿ä¼ÒÀÇ Æø)ÀÇ ¼¼ °¡Áö ¼Ó¼ºÀ» Æ÷ÇÔÇØ¾ßÇÕ´Ï´Ù. ³ôÀÌ´Â Å« ÀÌ¹ÌÁöÀÇ Å©±â¿¡ µû¶ó ÀÚµ¿À¸·Î °è»êµË´Ï´Ù. ¿¹¸¦ µé¾î`{x : 0, y : 0, w : 50} 'À» ¹ÝÈ¯ÇÏ¸é ÁÜ ¾Ö´Ï¸ÞÀÌ¼ÇÀº ÆäÀÌÁöÀÇ ¿ÞÂÊ »ó´Ü¿¡¼­ ½ÃÀÛµË´Ï´Ù.
 
-í•¨ìˆ˜ëŠ” ì—´ê±° ë‚˜ ë‹«ížˆëŠ” í•­ëª©ì˜`index` ì¸ìžë¥¼ í•˜ë‚˜ ê°€ì§€ê³  ìžˆìŠµë‹ˆë‹¤.
+ÇÔ¼ö´Â ¿­°Å ³ª ´ÝÈ÷´Â Ç×¸ñÀÇ`index` ÀÎÀÚ¸¦ ÇÏ³ª °¡Áö°í ÀÖ½À´Ï´Ù.
 
-ëª¨ë‹¬ì´ ì—†ëŠ” (non-modal) ëª¨ë“œì—ì„œ, ë·°í¬íŠ¸ì— ìƒëŒ€ì ì¸ í…œí”Œë¦¿ì˜ ìœ„ì¹˜ëŠ”`x`ì™€`y`ì—ì„œ ë¹¼ì•¼í•©ë‹ˆë‹¤. ìžì„¸í•œ ë‚´ìš©ì€ [FAQ](faq.html#inline-gallery)ë¥¼ ì°¸ì¡°í•˜ì‹­ì‹œì˜¤.
+¸ð´ÞÀÌ ¾ø´Â (non-modal) ¸ðµå¿¡¼­, ºäÆ÷Æ®¿¡ »ó´ëÀûÀÎ ÅÛÇÃ¸´ÀÇ À§Ä¡´Â`x`¿Í`y`¿¡¼­ »©¾ßÇÕ´Ï´Ù. ÀÚ¼¼ÇÑ ³»¿ëÀº [FAQ](faq.html#inline-gallery)¸¦ ÂüÁ¶ÇÏ½Ê½Ã¿À.
 
-ë¯¸ë¦¬ë³´ê¸° ì´ë¯¸ì§€ì˜ ìœ„ì¹˜ë¥¼ ê³„ì‚°í•˜ëŠ” ì˜ˆ :
+¹Ì¸®º¸±â ÀÌ¹ÌÁöÀÇ À§Ä¡¸¦ °è»êÇÏ´Â ¿¹ :
 
 ```javascript
 getThumbBoundsFn: function(index) {
 
-	// ì„¬ë„¤ì¼ ìš”ì†Œë¥¼ ì°¾ëŠ”ë‹¤.
+	// ¼¶³×ÀÏ ¿ä¼Ò¸¦ Ã£´Â´Ù.
 	var thumbnail = document.querySelectorAll('.my-gallery-thumbnails')[index];
 	
-	// ì°½ ìŠ¤í¬ë¡¤ Yë¥¼ ì–»ëŠ”ë‹¤.
+	// Ã¢ ½ºÅ©·Ñ Y¸¦ ¾ò´Â´Ù.
 	var pageYScroll = window.pageYOffset || document.documentElement.scrollTop; 
-	// ì„ íƒì ìœ¼ë¡œ ìˆ˜í‰ ìŠ¤í¬ë¡¤ì„ ì–»ëŠ”ë‹¤.
+	// ¼±ÅÃÀûÀ¸·Î ¼öÆò ½ºÅ©·ÑÀ» ¾ò´Â´Ù.
 
-	// ë·°í¬íŠ¸ë¥¼ ê¸°ì¤€ìœ¼ë¡œ í•œ ìš”ì†Œì˜ ìœ„ì¹˜ë¥¼ ì–»ëŠ”ë‹¤.
+	// ºäÆ÷Æ®¸¦ ±âÁØÀ¸·Î ÇÑ ¿ä¼ÒÀÇ À§Ä¡¸¦ ¾ò´Â´Ù.
 	var rect = thumbnail.getBoundingClientRect(); 
 	
 	// w = width
 	return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
 
 
-	// ìš”ì†Œ ì¢Œí‘œë¥¼ ì–»ëŠ” ë°©ë²•ì— ëŒ€í•œ ì¢‹ì€ ê°€ì´ë“œ :
+	// ¿ä¼Ò ÁÂÇ¥¸¦ ¾ò´Â ¹æ¹ý¿¡ ´ëÇÑ ÁÁÀº °¡ÀÌµå :
 	// http://javascript.info/tutorial/coordinates
 }
 ```
 
-ìž‘ì€ ë¯¸ë¦¬ë³´ê¸° ì´ë¯¸ì§€ì˜ í¬ê¸°ê°€ í° ì´ë¯¸ì§€ì˜ í¬ê¸°ì™€ ì¼ì¹˜í•˜ì§€ ì•Šìœ¼ë©´ í™•ëŒ€ / ì¶•ì†Œ íŽ˜ì´ë“œ ì „í™˜ì„ ì‚¬ìš©í•˜ì‹­ì‹œì˜¤. `showHideOpacity : true` ì˜µì…˜ì„ ì¶”ê°€í•˜ì—¬ì´ ìž‘ì—…ì„ ìˆ˜í–‰ í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤ (ìœ„ì˜ ì½”ë“œ íŽœ (http://codepen.io/dimsemenov/pen/ZYbPJM)ì— ì¶”ê°€í•˜ì—¬ ì–´ë–»ê²Œ ë³´ì´ëŠ”ì§€ í…ŒìŠ¤íŠ¸ í•´ë³´ì‹­ì‹œì˜¤). ë˜ëŠ” `hideAnimationDuration : 0, showAnimationDuration : 0`ì„ ì¶”ê°€í•˜ì—¬ ì „í™˜ì„ ì™„ì „ížˆ ë¹„í™œì„±í™”í•˜ì‹­ì‹œì˜¤. [FAQì—ì„œ ì´ì— ëŒ€í•œ ìžì„¸í•œ ì •ë³´](faq.html#different-thumbnail-dimensions).
+ÀÛÀº ¹Ì¸®º¸±â ÀÌ¹ÌÁöÀÇ Å©±â°¡ Å« ÀÌ¹ÌÁöÀÇ Å©±â¿Í ÀÏÄ¡ÇÏÁö ¾ÊÀ¸¸é È®´ë / Ãà¼Ò ÆäÀÌµå ÀüÈ¯À» »ç¿ëÇÏ½Ê½Ã¿À. `showHideOpacity : true` ¿É¼ÇÀ» Ãß°¡ÇÏ¿©ÀÌ ÀÛ¾÷À» ¼öÇà ÇÒ ¼ö ÀÖ½À´Ï´Ù (À§ÀÇ ÄÚµå Ææ (http://codepen.io/dimsemenov/pen/ZYbPJM)¿¡ Ãß°¡ÇÏ¿© ¾î¶»°Ô º¸ÀÌ´ÂÁö Å×½ºÆ® ÇØº¸½Ê½Ã¿À). ¶Ç´Â `hideAnimationDuration : 0, showAnimationDuration : 0`À» Ãß°¡ÇÏ¿© ÀüÈ¯À» ¿ÏÀüÈ÷ ºñÈ°¼ºÈ­ÇÏ½Ê½Ã¿À. [FAQ¿¡¼­ ÀÌ¿¡ ´ëÇÑ ÀÚ¼¼ÇÑ Á¤º¸](faq.html#different-thumbnail-dimensions).
 
-ì• ë‹ˆë©”ì´ì…˜ ì¤‘ì— ìž‘ì€ ì¸ë„¤ì¼ì„ ìˆ¨ê¸°ê³  ì‹¶ë‹¤ë©´`visibility : hidden`ì´ë‚˜`display : none`ì´ ì•„ë‹ˆë¼`opacity : 0`ë¥¼ ì‚¬ìš©í•˜ì‹­ì‹œì˜¤. ì• ë‹ˆë©”ì´ì…˜ì´ ì‹œìž‘ë  ë•Œ ëž˜ì¹˜ë¥¼ í”¼í•˜ê¸° ìœ„í•´ íŽ˜ì¸íŠ¸ ë° ë ˆì´ì•„ì›ƒì„ ê°•ì œ ì‹¤í–‰í•˜ì§€ ë§ˆì‹­ì‹œì˜¤.
+¾Ö´Ï¸ÞÀÌ¼Ç Áß¿¡ ÀÛÀº ½æ³×ÀÏÀ» ¼û±â°í ½Í´Ù¸é`visibility : hidden`ÀÌ³ª`display : none`ÀÌ ¾Æ´Ï¶ó`opacity : 0`¸¦ »ç¿ëÇÏ½Ê½Ã¿À. ¾Ö´Ï¸ÞÀÌ¼ÇÀÌ ½ÃÀÛµÉ ¶§ ·¡Ä¡¸¦ ÇÇÇÏ±â À§ÇØ ÆäÀÎÆ® ¹× ·¹ÀÌ¾Æ¿ôÀ» °­Á¦ ½ÇÇàÇÏÁö ¸¶½Ê½Ã¿À.
 
 
 ### `showHideOpacity` <code class="default">boolean</code> <code class="default">false</code>
 
-`false`ë¡œ ì„¤ì •í•˜ë©´ ë°°ê²½ `opacity`ì™€ ì´ë¯¸ì§€ `scale`ì´ ì• ë‹ˆë©”ì´ì…˜ìœ¼ë¡œ í‘œì‹œë©ë‹ˆë‹¤ (ì´ë¯¸ì§€ ë¶ˆíˆ¬ëª…ë„ëŠ” í•­ìƒ 1ìž…ë‹ˆë‹¤).
-`true`ë¡œ ì„¤ì •í•˜ë©´ : `root PhotoSwipe ìš”ì†Œ`opacity`ì™€`scale` ì´ë¯¸ì§€ê°€ ì• ë‹ˆë©”ì´ì…˜ìœ¼ë¡œ ë‚˜íƒ€ë‚©ë‹ˆë‹¤.
+`false`·Î ¼³Á¤ÇÏ¸é ¹è°æ `opacity`¿Í ÀÌ¹ÌÁö `scale`ÀÌ ¾Ö´Ï¸ÞÀÌ¼ÇÀ¸·Î Ç¥½ÃµË´Ï´Ù (ÀÌ¹ÌÁö ºÒÅõ¸íµµ´Â Ç×»ó 1ÀÔ´Ï´Ù).
+`true`·Î ¼³Á¤ÇÏ¸é : `root PhotoSwipe ¿ä¼Ò`opacity`¿Í`scale` ÀÌ¹ÌÁö°¡ ¾Ö´Ï¸ÞÀÌ¼ÇÀ¸·Î ³ªÅ¸³³´Ï´Ù.
 
-`ë¶ˆíˆ¬ëª…ë„`ì „í™˜ì„ ê°€ëŠ¥í•˜ê²Œí•˜ë ¤ë©´ ( `scale`ì—†ì´), `getThumbBoundsFn` ì˜µì…˜ì„ ì •ì˜í•˜ì§€ ë§ˆì‹­ì‹œì˜¤.
+`ºÒÅõ¸íµµ`ÀüÈ¯À» °¡´ÉÇÏ°ÔÇÏ·Á¸é ( `scale`¾øÀÌ), `getThumbBoundsFn` ¿É¼ÇÀ» Á¤ÀÇÇÏÁö ¸¶½Ê½Ã¿À.
 
 ### `showAnimationDuration` <code class="default">integer</code> <code class="default">333</code>
 
-ì´ˆê¸° ì¤Œì¸ ì „í™˜ ì§€ì† ì‹œê°„ (ë°€ë¦¬ ì´ˆ). ì‚¬ìš©í•˜ì§€ ì•Šìœ¼ë ¤ë©´ '0'ìœ¼ë¡œ ì„¤ì •í•˜ì‹­ì‹œì˜¤.
-ì´ JS ì˜µì…˜ ì™¸ì—ë„ PhotoSwipe CSS íŒŒì¼ì˜ ì „í™˜ ì§€ì† ì‹œê°„ì„ ë³€ê²½í•´ì•¼í•©ë‹ˆë‹¤.
+ÃÊ±â ÁÜÀÎ ÀüÈ¯ Áö¼Ó ½Ã°£ (¹Ð¸® ÃÊ). »ç¿ëÇÏÁö ¾ÊÀ¸·Á¸é '0'À¸·Î ¼³Á¤ÇÏ½Ê½Ã¿À.
+ÀÌ JS ¿É¼Ç ¿Ü¿¡µµ PhotoSwipe CSS ÆÄÀÏÀÇ ÀüÈ¯ Áö¼Ó ½Ã°£À» º¯°æÇØ¾ßÇÕ´Ï´Ù.
 
 ```css
 .pswp--animate_opacity,
@@ -110,54 +110,54 @@ getThumbBoundsFn: function(index) {
 }
 ```
 
-Sassë¥¼ ì‚¬ìš©í•˜ëŠ” ê²½ìš° [_main-settings.scss](https://github.com/dimsemenov/PhotoSwipe/blob/master/src/css/_main-settings.scss)ì—ì„œ ì „í™˜ ê¸°ê°„ ë³€ìˆ˜ë¥¼ ë³€ê²½í•˜ê¸° ë§Œí•˜ë©´ë©ë‹ˆë‹¤.
+Sass¸¦ »ç¿ëÇÏ´Â °æ¿ì [_main-settings.scss](https://github.com/hun1451/PhotoSwipe/blob/master/src/css/_main-settings.scss)¿¡¼­ ÀüÈ¯ ±â°£ º¯¼ö¸¦ º¯°æÇÏ±â ¸¸ÇÏ¸éµË´Ï´Ù.
 
 
 ### `hideAnimationDuration` <code class="default">integer</code> <code class="default">333</code>
 
-ì•žì˜ ì˜µì…˜ê³¼ ë™ì¼í•˜ë©°, ì „í™˜ (ì¶•ì†Œ) ì „í™˜ì—ë§Œ ì‚¬ìš©ë©ë‹ˆë‹¤. PhotoSwipeê°€ ì—´ë¦¬ë©´`pswp-open` í´ëž˜ìŠ¤ê°€ ë£¨íŠ¸ ìš”ì†Œì— ì¶”ê°€ë©ë‹ˆë‹¤. CSSì—ì„œ ë‹¤ë¥¸ ì „í™˜ ê¸°ê°„ì„ ì ìš©í•˜ëŠ” ë° ì‚¬ìš©í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
+¾ÕÀÇ ¿É¼Ç°ú µ¿ÀÏÇÏ¸ç, ÀüÈ¯ (Ãà¼Ò) ÀüÈ¯¿¡¸¸ »ç¿ëµË´Ï´Ù. PhotoSwipe°¡ ¿­¸®¸é`pswp-open` Å¬·¡½º°¡ ·çÆ® ¿ä¼Ò¿¡ Ãß°¡µË´Ï´Ù. CSS¿¡¼­ ´Ù¸¥ ÀüÈ¯ ±â°£À» Àû¿ëÇÏ´Â µ¥ »ç¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù.
 
 
 ### `bgOpacity` <code class="default">number</code> <code class="default">1</code>
 
-ë°°ê²½ (`.pswp__bg`) ë¶ˆíˆ¬ëª…ë„. 0ì—ì„œ 1 ì‚¬ì´ì˜ ìˆ«ìž ì—¬ì•¼í•©ë‹ˆë‹¤ (ì˜ˆ : `0.7`. ì´ ìŠ¤íƒ€ì¼ì€ CSSë¥¼ í†µí•˜ì§€ ì•Šê³  JSë¥¼ í†µí•´ ì •ì˜ë©ë‹ˆë‹¤.ì´ ê°’ì€ ëª‡ ê°€ì§€ ì œìŠ¤ì²˜ ê¸°ë°˜ ì „í™˜ì— ì‚¬ìš©ë˜ê¸° ë•Œë¬¸ìž…ë‹ˆë‹¤.
+¹è°æ (`.pswp__bg`) ºÒÅõ¸íµµ. 0¿¡¼­ 1 »çÀÌÀÇ ¼ýÀÚ ¿©¾ßÇÕ´Ï´Ù (¿¹ : `0.7`. ÀÌ ½ºÅ¸ÀÏÀº CSS¸¦ ÅëÇÏÁö ¾Ê°í JS¸¦ ÅëÇØ Á¤ÀÇµË´Ï´Ù.ÀÌ °ªÀº ¸î °¡Áö Á¦½ºÃ³ ±â¹Ý ÀüÈ¯¿¡ »ç¿ëµÇ±â ¶§¹®ÀÔ´Ï´Ù.
 
 
 ### `spacing` <code class="default">number</code> <code class="default">0.12</code>
 
-ìŠ¬ë¼ì´ë“œ ì‚¬ì´ì˜ ê°„ê²© ë¹„ìœ¨. ì˜ˆë¥¼ ë“¤ì–´ '0.12'ëŠ” ìŠ¬ë¼ì´ë”© ë·°í¬íŠ¸ ë„ˆë¹„ì˜ 12 % (ë°˜ì˜¬ë¦¼ ë¨)ë¡œ ë Œë”ë§ë©ë‹ˆë‹¤.
+½½¶óÀÌµå »çÀÌÀÇ °£°Ý ºñÀ². ¿¹¸¦ µé¾î '0.12'´Â ½½¶óÀÌµù ºäÆ÷Æ® ³ÊºñÀÇ 12 % (¹Ý¿Ã¸² µÊ)·Î ·»´õ¸µµË´Ï´Ù.
 
 
 ### `allowPanToNext` <code class="default">boolean</code> <code class="default">true</code>
 
-í˜„ìž¬ í•­ëª©ì´ í™•ëŒ€ ëœ ê²½ìš° ë‹¤ìŒ / ì´ì „ í•­ëª©ìœ¼ë¡œ ìŠ¤ ì™€ì´í”„ íƒìƒ‰ì„ í—ˆìš©í•©ë‹ˆë‹¤. í•˜ë“œì›¨ì–´ í„°ì¹˜ê°€ ì§€ì›ë˜ì§€ ì•ŠëŠ” ê¸°ê¸°ì˜ ê²½ìš° ì˜µì…˜ì´ í•­ìƒ `ê±°ì§“`ìž…ë‹ˆë‹¤.
+ÇöÀç Ç×¸ñÀÌ È®´ë µÈ °æ¿ì ´ÙÀ½ / ÀÌÀü Ç×¸ñÀ¸·Î ½º ¿ÍÀÌÇÁ Å½»öÀ» Çã¿ëÇÕ´Ï´Ù. ÇÏµå¿þ¾î ÅÍÄ¡°¡ Áö¿øµÇÁö ¾Ê´Â ±â±âÀÇ °æ¿ì ¿É¼ÇÀÌ Ç×»ó `°ÅÁþ`ÀÔ´Ï´Ù.
 
 
 ### `maxSpreadZoom` <code class="default">number</code> <code class="default">2</code>
 
-íŽ¼ì¹˜ê¸° (í™•ëŒ€ / ì¶•ì†Œ) ë™ìž‘ì„ ìˆ˜í–‰ í•  ë•Œì˜ ìµœëŒ€ ì¤Œ ë ˆë²¨ìž…ë‹ˆë‹¤. `2`ëŠ” ì´ë¯¸ì§€ê°€ ì›ëž˜ í¬ê¸°ì˜ 2 ë°°ë¡œ í™•ëŒ€ ë  ìˆ˜ ìžˆìŒì„ ì˜ë¯¸í•©ë‹ˆë‹¤. ë„ˆë¬´ í° ì´ë¯¸ì§€ëŠ” ëª¨ë°”ì¼ (íŠ¹ížˆ iOS)ì—ì„œ ë©”ëª¨ë¦¬ ë¬¸ì œë¥¼ ì¼ìœ¼í‚¬ ìˆ˜ ìžˆìœ¼ë¯€ë¡œ í° ê°’ì€ í”¼í•´ì•¼í•©ë‹ˆë‹¤.
+ÆîÄ¡±â (È®´ë / Ãà¼Ò) µ¿ÀÛÀ» ¼öÇà ÇÒ ¶§ÀÇ ÃÖ´ë ÁÜ ·¹º§ÀÔ´Ï´Ù. `2`´Â ÀÌ¹ÌÁö°¡ ¿ø·¡ Å©±âÀÇ 2 ¹è·Î È®´ë µÉ ¼ö ÀÖÀ½À» ÀÇ¹ÌÇÕ´Ï´Ù. ³Ê¹« Å« ÀÌ¹ÌÁö´Â ¸ð¹ÙÀÏ (Æ¯È÷ iOS)¿¡¼­ ¸Þ¸ð¸® ¹®Á¦¸¦ ÀÏÀ¸Å³ ¼ö ÀÖÀ¸¹Ç·Î Å« °ªÀº ÇÇÇØ¾ßÇÕ´Ï´Ù.
 
 
 ### `getDoubleTapZoom` <code class="default">function</code>
 
-í•¨ìˆ˜ëŠ” ë‘ ë²ˆ ì‚´ì§ ëˆ„ë¥´ê±°ë‚˜ ì´ë¯¸ì§€ë¥¼ í´ë¦­í•˜ê±°ë‚˜ í™•ëŒ€ / ì¶•ì†Œ ì•„ì´ì½˜ì„ í´ë¦­í•˜ê±°ë‚˜ ì´ë¯¸ì§€ ìžì²´ë¥¼ ë§ˆìš°ìŠ¤ë¡œ í´ë¦­í•˜ë©´ ì´ë¯¸ì§€ê°€ í™•ëŒ€ë˜ëŠ” í™•ëŒ€ / ì¶•ì†Œ ìˆ˜ì¤€ì„ ë°˜í™˜í•´ì•¼í•©ë‹ˆë‹¤. `1`ì„ ë°˜í™˜í•˜ë©´ ì´ë¯¸ì§€ê°€ ì›ëž˜ í¬ê¸°ë¡œ í™•ëŒ€ë©ë‹ˆë‹¤.
+ÇÔ¼ö´Â µÎ ¹ø »ìÂ¦ ´©¸£°Å³ª ÀÌ¹ÌÁö¸¦ Å¬¸¯ÇÏ°Å³ª È®´ë / Ãà¼Ò ¾ÆÀÌÄÜÀ» Å¬¸¯ÇÏ°Å³ª ÀÌ¹ÌÁö ÀÚÃ¼¸¦ ¸¶¿ì½º·Î Å¬¸¯ÇÏ¸é ÀÌ¹ÌÁö°¡ È®´ëµÇ´Â È®´ë / Ãà¼Ò ¼öÁØÀ» ¹ÝÈ¯ÇØ¾ßÇÕ´Ï´Ù. `1`À» ¹ÝÈ¯ÇÏ¸é ÀÌ¹ÌÁö°¡ ¿ø·¡ Å©±â·Î È®´ëµË´Ï´Ù.
 
-ê¸°ë³¸ê°’:
+±âº»°ª:
 
 ```javascript
 getDoubleTapZoom: function(isMouseClick, item) {
 
-	// isMouseClick          - ë§ˆìš°ìŠ¤ ì¸ ê²½ìš°ëŠ” true, ë”ë¸” íƒ­í•˜ëŠ” ê²½ìš°ëŠ” false
-	// item                  - í™•ëŒ€ / ì¶•ì†Œ ëœ ìŠ¬ë¼ì´ë“œ ê°ì²´, ì¼ë°˜ì ìœ¼ë¡œ í˜„ìž¬
-	// item.initialZoomLevel - ì´ˆê¸° ì´ë¯¸ì§€ ë¹„ìœ¨
-	// 						   e.g. ë·°í¬íŠ¸ê°€ 700pxì´ê³  ì´ë¯¸ì§€ê°€ 1400px ì¸ ê²½ìš°,
-	// 						   		initialZoomLevelì€ 0.5ê°€ë©ë‹ˆë‹¤.
+	// isMouseClick          - ¸¶¿ì½º ÀÎ °æ¿ì´Â true, ´õºí ÅÇÇÏ´Â °æ¿ì´Â false
+	// item                  - È®´ë / Ãà¼Ò µÈ ½½¶óÀÌµå °´Ã¼, ÀÏ¹ÝÀûÀ¸·Î ÇöÀç
+	// item.initialZoomLevel - ÃÊ±â ÀÌ¹ÌÁö ºñÀ²
+	// 						   e.g. ºäÆ÷Æ®°¡ 700pxÀÌ°í ÀÌ¹ÌÁö°¡ 1400px ÀÎ °æ¿ì,
+	// 						   		initialZoomLevelÀº 0.5°¡µË´Ï´Ù.
 
 	if(isMouseClick) {
 
-		// ì´ë¯¸ì§€ë¥¼ ë§ˆìš°ìŠ¤ë¡œ í´ë¦­í•˜ê±°ë‚˜ í™•ëŒ€ / ì¶•ì†Œ ì•„ì´ì½˜ì„ í´ë¦­í•©ë‹ˆë‹¤.
+		// ÀÌ¹ÌÁö¸¦ ¸¶¿ì½º·Î Å¬¸¯ÇÏ°Å³ª È®´ë / Ãà¼Ò ¾ÆÀÌÄÜÀ» Å¬¸¯ÇÕ´Ï´Ù.
 		
-		// ì›ë³¸ìœ¼ë¡œ í™•ëŒ€
+		// ¿øº»À¸·Î È®´ë
 		return 1;
 
 		// e.g. for 1400px image:
@@ -166,70 +166,70 @@ getDoubleTapZoom: function(isMouseClick, item) {
 		
 	} else {
 
-		// ë‘ ë²ˆ ì‚´ì§ ëˆ„ë¥´ì‹­ì‹œì˜¤.
+		// µÎ ¹ø »ìÂ¦ ´©¸£½Ê½Ã¿À.
 		
-		// ì´ˆê¸° ì¤Œì´ 0.7xë³´ë‹¤ ìž‘ ìœ¼ë©´ ì›ë³¸ìœ¼ë¡œ ì¤Œ,
-		// ê·¸ë ‡ì§€ ì•Šìœ¼ë©´ 1.5xë¡œ ë‘ ë²ˆ íƒ­ ë™ìž‘ì´ í•­ìƒ ì´ë¯¸ì§€ë¥¼ í™•ëŒ€í•˜ë„ë¡í•˜ì‹­ì‹œì˜¤.
+		// ÃÊ±â ÁÜÀÌ 0.7xº¸´Ù ÀÛ À¸¸é ¿øº»À¸·Î ÁÜ,
+		// ±×·¸Áö ¾ÊÀ¸¸é 1.5x·Î µÎ ¹ø ÅÇ µ¿ÀÛÀÌ Ç×»ó ÀÌ¹ÌÁö¸¦ È®´ëÇÏµµ·ÏÇÏ½Ê½Ã¿À.
 		return item.initialZoomLevel < 0.7 ? 1 : 1.5;
 	}
 }
 ```
 
-í•¨ìˆ˜ëŠ” í™•ëŒ€ ì• ë‹ˆë©”ì´ì…˜ì´ ì‹œìž‘ë  ë•Œë§ˆë‹¤ í˜¸ì¶œë©ë‹ˆë‹¤. í¬ê¸° ë‚˜ í™”ë©´ DPIë¥¼ ê¸°ë°˜ìœ¼ë¡œ ë‹¤ë¥¸ ì´ë¯¸ì§€ì— ë‹¤ë¥¸ ê°’ì„ ë°˜í™˜ í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
+ÇÔ¼ö´Â È®´ë ¾Ö´Ï¸ÞÀÌ¼ÇÀÌ ½ÃÀÛµÉ ¶§¸¶´Ù È£ÃâµË´Ï´Ù. Å©±â ³ª È­¸é DPI¸¦ ±â¹ÝÀ¸·Î ´Ù¸¥ ÀÌ¹ÌÁö¿¡ ´Ù¸¥ °ªÀ» ¹ÝÈ¯ ÇÒ ¼ö ÀÖ½À´Ï´Ù.
 
 
 
 
 ### `loop` <code class="default">boolean</code> <code class="default">true</code>
 
-ìŠ¬ì© ì œìŠ¤ì²˜ë¥¼ ì‚¬ìš©í•  ë•Œ ìŠ¬ë¼ì´ë“œë¥¼ ë°˜ë³µí•©ë‹ˆë‹¤. `true`ë¡œ ì„¤ì •í•˜ë©´ ë§ˆì§€ë§‰ ì´ë¯¸ì§€ì—ì„œ ì²« ë²ˆì§¸ ì´ë¯¸ì§€ë¡œ ìŠ¤ ì™€ì´í”„ í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ìŠ¬ë¼ì´ë“œê°€ 3 ê°œ ë¯¸ë§Œì¸ ê²½ìš° ì˜µì…˜ì€ í•­ìƒ `false`ìž…ë‹ˆë‹¤.
+½½Â½ Á¦½ºÃ³¸¦ »ç¿ëÇÒ ¶§ ½½¶óÀÌµå¸¦ ¹Ýº¹ÇÕ´Ï´Ù. `true`·Î ¼³Á¤ÇÏ¸é ¸¶Áö¸· ÀÌ¹ÌÁö¿¡¼­ Ã¹ ¹øÂ° ÀÌ¹ÌÁö·Î ½º ¿ÍÀÌÇÁ ÇÒ ¼ö ÀÖ½À´Ï´Ù. ½½¶óÀÌµå°¡ 3 °³ ¹Ì¸¸ÀÎ °æ¿ì ¿É¼ÇÀº Ç×»ó `false`ÀÔ´Ï´Ù.
 
-ì´ ì˜µì…˜ì€ í™”ì‚´í‘œ íƒìƒ‰ê³¼ ê´€ë ¨ì´ ì—†ìŠµë‹ˆë‹¤. í™”ì‚´í‘œ ìˆœí™˜ì´ ì˜êµ¬ì ìœ¼ë¡œ ì¼œì§‘ë‹ˆë‹¤. ì‚¬ìš©ìž ì§€ì • UIë¥¼ ë§Œë“¤ì–´ì´ ë™ìž‘ì„ ìˆ˜ì •í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
+ÀÌ ¿É¼ÇÀº È­»ìÇ¥ Å½»ö°ú °ü·ÃÀÌ ¾ø½À´Ï´Ù. È­»ìÇ¥ ¼øÈ¯ÀÌ ¿µ±¸ÀûÀ¸·Î ÄÑÁý´Ï´Ù. »ç¿ëÀÚ ÁöÁ¤ UI¸¦ ¸¸µé¾îÀÌ µ¿ÀÛÀ» ¼öÁ¤ÇÒ ¼ö ÀÖ½À´Ï´Ù.
 
 
 ### `pinchToClose` <code class="default">boolean</code> <code class="default">true</code>
 
-ê°¤ëŸ¬ë¦¬ ì œìŠ¤ì²˜ë¥¼ ë‹«ê¸° ìœ„í•´ í•€ì¹˜. ì‚¬ìš©ìžê°€ ì¶•ì†Œí•˜ë©´ ê°¤ëŸ¬ë¦¬ ë°°ê²½ì´ ì ì°¨ ì‚¬ë¼ì§‘ë‹ˆë‹¤. ì œìŠ¤ì²˜ê°€ ì™„ë£Œë˜ë©´ ê°¤ëŸ¬ë¦¬ê°€ ë‹«íž™ë‹ˆë‹¤.
+°¶·¯¸® Á¦½ºÃ³¸¦ ´Ý±â À§ÇØ ÇÉÄ¡. »ç¿ëÀÚ°¡ Ãà¼ÒÇÏ¸é °¶·¯¸® ¹è°æÀÌ Á¡Â÷ »ç¶óÁý´Ï´Ù. Á¦½ºÃ³°¡ ¿Ï·áµÇ¸é °¶·¯¸®°¡ ´ÝÈü´Ï´Ù.
 
 
 ### `closeOnScroll` <code class="default">boolean</code> <code class="default">true</code>
 
-íŽ˜ì´ì§€ ìŠ¤í¬ë¡¤ì—ì„œ ê°¤ëŸ¬ë¦¬ë¥¼ ë‹«ìŠµë‹ˆë‹¤. ì˜µì…˜ì€ í•˜ë“œì›¨ì–´ í„°ì¹˜ ì§€ì› ê¸°ëŠ¥ì´ì—†ëŠ” ìž¥ì¹˜ì—ì„œë§Œ ìž‘ë™í•©ë‹ˆë‹¤.
+ÆäÀÌÁö ½ºÅ©·Ñ¿¡¼­ °¶·¯¸®¸¦ ´Ý½À´Ï´Ù. ¿É¼ÇÀº ÇÏµå¿þ¾î ÅÍÄ¡ Áö¿ø ±â´ÉÀÌ¾ø´Â ÀåÄ¡¿¡¼­¸¸ ÀÛµ¿ÇÕ´Ï´Ù.
 
 
 ### `closeOnVerticalDrag` <code class="default">boolean</code> <code class="default">true</code>
 
-ì„¸ë¡œë¡œ ë“œëž˜ê·¸í•˜ê±°ë‚˜ ì´ë¯¸ì§€ê°€ í™•ëŒ€ë˜ì§€ ì•Šì„ ë•Œ ê°¤ëŸ¬ë¦¬ë¥¼ ë‹«ìŠµë‹ˆë‹¤. ë§ˆìš°ìŠ¤ë¥¼ ì‚¬ìš©í•˜ë©´ í•­ìƒ falseìž…ë‹ˆë‹¤..
+¼¼·Î·Î µå·¡±×ÇÏ°Å³ª ÀÌ¹ÌÁö°¡ È®´ëµÇÁö ¾ÊÀ» ¶§ °¶·¯¸®¸¦ ´Ý½À´Ï´Ù. ¸¶¿ì½º¸¦ »ç¿ëÇÏ¸é Ç×»ó falseÀÔ´Ï´Ù..
  
 
 ### `mouseUsed` <code class="default">boolean</code> <code class="default">false</code>
 
-ì˜µì…˜ì„ ì‚¬ìš©í•˜ë©´ ë§ˆìš°ìŠ¤ë¥¼ ì‚¬ìš©í–ˆëŠ”ì§€ ì—¬ë¶€ë¥¼ ë¯¸ë¦¬ ì •ì˜ í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ì¼ë¶€ PhotoSwipe ê¸°ëŠ¥ì€ì´ ê¸°ëŠ¥ì— ì˜ì¡´í•©ë‹ˆë‹¤. ì˜ˆë¥¼ ë“¤ì–´ ë§ˆìš°ìŠ¤ë¥¼ ì‚¬ìš©í•œ í›„ì— ë§Œ ê¸°ë³¸ UIì˜ ì™¼ìª½ / ì˜¤ë¥¸ìª½ í™”ì‚´í‘œê°€ í‘œì‹œë©ë‹ˆë‹¤. `false`ë¡œ ì„¤ì •í•˜ë©´ ë§ˆìš°ìŠ¤ê°€ ë‹¨ë…ìœ¼ë¡œ ì‚¬ìš©ë  ë•Œ PhotoSwipeê°€ ê°ì§€ë¥¼ ì‹œìž‘í•˜ê³  ë§ˆìš°ìŠ¤ê°€ ë°œê²¬ë˜ë©´ `mouseUsed` ì´ë²¤íŠ¸ê°€ ë°œìƒí•©ë‹ˆë‹¤.
+¿É¼ÇÀ» »ç¿ëÇÏ¸é ¸¶¿ì½º¸¦ »ç¿ëÇß´ÂÁö ¿©ºÎ¸¦ ¹Ì¸® Á¤ÀÇ ÇÒ ¼ö ÀÖ½À´Ï´Ù. ÀÏºÎ PhotoSwipe ±â´ÉÀºÀÌ ±â´É¿¡ ÀÇÁ¸ÇÕ´Ï´Ù. ¿¹¸¦ µé¾î ¸¶¿ì½º¸¦ »ç¿ëÇÑ ÈÄ¿¡ ¸¸ ±âº» UIÀÇ ¿ÞÂÊ / ¿À¸¥ÂÊ È­»ìÇ¥°¡ Ç¥½ÃµË´Ï´Ù. `false`·Î ¼³Á¤ÇÏ¸é ¸¶¿ì½º°¡ ´Üµ¶À¸·Î »ç¿ëµÉ ¶§ PhotoSwipe°¡ °¨Áö¸¦ ½ÃÀÛÇÏ°í ¸¶¿ì½º°¡ ¹ß°ßµÇ¸é `mouseUsed` ÀÌº¥Æ®°¡ ¹ß»ýÇÕ´Ï´Ù.
 
 
 ### `escKey` <code class="default">boolean</code> <code class="default">true</code>
 
-`esc` í‚¤ë³´ë“œ í‚¤ë¥¼ ëˆŒëŸ¬ PhotoSwipeë¥¼ ë‹«ìŠµë‹ˆë‹¤. ì˜µì…˜ì„ ë™ì ìœ¼ë¡œ ë³€ê²½í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤ (`yourPhotoSwipeInstance.options.escKey = false;`).
+`esc` Å°º¸µå Å°¸¦ ´­·¯ PhotoSwipe¸¦ ´Ý½À´Ï´Ù. ¿É¼ÇÀ» µ¿ÀûÀ¸·Î º¯°æÇÒ ¼ö ÀÖ½À´Ï´Ù (`yourPhotoSwipeInstance.options.escKey = false;`).
 
 
 ### `arrowKeys` <code class="default">boolean</code> <code class="default">true</code>
 
-í‚¤ë³´ë“œ ì™¼ìª½ ë˜ëŠ” ì˜¤ë¥¸ìª½ í™”ì‚´í‘œ í‚¤ íƒìƒ‰. ì˜µì…˜ì„ ë™ì ìœ¼ë¡œ ë³€ê²½í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤ (`yourPhotoSwipeInstance.options.arrowKeys = false;`).
+Å°º¸µå ¿ÞÂÊ ¶Ç´Â ¿À¸¥ÂÊ È­»ìÇ¥ Å° Å½»ö. ¿É¼ÇÀ» µ¿ÀûÀ¸·Î º¯°æÇÒ ¼ö ÀÖ½À´Ï´Ù (`yourPhotoSwipeInstance.options.arrowKeys = false;`).
 
 
 ### `history` <code class="default">boolean</code> <code class="default">true</code>
 
-`false`ë¡œ ì„¤ì •í•˜ë©´ ížˆìŠ¤í† ë¦¬ ëª¨ë“ˆì„ ë¹„í™œì„±í™”í•©ë‹ˆë‹¤ (ê°¤ëŸ¬ë¦¬ë¥¼ ë‹«ìœ¼ë ¤ë©´ ë’¤ë¡œ ë²„íŠ¼, ê° ìŠ¬ë¼ì´ë“œì˜ ê³ ìœ  URL). ë¹Œë“œì—ì„œ`history.js` ëª¨ë“ˆì„ ì œì™¸ì‹œí‚¬ ìˆ˜ë„ ìžˆìŠµë‹ˆë‹¤.
+`false`·Î ¼³Á¤ÇÏ¸é È÷½ºÅä¸® ¸ðµâÀ» ºñÈ°¼ºÈ­ÇÕ´Ï´Ù (°¶·¯¸®¸¦ ´ÝÀ¸·Á¸é µÚ·Î ¹öÆ°, °¢ ½½¶óÀÌµåÀÇ °íÀ¯ URL). ºôµå¿¡¼­`history.js` ¸ðµâÀ» Á¦¿Ü½ÃÅ³ ¼öµµ ÀÖ½À´Ï´Ù.
 
 
 ### `galleryUID` <code class="default">integer</code> <code class="default">1</code>
 
-ê°¤ëŸ¬ë¦¬ ê³ ìœ  ID. URLì„ ìž‘ì„±í•  ë•Œ History ëª¨ë“ˆì—ì„œ ì‚¬ìš©ë©ë‹ˆë‹¤. ì˜ˆë¥¼ ë“¤ì–´, UID 1 ê°¤ëŸ¬ë¦¬ì˜ ë‘ ë²ˆì§¸ ê·¸ë¦¼ì€ URLì´ ìžˆìŠµë‹ˆë‹¤ : `http://example.com/#&gid=1&pid=2`.
+°¶·¯¸® °íÀ¯ ID. URLÀ» ÀÛ¼ºÇÒ ¶§ History ¸ðµâ¿¡¼­ »ç¿ëµË´Ï´Ù. ¿¹¸¦ µé¾î, UID 1 °¶·¯¸®ÀÇ µÎ ¹øÂ° ±×¸²Àº URLÀÌ ÀÖ½À´Ï´Ù : `http://example.com/#&gid=1&pid=2`.
 
 
 ### <a name="galleryPIDs"></a> `galleryPIDs` <code class="default">boolean</code> <code class="default">false</code>
 
-URLì„ ìž‘ì„±í•  ë•Œ ì‚¬ìš©ë˜ëŠ” ê° ìŠ¬ë¼ì´ë“œ ê°œì²´ì— ëŒ€í•œ ì‚¬ìš©ìž ì§€ì • IDë¥¼ ì‚¬ìš©í•©ë‹ˆë‹¤. ì˜µì…˜ ì„¸íŠ¸ê°€ `true`ë¡œ ì„¤ì •ë˜ë©´ ìŠ¬ë¼ì´ë“œ ê°ì²´ëŠ” ë¬¸ìžì—´ ë˜ëŠ” ì •ìˆ˜ê°€ ë  ìˆ˜ìžˆëŠ” `pid`(ê·¸ë¦¼ ì‹ë³„ìž) ì†ì„±ì„ ê°€ì ¸ì•¼í•©ë‹ˆë‹¤. ì˜ˆ :
+URLÀ» ÀÛ¼ºÇÒ ¶§ »ç¿ëµÇ´Â °¢ ½½¶óÀÌµå °³Ã¼¿¡ ´ëÇÑ »ç¿ëÀÚ ÁöÁ¤ ID¸¦ »ç¿ëÇÕ´Ï´Ù. ¿É¼Ç ¼¼Æ®°¡ `true`·Î ¼³Á¤µÇ¸é ½½¶óÀÌµå °´Ã¼´Â ¹®ÀÚ¿­ ¶Ç´Â Á¤¼ö°¡ µÉ ¼öÀÖ´Â `pid`(±×¸² ½Äº°ÀÚ) ¼Ó¼ºÀ» °¡Á®¾ßÇÕ´Ï´Ù. ¿¹ :
 
 ```js
 var slides = [
@@ -250,16 +250,16 @@ var slides = [
 ];
 ```
 
-... ë‘ ë²ˆì§¸ ìŠ¬ë¼ì´ë“œì—ëŠ” URLì´ ìžˆìŠµë‹ˆë‹¤.`http://example.com/#&gid=1&pid=image-two`.
+... µÎ ¹øÂ° ½½¶óÀÌµå¿¡´Â URLÀÌ ÀÖ½À´Ï´Ù.`http://example.com/#&gid=1&pid=image-two`.
 
-[FAQ ì„¹ì…˜](faq.html#custom-pid-in-url)ì—ì„œ ë§žì¶¤ PIDë¥¼ êµ¬í˜„í•˜ëŠ” ë°©ë²•ì— ëŒ€í•´ ìžì„¸ížˆ ì•Œì•„ë³´ì‹­ì‹œì˜¤.
+[FAQ ¼½¼Ç](faq.md#custom-pid-in-url)¿¡¼­ ¸ÂÃã PID¸¦ ±¸ÇöÇÏ´Â ¹æ¹ý¿¡ ´ëÇØ ÀÚ¼¼È÷ ¾Ë¾Æº¸½Ê½Ã¿À.
 
 
 ### `errorMsg` <code class="default">string</code>
 
-ì´ë¯¸ì§€ê°€ë¡œë“œë˜ì§€ ì•Šì•˜ì„ ë•Œì˜ ì˜¤ë¥˜ ë©”ì‹œì§€. `%url%`ëŠ” imageì˜ URLë¡œ ëŒ€ì²´ ë  ê²ƒìž…ë‹ˆë‹¤.
+ÀÌ¹ÌÁö°¡·ÎµåµÇÁö ¾Ê¾ÒÀ» ¶§ÀÇ ¿À·ù ¸Þ½ÃÁö. `%url%`´Â imageÀÇ URL·Î ´ëÃ¼ µÉ °ÍÀÔ´Ï´Ù.
 
-ê¸°ë³¸ê°’:
+±âº»°ª:
 
 ```html
 <div class="pswp__error-msg"><a href="%url%" target="_blank">The image</a> could not be loaded.</div>
@@ -268,21 +268,21 @@ var slides = [
 
 ### `preload` <code class="default">array</code> <code class="default">[1,1]</code>
 
-ì›€ì§ì´ëŠ” ë°©í–¥ì„ ê¸°ì¤€ìœ¼ë¡œ ì¸ê·¼ ìŠ¬ë¼ì´ë“œì˜ ì§€ì—°ë¡œë“œ ë‘ ê°œì˜ ì •ìˆ˜ê°€ìžˆëŠ” ë°°ì—´ì´ì–´ì•¼í•©ë‹ˆë‹¤. ì²« ë²ˆì§¸ëŠ” í˜„ìž¬ ì´ë¯¸ì§€ ì•žì— ë‘ ë²ˆì§¸ë¡œë¡œë“œ í•  í•­ëª©ì˜ ìˆ˜ì´ê³  ë‘ ë²ˆì§¸ ì •ìˆ˜ëŠ” í˜„ìž¬ ì´ë¯¸ì§€ ë’¤ì— ë¯¸ë¦¬ë¡œë“œ í•  í•­ëª©ì˜ ìˆ˜ìž…ë‹ˆë‹¤. ì˜ˆ : [1,3]ë¡œ ì„¤ì •í•˜ë©´ í˜„ìž¬ ì´ë¯¸ì§€ë³´ë‹¤ 1ì´ë¯¸ì§€, í˜„ìž¬ ì´ë¯¸ì§€ë³´ë‹¤ 3ì´ë¯¸ì§€ê°€ë¡œë“œë©ë‹ˆë‹¤. ê°’ì€ 1ë³´ë‹¤ ìž‘ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.
+¿òÁ÷ÀÌ´Â ¹æÇâÀ» ±âÁØÀ¸·Î ÀÎ±Ù ½½¶óÀÌµåÀÇ Áö¿¬·Îµå µÎ °³ÀÇ Á¤¼ö°¡ÀÖ´Â ¹è¿­ÀÌ¾î¾ßÇÕ´Ï´Ù. Ã¹ ¹øÂ°´Â ÇöÀç ÀÌ¹ÌÁö ¾Õ¿¡ µÎ ¹øÂ°·Î·Îµå ÇÒ Ç×¸ñÀÇ ¼öÀÌ°í µÎ ¹øÂ° Á¤¼ö´Â ÇöÀç ÀÌ¹ÌÁö µÚ¿¡ ¹Ì¸®·Îµå ÇÒ Ç×¸ñÀÇ ¼öÀÔ´Ï´Ù. ¿¹ : [1,3]·Î ¼³Á¤ÇÏ¸é ÇöÀç ÀÌ¹ÌÁöº¸´Ù 1ÀÌ¹ÌÁö, ÇöÀç ÀÌ¹ÌÁöº¸´Ù 3ÀÌ¹ÌÁö°¡·ÎµåµË´Ï´Ù. °ªÀº 1º¸´Ù ÀÛÀ» ¼ö ¾ø½À´Ï´Ù.
 
 
 ### `mainClass` <code class="default">string</code> <code class="default">undefined</code>
 
-PhotoSwipeì˜ ë£¨íŠ¸ ìš”ì†Œì— ì¶”ê°€ ë  í´ëž˜ìŠ¤ì˜ ì´ë¦„ì„ ê°€ì§„ ë¬¸ìžì—´ (`.pswp`). ê³µë°±ìœ¼ë¡œ êµ¬ë¶„ ëœ ì—¬ëŸ¬ í´ëž˜ìŠ¤ë¥¼ í¬í•¨ í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
+PhotoSwipeÀÇ ·çÆ® ¿ä¼Ò¿¡ Ãß°¡ µÉ Å¬·¡½ºÀÇ ÀÌ¸§À» °¡Áø ¹®ÀÚ¿­ (`.pswp`). °ø¹éÀ¸·Î ±¸ºÐ µÈ ¿©·¯ Å¬·¡½º¸¦ Æ÷ÇÔ ÇÒ ¼ö ÀÖ½À´Ï´Ù.
 
 
 ### `getNumItemsFn` <code class="default">function</code>
 
-ê°¤ëŸ¬ë¦¬ì—ìžˆëŠ” ì´ í•­ëª© ìˆ˜ë¥¼ ë°˜í™˜í•´ì•¼í•˜ëŠ” í•¨ìˆ˜. ê¸°ë³¸ì ìœ¼ë¡œ ìŠ¬ë¼ì´ë“œ ë°°ì—´ì˜ ê¸¸ì´ë¥¼ ë°˜í™˜í•©ë‹ˆë‹¤. ì—¬ê¸°ì— ë§¤ìš° ë³µìž¡í•œ ì½”ë“œë¥¼ ë„£ì§€ ë§ˆì‹­ì‹œì˜¤. í•¨ìˆ˜ê°€ ìžì£¼ ì‹¤í–‰ë©ë‹ˆë‹¤.
+°¶·¯¸®¿¡ÀÖ´Â ÃÑ Ç×¸ñ ¼ö¸¦ ¹ÝÈ¯ÇØ¾ßÇÏ´Â ÇÔ¼ö. ±âº»ÀûÀ¸·Î ½½¶óÀÌµå ¹è¿­ÀÇ ±æÀÌ¸¦ ¹ÝÈ¯ÇÕ´Ï´Ù. ¿©±â¿¡ ¸Å¿ì º¹ÀâÇÑ ÄÚµå¸¦ ³ÖÁö ¸¶½Ê½Ã¿À. ÇÔ¼ö°¡ ÀÚÁÖ ½ÇÇàµË´Ï´Ù.
 
 ### `focus` <code class="default">boolean</code> <code class="default">true</code>
 
-PhotoSwipe ìš”ì†Œê°€ ì—´ë¦° í›„ì— í¬ì»¤ìŠ¤ë¥¼ ì„¤ì •í•©ë‹ˆë‹¤.
+PhotoSwipe ¿ä¼Ò°¡ ¿­¸° ÈÄ¿¡ Æ÷Ä¿½º¸¦ ¼³Á¤ÇÕ´Ï´Ù.
 
 ### `isClickableElement` <code class="default">function</code>
 
@@ -294,41 +294,41 @@ isClickableElement: function(el) {
 }
 ```
 
-í•¨ìˆ˜ëŠ” ìš”ì†Œ (`el`)ë¥¼ í´ë¦­ í•  ìˆ˜ ìžˆëŠ”ì§€ í™•ì¸í•´ì•¼í•©ë‹ˆë‹¤. & ndash; PhotoSwipeëŠ”`preventDefault`ë¥¼ í˜¸ì¶œí•˜ì§€ ì•Šê³ `click` ì´ë²¤íŠ¸ê°€ í†µê³¼í•©ë‹ˆë‹¤. í•¨ìˆ˜ëŠ” ë“œëž˜ê·¸ ì‹œìž‘ ë° ë“œëž˜ê·¸ ë¦´ë¦¬ìŠ¤ì—ì„œ ì—¬ëŸ¬ ë²ˆ ì‹¤í–‰ë˜ë¯€ë¡œ ê°€ë³ê²Œ ìˆ˜í–‰ í•  ìˆ˜ ìžˆì–´ì•¼í•©ë‹ˆë‹¤.
+ÇÔ¼ö´Â ¿ä¼Ò (`el`)¸¦ Å¬¸¯ ÇÒ ¼ö ÀÖ´ÂÁö È®ÀÎÇØ¾ßÇÕ´Ï´Ù. & ndash; PhotoSwipe´Â`preventDefault`¸¦ È£ÃâÇÏÁö ¾Ê°í`click` ÀÌº¥Æ®°¡ Åë°úÇÕ´Ï´Ù. ÇÔ¼ö´Â µå·¡±× ½ÃÀÛ ¹× µå·¡±× ¸±¸®½º¿¡¼­ ¿©·¯ ¹ø ½ÇÇàµÇ¹Ç·Î °¡º±°Ô ¼öÇà ÇÒ ¼ö ÀÖ¾î¾ßÇÕ´Ï´Ù.
 
 ### `modal` <code class="default">boolean</code> <code class="default">true</code>
 
-ì „ì²´ ë·°í¬íŠ¸ë¥¼ ì°¨ì§€í•˜ê¸° ìœ„í•´ PhotoSwipeë¥¼ í™•ìž¥í•´ì•¼í•˜ëŠ”ì§€ ì—¬ë¶€ë¥¼ ì¡°ì •í•©ë‹ˆë‹¤. `false` ì¸ ê²½ìš° PhotoSwipe ìš”ì†ŒëŠ” í…œí”Œë¦¿ì˜ ìœ„ì¹˜ ì§€ì •ëœ ë¶€ëª¨ í¬ê¸°ë¥¼ ì‚¬ìš©í•©ë‹ˆë‹¤. ìžì„¸í•œ ë‚´ìš©ì€ [FAQ] (faq.html # inline-gallery)ë¥¼ ì°¸ì¡°í•˜ì‹­ì‹œì˜¤.
+ÀüÃ¼ ºäÆ÷Æ®¸¦ Â÷ÁöÇÏ±â À§ÇØ PhotoSwipe¸¦ È®ÀåÇØ¾ßÇÏ´ÂÁö ¿©ºÎ¸¦ Á¶Á¤ÇÕ´Ï´Ù. `false` ÀÎ °æ¿ì PhotoSwipe ¿ä¼Ò´Â ÅÛÇÃ¸´ÀÇ À§Ä¡ ÁöÁ¤µÈ ºÎ¸ð Å©±â¸¦ »ç¿ëÇÕ´Ï´Ù. ÀÚ¼¼ÇÑ ³»¿ëÀº [FAQ] (faq.md # inline-gallery)¸¦ ÂüÁ¶ÇÏ½Ê½Ã¿À.
 
 
-## ê¸°ë³¸ UI ì˜µì…˜
+## ±âº» UI ¿É¼Ç
 
-`PhotoSwipeUI_Default` ì˜µì…˜ (`dist/ui/photoswipe-ui-default.js`)ì€ ì½”ì–´ ì˜µì…˜ê³¼ ê°™ì€ ë°©ë²•ìœ¼ë¡œ ë™ì¼í•œ ê°ì²´ì— ì¶”ê°€ë©ë‹ˆë‹¤.
+`PhotoSwipeUI_Default` ¿É¼Ç (`dist/ui/photoswipe-ui-default.js`)Àº ÄÚ¾î ¿É¼Ç°ú °°Àº ¹æ¹ýÀ¸·Î µ¿ÀÏÇÑ °´Ã¼¿¡ Ãß°¡µË´Ï´Ù.
 
 ```javascript
-// ìœ„ìª½ ë° ì•„ëž˜ìª½ ë§‰ëŒ€ì˜ í¬ê¸° (í”½ì…€)
-// `bottom`ë§¤ê°œ ë³€ìˆ˜ëŠ” `auto`(ìº¡ì…˜ì˜ ë†’ì´ë¥¼ ê³„ì‚°í•©ë‹ˆë‹¤) ì¼ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
-// ì˜µì…˜ì€ ë§ˆìš°ìŠ¤ê°€ ì‚¬ìš©ë  ë•Œë§Œ ì ìš©ë©ë‹ˆë‹¤.
-// í™”ë©´ ë„ˆë¹„ê°€ 1200px ì´ìƒìž…ë‹ˆë‹¤.
+// À§ÂÊ ¹× ¾Æ·¡ÂÊ ¸·´ëÀÇ Å©±â (ÇÈ¼¿)
+// `bottom`¸Å°³ º¯¼ö´Â `auto`(Ä¸¼ÇÀÇ ³ôÀÌ¸¦ °è»êÇÕ´Ï´Ù) ÀÏ ¼ö ÀÖ½À´Ï´Ù.
+// ¿É¼ÇÀº ¸¶¿ì½º°¡ »ç¿ëµÉ ¶§¸¸ Àû¿ëµË´Ï´Ù.
+// È­¸é ³Êºñ°¡ 1200px ÀÌ»óÀÔ´Ï´Ù.
 //
-// (`parseVerticalMargin` ì´ë²¤íŠ¸ ì°¸ì¡°)
+// (`parseVerticalMargin` ÀÌº¥Æ® ÂüÁ¶)
 barsSize: {top:44, bottom:'auto'}, 
 
-// ë§ˆìš°ìŠ¤ê°€ 4000ms ë™ì•ˆ ì›€ì§ì´ì§€ ì•Šìœ¼ë©´ pswp__ui í´ëž˜ìŠ¤ë¥¼ pswp__ui ìš”ì†Œì— ì¶”ê°€í•©ë‹ˆë‹¤.
+// ¸¶¿ì½º°¡ 4000ms µ¿¾È ¿òÁ÷ÀÌÁö ¾ÊÀ¸¸é pswp__ui Å¬·¡½º¸¦ pswp__ui ¿ä¼Ò¿¡ Ãß°¡ÇÕ´Ï´Ù.
 timeToIdle: 4000,
 
-// ìœ„ì™€ ê°™ì§€ë§Œ ë§ˆìš°ìŠ¤ê°€ ì°½ì„ ë‚˜ê°ˆ ë•Œì´ íƒ€ì´ë¨¸ê°€ ì ìš©ë©ë‹ˆë‹¤.
+// À§¿Í °°Áö¸¸ ¸¶¿ì½º°¡ Ã¢À» ³ª°¥ ¶§ÀÌ Å¸ÀÌ¸Ó°¡ Àû¿ëµË´Ï´Ù.
 timeToIdleOutside: 1000,
 
-// ë¡œë“œ ì¸ë””ì¼€ì´í„°ê°€ í‘œì‹œ ë  ë•Œê¹Œì§€ ì§€ì—°
+// ·Îµå ÀÎµðÄÉÀÌÅÍ°¡ Ç¥½Ã µÉ ¶§±îÁö Áö¿¬
 loadingIndicatorDelay: 1000,
 
-// í•¨ìˆ˜ëŠ” ìº¡ì…˜ ë§ˆí¬ ì—…ì„ ë§Œë“­ë‹ˆë‹¤.
+// ÇÔ¼ö´Â Ä¸¼Ç ¸¶Å© ¾÷À» ¸¸µì´Ï´Ù.
 addCaptionHTMLFn: function(item, captionEl, isFake) {
-	// item      - ìŠ¬ë¼ì´ë“œ ê°œì²´
-	// captionEl - ìžë§‰ DOM ìš”ì†Œ
-	// isFake    - ê°€ì§œ ìžë§‰ ì»¨í…Œì´ë„ˆì— ë‚´ìš©ì´ ì¶”ê°€ë˜ë©´ trueìž…ë‹ˆë‹¤.
-	// 			   (ë‹¤ìŒ ë˜ëŠ” ì´ì „ ìº¡ì…˜ì˜ í¬ê¸°ë¥¼ ê°€ì ¸ ì˜¤ëŠ” ë° ì‚¬ìš©ë©ë‹ˆë‹¤.)
+	// item      - ½½¶óÀÌµå °³Ã¼
+	// captionEl - ÀÚ¸· DOM ¿ä¼Ò
+	// isFake    - °¡Â¥ ÀÚ¸· ÄÁÅ×ÀÌ³Ê¿¡ ³»¿ëÀÌ Ãß°¡µÇ¸é trueÀÔ´Ï´Ù.
+	// 			   (´ÙÀ½ ¶Ç´Â ÀÌÀü Ä¸¼ÇÀÇ Å©±â¸¦ °¡Á® ¿À´Â µ¥ »ç¿ëµË´Ï´Ù.)
 	
 	if(!item.title) {
 		captionEl.children[0].innerHTML = '';
@@ -348,31 +348,31 @@ counterEl: true,
 arrowEl: true,
 preloaderEl: true,
 
-// ê°¤ëŸ¬ë¦¬ë¥¼ ë‹«ì•„ì•¼í•˜ëŠ” ìŠ¬ë¼ì´ë”© ì˜ì—­ì„ ëˆ„ë¦…ë‹ˆë‹¤.
+// °¶·¯¸®¸¦ ´Ý¾Æ¾ßÇÏ´Â ½½¶óÀÌµù ¿µ¿ªÀ» ´©¸¨´Ï´Ù.
 tapToClose: false,
 
-// íƒ­ì€ ì»¨íŠ¸ë¡¤ì˜ ê°€ì‹œì„±ì„ ì „í™˜í•´ì•¼í•©ë‹ˆë‹¤.
+// ÅÇÀº ÄÁÆ®·ÑÀÇ °¡½Ã¼ºÀ» ÀüÈ¯ÇØ¾ßÇÕ´Ï´Ù.
 tapToToggleControls: true,
 
-// ì´ë¯¸ì§€ë¥¼ ë§ˆìš°ìŠ¤ë¡œ í´ë¦­í•˜ë©´ ê°¤ëŸ¬ë¦¬ë¥¼ ë‹«ì•„ì•¼í•©ë‹ˆë‹¤.
-// ì´ë¯¸ì§€ê°€ ë·°í¬íŠ¸ì˜ í¬ê¸°ë³´ë‹¤ ìž‘ì€ ê²½ìš°ì—ë§Œ
+// ÀÌ¹ÌÁö¸¦ ¸¶¿ì½º·Î Å¬¸¯ÇÏ¸é °¶·¯¸®¸¦ ´Ý¾Æ¾ßÇÕ´Ï´Ù.
+// ÀÌ¹ÌÁö°¡ ºäÆ÷Æ®ÀÇ Å©±âº¸´Ù ÀÛÀº °æ¿ì¿¡¸¸
 clickToCloseNonZoomable: true,
 
-// ìš”ì†Œ í´ëž˜ìŠ¤ í´ë¦­í•˜ë©´ PhotoSwipeë¥¼ ë‹«ì•„ì•¼í•©ë‹ˆë‹¤.
-// HTML ë§ˆí¬ ì—…ì—ì„œ classëŠ” í•­ìƒ `pswp__`ë¡œ ì‹œìž‘í•´ì•¼í•©ë‹ˆë‹¤ (ì˜ˆ : "pswp__item", "pswp__caption").
-// ë§ˆìš°ìŠ¤ê°€ ì´ëŸ¬í•œ ìš”ì†Œ ì¤‘ í•˜ë‚˜ ìœ„ì—ìžˆì„ ë•Œ 
-// `pswp__ui - over-close`í´ëž˜ìŠ¤ê°€ UIì˜ ë£¨íŠ¸ ìš”ì†Œì— ì¶”ê°€ë©ë‹ˆë‹¤.
-// ê¸°ë³¸ì ìœ¼ë¡œ ë‹«ê¸° ë²„íŠ¼ì„ ê°•ì¡° í‘œì‹œí•˜ëŠ” ë° ì‚¬ìš©ë©ë‹ˆë‹¤.
+// ¿ä¼Ò Å¬·¡½º Å¬¸¯ÇÏ¸é PhotoSwipe¸¦ ´Ý¾Æ¾ßÇÕ´Ï´Ù.
+// HTML ¸¶Å© ¾÷¿¡¼­ class´Â Ç×»ó `pswp__`·Î ½ÃÀÛÇØ¾ßÇÕ´Ï´Ù (¿¹ : "pswp__item", "pswp__caption").
+// ¸¶¿ì½º°¡ ÀÌ·¯ÇÑ ¿ä¼Ò Áß ÇÏ³ª À§¿¡ÀÖÀ» ¶§ 
+// `pswp__ui - over-close`Å¬·¡½º°¡ UIÀÇ ·çÆ® ¿ä¼Ò¿¡ Ãß°¡µË´Ï´Ù.
+// ±âº»ÀûÀ¸·Î ´Ý±â ¹öÆ°À» °­Á¶ Ç¥½ÃÇÏ´Â µ¥ »ç¿ëµË´Ï´Ù.
 closeElClasses: ['item', 'caption', 'zoom-wrap', 'ui', 'top-bar'], 
 
-//"1 of X"ì¹´ìš´í„° ìš© êµ¬ë¶„ ê¸°í˜¸
+//"1 of X"Ä«¿îÅÍ ¿ë ±¸ºÐ ±âÈ£
 indexIndicatorSep: ' / ',
 
 
 {% raw %}
-// ê³µìœ  ë²„íŠ¼
+// °øÀ¯ ¹öÆ°
 //
-// URLì— ì‚¬ìš©í•  ìˆ˜ìžˆëŠ” ë³€ìˆ˜ :
+// URL¿¡ »ç¿ëÇÒ ¼öÀÖ´Â º¯¼ö :
 // {{url}}             - url to current page
 // {{text}}            - title
 // {{image_url}}       - encoded image url
@@ -385,15 +385,15 @@ shareButtons: [
 ],
 {% endraw %}
 
-// ë‹¤ìŒ ì„¸ í•¨ìˆ˜ëŠ” ê³µìœ  ë§í¬ì— ëŒ€í•œ ë°ì´í„°ë¥¼ ë°˜í™˜í•©ë‹ˆë‹¤.
+// ´ÙÀ½ ¼¼ ÇÔ¼ö´Â °øÀ¯ ¸µÅ©¿¡ ´ëÇÑ µ¥ÀÌÅÍ¸¦ ¹ÝÈ¯ÇÕ´Ï´Ù.
 //
-// ê³µìœ  ëª¨ë‹¬ì„ ì—¬ëŠ” ë²„íŠ¼ì„ í´ë¦­í•˜ë©´ í•¨ìˆ˜ê°€ ì‹¤í–‰ë©ë‹ˆë‹¤.
-// ë°ì´í„°ê°€ í˜„ìž¬ (í™œì„±) ìŠ¬ë¼ì´ë“œì— ìžˆì–´ì•¼ í•¨ì„ ì˜ë¯¸í•©ë‹ˆë‹¤.
+// °øÀ¯ ¸ð´ÞÀ» ¿©´Â ¹öÆ°À» Å¬¸¯ÇÏ¸é ÇÔ¼ö°¡ ½ÇÇàµË´Ï´Ù.
+// µ¥ÀÌÅÍ°¡ ÇöÀç (È°¼º) ½½¶óÀÌµå¿¡ ÀÖ¾î¾ß ÇÔÀ» ÀÇ¹ÌÇÕ´Ï´Ù.
 getImageURLForShare: function( shareButtonData ) {
-	//`shareButtonData` - shareButtons ë°°ì—´ì˜ ê°ì²´
+	//`shareButtonData` - shareButtons ¹è¿­ÀÇ °´Ã¼
 	//
-	//`pswp`ëŠ” ê°¤ëŸ¬ë¦¬ ì¸ìŠ¤í„´ìŠ¤ ê°ì²´ìž…ë‹ˆë‹¤.
-	// ì§ì ‘ ì •ì˜í•´ì•¼í•©ë‹ˆë‹¤.
+	//`pswp`´Â °¶·¯¸® ÀÎ½ºÅÏ½º °´Ã¼ÀÔ´Ï´Ù.
+	// Á÷Á¢ Á¤ÀÇÇØ¾ßÇÕ´Ï´Ù.
 	// 
 	return pswp.currItem.src || '';
 },
@@ -404,7 +404,7 @@ getTextForShare: function( shareButtonData ) {
 	return pswp.currItem.title || '';
 },
 
-// ê³µìœ  ë§í¬ ì¶œë ¥ ë¶„ì„
+// °øÀ¯ ¸µÅ© Ãâ·Â ºÐ¼®
 parseShareButtonOut: function(shareButtonData, shareButtonOut) {
 	// `shareButtonData` - object from shareButtons array
 	// `shareButtonOut` - raw string of share link element
@@ -412,7 +412,7 @@ parseShareButtonOut: function(shareButtonData, shareButtonOut) {
 }
 ```
 
-Know how this page can be improved? Found a typo? [Suggest an edit!](https://github.com/dimsemenov/PhotoSwipe/blob/master/website/documentation/responsive-images.md)
+Know how this page can be improved? Found a typo? [Suggest an edit!](https://github.com/hun1451/PhotoSwipe/blob/master/website/documentation/responsive-images.md)
 
 <iframe src="http://ghbtns.com/github-btn.html?user=dimsemenov&amp;repo=photoswipe&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="155" height="30" style=""></iframe>
 

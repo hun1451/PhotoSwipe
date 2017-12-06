@@ -138,4 +138,4 @@ gallery.init();
 
 
 이 가이드를 개선할 수 있는 방법을 알고 계십니까? 
-[편집을 제안합니다!](https://github.com/dimsemenov/PhotoSwipe/blob/master/website/documentation/responsive-images.md)
+[편집을 제안합니다!](https://github.com/hun1451/PhotoSwipe/blob/master/website/documentation/responsive-images.md)
