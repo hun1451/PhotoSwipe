@@ -84,24 +84,24 @@
 <br>
 
 - `반응형 이미지` 설명서 작성. > [이동](http://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/responsive-images.md).
--  PhotoSwipe에서 반응하는 이미지를 어떻게 제공하는지 작성
-- "매체" 이미지와 "원본"이미지 있다는 가정하에 반응이미지 제공 과정 작성
-- 소스 코드에 대한 주석문 작성
-- 사용시 유의점 작성
+ -  PhotoSwipe에서 반응하는 이미지를 어떻게 제공하는지 작성
+ - "매체" 이미지와 "원본"이미지 있다는 가정하에 반응이미지 제공 과정 작성
+ - 소스 코드에 대한 주석문 작성
+ - 사용시 유의점 작성
 <br>
 
 - 이미지 갤러리`SEO` 설명서 작성. > [이동](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/seo.md).
-- 자바스크립트 이미지 갤러리에 대한 이상적인 HTML마크업 언어와의 관계 작성
-- ex)가장 간단한 이미지로 연결되는 미리보기 목록 코드 작성
-- <figure>과 <figcaption> 사용하는 경우, 코드 작성
-- `ImagePalleryforImaging` 및 `ImageObject` 및 `ImageObject` 사용가능과 관련 코드 작성. > [이동](http://schema.org/ImageGallery).
-- `Schema.org markup`를 사용해야 하는 경우 예시를 들어서 작성
-- 추가 권장 사항 작성
+ - 자바스크립트 이미지 갤러리에 대한 이상적인 HTML마크업 언어와의 관계 작성
+ - ex)가장 간단한 이미지로 연결되는 미리보기 목록 코드 작성
+ - <figure>과 <figcaption> 사용하는 경우, 코드 작성
+ - `ImagePalleryforImaging` 및 `ImageObject` 및 `ImageObject` 사용가능과 관련 코드 작성. > [이동](http://schema.org/ImageGallery).
+ - `Schema.org markup`를 사용해야 하는 경우 예시를 들어서 작성
+ - 추가 권장 사항 작성
 <br>
 
 - `업데이트 사항` 번역  .> [이동](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/updates.md).
-- PhotoSwipe 갤러리 최신 상태로 유지하는 방법 작성
-- 알림 업데이트 URL 및 설정 작성
+ - PhotoSwipe 갤러리 최신 상태로 유지하는 방법 작성
+ - 알림 업데이트 URL 및 설정 작성
 <br>
 
 ------------
