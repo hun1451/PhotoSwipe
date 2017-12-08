@@ -3,225 +3,167 @@
 	<link rel="stylesheet" href="site-assets/photoswipe.css">
 </head>
 	<div class="section section--head">
-
 	    <div class="row row--heading">
-			<h1>PhotoSwipe<a href="https://github.com/dimsemenov/PhotoSwipe/releases"> v4.1.2</a></h1>
+			<h1>PhotoSwipe Demo Page</h1>
 			<p>JavaScript gallery, no dependencies.</p>
+			<div class="right">
+				<p >Open Source Software</p>
+				<p >전영욱 / 김희환 / 한상원</p>
+			</div>
 	    </div>
-
-	    
-
 	    <div class="row">
 	      <div id="demo-test-gallery" class="demo-gallery">
-
-	        <a href="https://farm4.staticflickr.com/3894/15008518202_c265dfa55f_h.jpg" data-size="1600x1600" data-med="https://farm4.staticflickr.com/3894/15008518202_b016d7d289_b.jpg" data-med-size="1024x1024" data-author="Folkert Gorter" class="demo-gallery__img--main">
-	          <img src="https://farm4.staticflickr.com/3894/15008518202_b016d7d289_m.jpg" alt="" />
-	          <figure>This is dummy caption.</figure>
+	        <a href="img/dummy01.jpg" data-size="3000x2226" data-med="img/dummy01.jpg" data-med-size="3000x2226" data-author="Folkert Gorter" class="demo-gallery__img--main">
+	          <img src="img/dummy01_m.jpg" alt="" />
+	          <figure>이것은 더미 캡션입니다.</figure>
 	        </a>
-
-	        <a href="https://farm6.staticflickr.com/5591/15008867125_b61960af01_h.jpg" data-size="1600x1068" data-med="https://farm6.staticflickr.com/5591/15008867125_68a8ed88cc_b.jpg" data-med-size="1024x683" data-author="Samuel Rohl">
-	          <img src="https://farm6.staticflickr.com/5591/15008867125_68a8ed88cc_m.jpg" alt="" />
-	          <figure>This is dummy caption. It has been placed here solely to demonstrate the look and feel of finished, typeset text.</figure>
+	        <a href="img/dummy02.jpg" data-size="4256x2832" data-med="img/dummy02.jpg" data-med-size="4256x2832" data-author="Kim Heehwan">
+	          <img src="img/dummy02_m.jpg" alt="" />
+	          <figure>이것은 더미 캡션입니다. 완성 된 typeset 텍스트의 모양과 느낌을 보여주기 위해 여기에 배치되었습니다.</figure>
 	        </a>
-
-
-	        <a href="https://farm4.staticflickr.com/3902/14985871946_24f47d4b53_h.jpg" data-size="1600x1067" data-med="https://farm4.staticflickr.com/3902/14985871946_86abb8c56f_b.jpg" data-med-size="1024x683" data-author="Ales Krivec">
-	          <img src="https://farm4.staticflickr.com/3902/14985871946_86abb8c56f_m.jpg" alt="" />
-	          <figure>This is dummy caption. It is not meant to be read.</figure>
+	        <a href="img/dummy03.jpg" data-size="4162x2770" data-med="img/dummy03.jpg" data-med-size="4162x2770" data-author="heehwan">
+	          <img src="img/dummy03_m.jpg" alt="" />
+	          <figure>이것은 더미 캡션입니다. 완성 된 typeset 텍스트의 모양과 느낌을 보여주기 위해 여기에 배치되었습니다.</figure>
 	        </a>
-
-
-	        <a href="https://farm6.staticflickr.com/5584/14985868676_b51baa4071_h.jpg" data-size="1600x1067" data-med="https://farm6.staticflickr.com/5584/14985868676_4b802b932a_b.jpg" data-med-size="1024x683" data-author="Michael Hull">
-	          <img src="https://farm6.staticflickr.com/5584/14985868676_4b802b932a_m.jpg" alt="" />
-	          <figure>Dummy caption. It's Greek to you. Unless, of course, you're Greek, in which case, it really makes no sense.</figure>
+ 			<a href="img/dummy04.jpg" data-size="1500x994" data-med="img/dummy04.jpg" data-med-size="1500x994" data-author="young wook">
+	          <img src="img/dummy04_m.jpg" alt="" />
+	          <figure>이것은 더미 캡션입니다. 완성 된 typeset 텍스트의 모양과 느낌을 보여주기 위해 여기에 배치되었습니다.</figure>
 	        </a>
-
-	        <a href="https://farm4.staticflickr.com/3920/15008465772_d50c8f0531_h.jpg" data-size="1600x1067" data-med="https://farm4.staticflickr.com/3920/15008465772_383e697089_b.jpg" data-med-size="1024x683" data-author="Thomas Lefebvre">
-	          <img src="https://farm4.staticflickr.com/3920/15008465772_383e697089_m.jpg" alt="" />
-	          <figure>It's a dummy caption. He who searches for meaning here will be sorely disappointed.</figure>
+ 			<a href="img/dummy05.jpg" data-size="2000x1327" data-med="img/dummy05.jpg" data-med-size="2000x1327" data-author="sang won">
+	          <img src="img/dummy05_m.jpg" alt="" />
+	          <figure>이것은 더미 캡션입니다. 완성 된 typeset 텍스트의 모양과 느낌을 보여주기 위해 여기에 배치되었습니다.</figure>
 	        </a>
-
-
-
 	      </div>
-	      <!-- <figure class="demo-gallery__title">Demo gallery &middot; 5 photos</figure> -->
-
 	      <div class="style-select">
-	        	<p style="margin:24px 0 12px;color:#444;">Demo gallery style</p>
-
+	        	<p style="margin:24px 0 12px;color:#444;">데모 갤러리 스타일</p>
 				<div class="radio">
 		        	<input type="radio" name="gallery-style" value="all" id="radio-all-controls" checked />
 		        	<label for="radio-all-controls">
-			          	
 			          	All controls<br/>
-			         	<span>caption, share and fullscreen buttons, tap to toggle controls</span>
+			         	<span>캡션, 공유 및 전체 화면 버튼, 탭하여 컨트롤 전환</span>
 		        	</label>
 	        	</div>
-
 				<div class="radio">
 					<input type="radio" name="gallery-style" value="minimal" id="radio-minimal-black" />
 		        	<label for="radio-minimal-black">
-						
 		          		Minimal<br/>
-		          		<span>no caption, transparent background, tap to close</span>
+		          		<span>캡션 없음, 투명한 배경, 탭하여 닫음</span>
 		          	</label>
 	          	</div>
-
 	      </div> 
-
-	     
-
 	    </div>
-
 	</div>
-
 	<div class="navigation">
-		<div class="row row--nav"><a href="documentation/getting-started.html">Documentation</a> &middot; <a href="https://github.com/dimsemenov/photoswipe">GitHub</a> &middot; <a class="twitter-nav-link" href="http://twitter.com/photoswipe"><span>Twitter</span></a></div> 
+		<div class="row row--nav"><a href="documentation/getting-started.html">문서</a> &middot; <a href="https://github.com/dimsemenov/photoswipe">GitHub</a> &middot; <a href="https://github.com/hun1451/photoswipe"><span>GiHub 한글</span></a></div> 
 	</div>
-
   	<div class="section section--first">
-
-  	 	
-
 		<div class="row title-block">
-			<h2>Touch gestures</h2>
-			<p>All basic gestures are supported: flick to the next or previous image, spread to zoom in, drag to pan, pinch to zoom out or close, tap to toggle the controls, double-tap to zoom.*</p>
+			<h2>터치 제스처</h2>
+			<p>모든 기본 제스처가 지원됩니다. 다음 또는 이전 이미지로 가볍게 치고, 확대하려면 펼치고, 팬으로 드래그하고, 축소 또는 닫기 위해 집기를 누르고, 컨트롤을 전환하려면 톡 누르거나 확대 / 축소하려면 두 번 살짝 누르십시오.*</p>
 		</div>
-
 		<div class="row row--wide">
-
 			<div class="col-50">
 				<img class="col-img" src="test/spread.jpg">
 				<figure class="img-desc">
-					<h3>Spread to zoom image</h3>
-					<p>PhotoSwipe is the first open-source gallery to support JavaScript-based image zooming. Even if a browser’s native zooming has been disabled, image zooming will still work.</p>
+					<h3>펼쳐 이미지 확대</h3>
+					<p>PhotoSwipe는 JavaScript 기반 이미지 확대 / 축소를 지원하는 최초의 오픈 소스 갤러리입니다. 브라우저의 기본 확대 / 축소가 비활성화 된 경우에도 이미지 확대 / 축소가 여전히 작동합니다.</p>
 				</figure>
 			</div>
-
 			<div class="col-50">
 				<img class="col-img" src="test/pinch.jpg">
 				<figure class="img-desc">
-					<h3>Pinch to close gallery</h3>
-					<p>The gallery’s background will gradually fade out as the user zooms out. When the gesture is complete, the gallery will close.</p>
+					<h3>갤러리를 닫기 위해 핀치</h3>
+					<p>사용자가 축소하면 갤러리 배경이 점차 사라집니다. 제스처가 완료되면 갤러리가 닫힙니다.</p>
 				</figure>
 			</div>
-
 		</div>
-
-
 		<div class="row row--wide">
-
 			<div class="col-50">
 				<img class="col-img" src="test/vertical-swipe.jpg">
 				<figure class="img-desc">
-					<h3>Vertical swipe to close gallery</h3>
-					<p>Gesture is added because close button in top right corner might be hard to reach on tall mobile devices while holding in one hand.</p>
+					<h3>갤러리를 닫으려면 세로 스와이프</h3>
+					<p>한 손으로 잡고있는 동안 오른쪽 상단의 닫기 버튼이 키가 큰 휴대 기기에 닿기 어려울 수 있기 때문에 제스처가 추가되었습니다.</p>
 				</figure>
 			</div>
-
 			<div class="col-50">
 				<img class="col-img" src="test/horizontal-swipe.jpg">
 				<figure class="img-desc">
-					<h3>Horizontal swipe to switch items</h3>
-					<p>Images can be changed even when current slide is zoomed. Swiping is not blocked during the transition.</p>
+					<h3>항목을 전환하는 가로 스와이프</h3>
+					<p>현재 슬라이드가 확대 된 경우에도 이미지를 변경할 수 있습니다. 스 와이프는 전환 중에 차단되지 않습니다.</p>
 				</figure>
 			</div>
-
 		</div>
-
-
-
 		<div class="row">
-			<p>*You can assign your own actions for tap and double-tap gestures.</p>
+			<p>*탭 및 더블 탭 제스처에 대한 고유 한 동작을 지정할 수 있습니다.</p>
 		</div>
-
     </div>
-
-    
-
     <div class="section">
-
 		<div class="row title-block">
-			<h2>Browser history API</h2>
-			<p>PhotoSwipe manipulates the browser’s history so that the user can link to each gallery item and close the gallery via the “back” button. The initial URL is restored when the gallery is closed.</p>
+			<h2>브라우저 기록 API</h2>
+			<p>PhotoSwipe는 사용자가 각 갤러리 항목에 연결하고 "뒤로"버튼을 통해 갤러리를 닫을 수 있도록 브라우저의 기록을 조작합니다. 갤러리가 닫히면 초기 URL이 복원됩니다.</p>
 		</div>
-
 		<div class="row">
 			<img src="test/history.png">
 		</div>
-
 		<div class="row row--history">
 			<figure class="col-50 history-text-left">
-				<h3 style="font-wight:bold;border-left:5px solid #b9bfe8;padding-left:5px;margin-left:-10px;">“Back” button to close gallery</h3>
-				<p>PhotoSwipe adds a history record when the gallery is opened, which allows the user to close it via the browser’s “back” button.</p>
+				<h3 style="font-wight:bold;border-left:5px solid #b9bfe8;padding-left:5px;margin-left:-10px;">갤러리를 닫으려면 "뒤로"버튼을 누르십시오.</h3>
+				<p>PhotoSwipe는 갤러리를 열 때 사용자가 브라우저의 "뒤로"버튼을 사용하여 닫을 수 있도록 기록 레코드를 추가합니다.</p>
 			</figure>
 			<figure class="col-50 history-text-right">
-				<h3 style="border-left: 5px solid #fcf5a3;padding-left:5px;margin-left:-10px;">Unique URL for each gallery item</h3>
-				<p>Users can share and link to each image. The hash suffix gets two extra parameters: <code>gid</code> (the gallery index) and <code>pid</code> (the picture index).</p>
+				<h3 style="border-left: 5px solid #fcf5a3;padding-left:5px;margin-left:-10px;">각 갤러리 항목의 고유 한 URL</h3>
+				<p>사용자는 각 이미지를 공유하고 연결할 수 있습니다. 해시 접미사에는 두 개의 추가 매개 변수 인 <code>gid</code>(갤러리 색인)와 <code>pid</code>(그림 색인)가 있습니다.</p>
 			</figure>
 		</div>
-
 		<div class="row">
-			<p>This feature comes as a module. You can exclude it from the build entirely, or fork it to fit the requirements of your product’s URL structure.</p>
+			<p>이 기능은 모듈로 제공됩니다. 빌드에서 완전히 제외하거나 제품 URL 구조의 요구 사항에 맞게 포크 할 수 있습니다.</p>
 		</div>
-       
     </div>
-
-
-
-
     <div class="section">
-
 		<div class="row title-block">
-			<h2>Loading and displaying images</h2>
-			<p>PhotoSwipe creates the illusion of faster loading.</p>
+			<h2>이미지로드 및 표시</h2>
+			<p>PhotoSwipe는 빠른 로딩의 환상을 만듭니다.</p>
 		</div>
-
 		<div class="row">
 	        <div class="col-50">
-				<h3>Images display progressively as data arrives</h3>
-				<p>Photos are displayed before they fully load. This feature is disabled on touch devices because it could cause swipe transitions to lag.</p>
+				<h3>데이터가 도착하면 이미지가 점진적으로 표시됩니다.</h3>
+				<p>사진이 완전히로드되기 전에 사진이 표시됩니다. 스 와이프 전환이 지연 될 수 있으므로 터치 장치에서는이 기능을 사용할 수 없습니다.</p>
 	        </div>
 	        <div class="col-50">
-				<h3>Low-resolution images are instantly displayed and then stretched to full size</h3>
-				<p>Pass the source of a thumbnail to PhotoSwipe, which will display it instantly and load the full-sized image over top.</p>
+				<h3>저해상도 이미지를 즉시 표시 한 다음 풀 사이즈로 확대합니다.</h3>
+				<p>미리보기의 소스를 PhotoSwipe에 전달하면 즉시 표시되고 전체 크기의 이미지가 위에로드됩니다.</p>
 	        </div>
 	    </div>
-
 		<div class="row">
 			<div class="col-50">
-				<h3>Smart loading indicator</h3>
-				<p>Just a stretched thumbnail or gray placeholder is used, with the full image progressively loaded over top.</p>
-				<p style="padding-left:60px;background:url(test/luke45.png) 0 0 no-repeat;"><a href="http://www.lukew.com/ff/entry.asp?1797">Luke Wroblewski on spinners</a>:<br>
-				“It’s like watching the clock tick down&mdash;when you do, time seems to go slower.”
+				<h3>스마트 로딩 인디케이터</h3>
+				<p>전체 이미지가 점진적으로 맨 위에로드 된 썸네일 또는 회색 자리 표시 자만 사용됩니다.</p>
+				<p style="padding-left:60px;background:url(test/luke45.png) 0 0 no-repeat;"><a href="http://www.lukew.com/ff/entry.asp?1797">스피너의 Luke Wroblewski</a>:<br>
+				"시간을 지켜 보는 것과 같습니다. 시간이 지나면 시간이 느려집니다."
 				</p>
-				<p>If at least a tiny part of the image has not loaded for 1 second or a browser does not support progressive loading, a spinning progress indicator smoothly fades in. A delay is added to avoid blinking in case the image was cached or the user has a fast connection.</p>
+				<p>이미지의 최소한의 부분이 1 초 동안로드되지 않거나 브라우저가 점진적로드를 지원하지 않는 경우 회전 진행 표시기가 부드럽게 점멸합니다. 이미지가 캐싱되거나 사용자가 빠른게 연결.</p>
 			</div>
 			<div class="col-50">
-				<h3>Zoom animation</h3>
-				<p>The zoom transition to open the gallery wasn’t added merely for a fancy effect. The image starts loading before the animation, so users on fast connections might not even notice that something was loading.</p>
+				<h3>줌 애니메이션</h3>
+				<p>갤러리를 여는 줌 전환은 단순한 멋진 효과에 추가되지 않았습니다. 애니메이션이 시작되기 전에 이미지가로드되기 시작하므로 빠른 연결을 사용하는 사용자는로드 중임을 알지 못할 수도 있습니다.</p>
 			</div>
 		</div>
-
-
 		<div class="row">
 			<div class="col-50">
-				<h3>Smart lazy-loading</h3>
-				<p>PhotoSwipe loads neighboring images based on the direction of the user’s movement. You can control how many images to preload through the API.</p>
+				<h3>똑똑한 Lazy-Loading</h3>
+				<p>PhotoSwipe는 사용자의 이동 방향에 따라 인접한 이미지를로드합니다. API를 통해 사전로드 할 이미지 수를 제어 할 수 있습니다.</p>
 			</div>
 			<div class="col-50">
-				<h3>Responsive images support</h3>
-				<p>Because images in a gallery are loaded dynamically, you can pass the source that is appropriate to the user’s window size and DPI.<br><a href="http://photoswipe.com/documentation/responsive-images.html">More about responsive images &rarr;</a></p>
+				<h3>반응 형 이미지 지원</h3>
+				<p>갤러리의 이미지가 동적으로로드되기 때문에 사용자의 창 크기 및 DPI에 적합한 소스를 전달할 수 있습니다.<br><a href="documentation/responsive-images.html">반응 형 이미지에 대한 추가 정보 &rarr;</a></p>
 			</div>
 		</div>
-
 		<div class="row">
 			<div class="col-50">
-				<h3>Semantic and SEO friendly markup</h3>
-				<p>PhotoSwipe allows to define absolutely any HTML text for gallery. You can use Schema.org structured data markup for ImageGallery.<br><a href="http://photoswipe.com/documentation/seo.html">More about search-optimized gallery &rarr;</a></p>
+				<h3>시맨틱 및 SEO 친숙한 마크 업</h3>
+				<p>PhotoSwipe는 갤러리 용 HTML 텍스트를 절대적으로 정의 할 수 있습니다. ImageGallery에 Schema.org 구조화 된 데이터 마크 업을 사용할 수 있습니다.<br><a href="documentation/seo.html">검색 최적화 갤러리에 대해 자세히 알아보기 &rarr;</a></p>
 			</div>
 		</div>
-
 		<!-- 
 		// TOOD: make a video
 		<div class="row row--wide row--video">
@@ -232,131 +174,102 @@
 				<p class="video-desc">In this video, a thumbnail that is 80 pixels wide is stretched to a viewport of about 800 pixels. If you increased the size of the thumbnail to, say, 160 pixels, the initial image would look much less blurry.<br>A connection speed of 720 Kbps is emulated.</p>
 			</div>
 		</div> -->
-
     </div>
-
-
 	<div class="section">
 		<div class="row title-block">
-			<h2>Zoom on the desktop, too</h2>
-			<p>PhotoSwipe emulates the default behavior of the browser’s image viewer.</p>
+			<h2>바탕 화면 확대</h2>
+			<p>PhotoSwipe는 브라우저의 이미지 뷰어의 기본 동작을 에뮬레이션합니다.</p>
 		</div>
 		<div class="row">
 			<div class="col-50">
-				<h3>Click to zoom image</h3>
-				<p>If an image is smaller than the viewport, PhotoSwipe will show a zoom cursor over the image and zoom icon in the top bar.</p>
+				<h3>이미지를 확대하려면 클릭하십시오.</h3>
+				<p>이미지가 뷰포트보다 작 으면 PhotoSwipe는 이미지 위로 줌 커서를 표시하고 위쪽 막대의 확대 / 축소 아이콘을 표시합니다.</p>
 			</div>
 			<div class="col-50">
-				<h3>Pan via the wheel or <span class="highlight">trackpad</span> or by dragging</h3>
-				<p>When an image is zoomed in, the user can pan across it via the mouse wheel or the trackpad or by dragging it. And if you need to extend this functionality, you can use the API, of course.</p>
+				<h3>휠 또는<span class="highlight">트랙 패드</span> 또는 드래그하여</h3>
+				<p>이미지가 확대되면 마우스 휠이나 트랙 패드를 통해 이미지를 이동하거나 드래그하여 이미지를 확대 / 축소 할 수 있습니다. 물론이 기능을 확장해야한다면 API를 사용할 수 있습니다.</p>
 			</div>
 		</div>
 	</div>
-
-
-    
-
-
     <div class="section">
-
 		<div class="row title-block">
-			<h2>User interface</h2>
-			<p>The UI is entirely separated from the core of the script. If you’re making a custom interface for a gallery, you would write it <span class="highlight">instead of the default interface, not on top of it</span>. Default PhotoSwipe UI is responsive &ndash; optimized for desktop, tablets and mobile devices.</p>
+			<h2>사용자 인터페이스</h2>
+			<p>UI는 스크립트 코어와 완전히 분리되어 있습니다. 갤러리에 대한 사용자 인터페이스를 만들고 있다면 그것을 쓸 것입니다.<span class="highlight">기본 인터페이스가 아닌 기본 인터페이스</span>를 사용하십시오. 기본 PhotoSwipe UI가 반응적입니다. 데스크톱, 태블릿 및 휴대 기기에 최적화되어 있습니다.</p>
 		</div>
-
 	    <div class="row row--wide">
 	        <div class="col-50">
 				<img class="col-img" src="test/high-dpi-icons.png">
 				<figure class="img-desc">
-					<h3>Pixel-perfect vector icons</h3>
-					<p>SVG sprites are used for high-DPI screens, like Retina displays. PNG is used for regular (<code>@1x</code>) displays.</p>
+					<h3>완벽한 픽셀 벡터 아이콘</h3>
+					<p>SVG 스프라이트는 Retina 디스플레이와 같이 높은 DPI 스크린에 사용됩니다. PNG는 일반용으로 사용됩니다.(<code>@1x</code>)</p>
 				</figure>
 	        </div>
 	        <div class="col-50">
 				<img class="col-img" src="test/share.png">
 				<figure class="img-desc">
-					<h3>Social sharing</h3>
-					<p>The default UI has a button that pops open a window with sharing links. The default links are for Facebook, Twitter and Pinterest, but you can, of course, add more via the API.</p>
+					<h3>소셜 공유</h3>
+					<p>기본 UI에는 공유 링크가있는 창이 열리는 버튼이 있습니다. 기본 링크는 Facebook, Twitter 및 Pinterest 용이지만, 물론 API를 통해 더 많이 추가 할 수 있습니다.</p>
 				</figure>
 	        </div>
 	    </div>
-
 		<div class="row row--wide">
 			<div class="col-50">
 				<img class="col-img" src="test/fullscreen-laptop.jpg">
 				<figure class="img-desc">
-					<h3>Native HTML5 full-screen</h3>
-					<p>A full-screen image-viewing experience is supported, including on mobile devices with native full-screen support.</p>
+					<h3>기본 HTML5 전체 화면</h3>
+					<p> 완전한 전체 화면을 지원하는 모바일 장치를 포함하여 전체 화면 이미지보기 환경이 지원됩니다.</p>
 				</figure>
 			</div>
 			<div class="col-50">
 				<img class="col-img" src="test/keyboard.jpg">
 				<figure class="img-desc">
-					<h3>Keyboard access</h3>
-					<p>Galleries can be navigated via the arrow keys and closed via the “Escape” key. The controls (including the sharing buttons) can be focused on with the “Tab” button.</p>
+					<h3>키보드 액세스</h3>
+					<p>갤러리는 화살표 키를 사용하여 탐색 할 수 있으며 "이스케이프"키를 통해 닫을 수 있습니다. 컨트롤 (공유 버튼 포함)은 "탭"버튼으로 초점을 맞출 수 있습니다.</p>
 				</figure>
 			</div>
 		</div>
-
       	<div class="row">
-			<h3>Also</h3>
-			<p>To draw the most attention to the photos, <span class="highlight">controls are hidden when the mouse hasn’t moved</span> for 2 seconds or when the mouse moves off the window.</p>
-			<p>PhotoSwipe <span class="highlight">can be closed simply by scrolling the page</span> (on non-touch devices), thus avoiding any extra movement of the mouse.</p>
-			<p>The background can be set to any color and transparency level.</p>
-			<p>The vertical margins between images can be controlled through an API.</p>
-			<p>PhotoSwipe is treated as a modal dialog, so <code>aria</code> attributes are added, and the gallery gains focus when it is open.</p>
+			<h3>또한</h3>
+			<p>사진에 가장 많은주의를 기울이기 위해 <span class="highlight">마우스가 2 초 동안 움직이지 않거나 마우스가 창 밖으로 이동할 때</span> 컨트롤이 숨겨집니다</p>
+			<p>PhotoSwipe는 페이지를 스크롤하여 (비 터치 장치에서) <span class="highlight">간단히 닫을 수 있으므로</span> 마우스를 추가로 움직이지 않아도됩니다.</p>
+			<p>배경은 모든 색상 및 투명도 수준으로 설정할 수 있습니다.</p>
+			<p>이미지 간의 수직 margin은 API를 통해 제어 할 수 있습니다.</p>
+			<p>PhotoSwipe는 모달 대화 상자로 처리되므로 <code>aria</aria> 속성이 추가되고 갤러리가 열려있을 때 갤러리가 포커스를 얻습니다.</p>
       	</div>
-
     </div>
-
-
     <div class="section">
 			<div class="row title-block">
-			<h2>Problems solved by PhotoSwipe</h2>
-			<p>Images are displayed at their highest possible size and are not limited by the width of the column or wrapper. Each image is isolated from the other content and fits the viewport vertically, so that the user can focus on it. If an image is larger than the viewport, it can be zoomed (which most galleries are unable to do).</p>
+			<h2>PhotoSwipe로 해결 된 문제</h2>
+			<p>이미지는 가능한 가장 큰 크기로 표시되며 열이나 래퍼의 너비에 의해 제한되지 않습니다. 각 이미지는 다른 내용과 격리되어 사용자가 뷰포트에 집중할 수 있도록 세로로 맞 춥니 다. 이미지가 뷰포트보다 크면 확대 할 수 있습니다 (대부분의 갤러리에서는 수행 할 수 없음).</p>
 		</div>
-
 		<div class="row">
-
-			<h3>Detail is preserved in responsive images</h3>
-			<p>Let’s say the viewport on a user’s phone is 500 pixels wide and your uncompressed image is 1200 pixels wide. You wouldn’t want to serve such a large image on mobile, so perhaps you’d resize it to 500 pixels. But if the image has important details and the user zooms it, it will look pixelated. With PhotoSwipe, when the user taps the small image (500 pixels), the large one will load (1200 pixels), thus preserving all of the detail.</p>
-
-			<h3>Compared to an inline horizontal JavaScript gallery</h3>
-			<p>PhotoSwipe will not slow the page from loading, because you can defer loading the gallery’s JavaScript file or even load it after the user has clicked the “Open gallery” button.</p>
-
-			<h3>Compared to a list of images, one after another</h3>
-			<p>PhotoSwipe saves users’ bandwidth because it doesn’t load all images at once &mdash; just nearby images according to the user’s direction of movement. Also, it occupies less space on the page, and you can directly link to individual images in a gallery.</p>
-
+			<h3>반응 형 이미지에 디테일이 보존됩니다.</h3>
+			<p>사용자 전화기의 뷰포트가 500 픽셀 너비이고 압축되지 않은 이미지의 너비가 1200 픽셀이라고 가정 해 봅시다. 모바일에서 그렇게 큰 이미지를 제공하고 싶지 않으므로 500 픽셀로 크기를 조정할 수 있습니다. 그러나 이미지에 중요한 세부 정보가 있고 사용자가 확대하면 픽셀 화됩니다. PhotoSwipe를 사용하면 사용자가 작은 이미지 (500 픽셀)를 탭하면 큰 이미지가로드되어 (1200 픽셀) 모든 세부 사항이 보존됩니다.</p>
+			<h3>인라인 수평 자바 스크립트 갤러리와 비교</h3>
+			<p>PhotoSwipe는 갤러리의 JavaScript 파일 로딩을 지연하거나 사용자가 "갤러리 열기"버튼을 클릭 한 후에로드 할 수 있기 때문에 페이지로드 속도를 늦추지는 않습니다.</p>
+			<h3>이미지 목록과 비교하여 차례로</h3>
+			<p>PhotoSwipe는 한번에 모든 이미지를로드하지 않기 때문에 사용자의 대역폭을 절약합니다. 사용자의 움직임 방향에 따라 근처의 이미지 만 표시합니다. 또한 페이지 공간도 차지하지 않으므로 갤러리의 개별 이미지에 직접 연결할 수 있습니다.</p>
 		</div>
-
-
-
 		<div class="row">
-			<h3>PhotoSwipe might not be a good idea if…</h3>
+			<h3>PhotoSwipe는 좋은 생각이 아닐 수도 있습니다 ...</h3>
 			<ul>  
-				<li>… your images are small or low quality or if there would be no point in zooming or isolating them. Use a simple list of images or a horizontal scroller instead.</li>
-				<li>… your images are very large and should never be scaled (for example tall infographics with text). Simply link to image file, or create separate HTML page just with image.</li>
-				<li>… your captions are long or more important than the images themselves. Consider using a simple list of images, with captions below or beside them. And when the user clicks on an image for which a larger version is available, then you could open PhotoSwipe, without the caption, to draw attention to the image itself.</li>
-				<li>… your website’s layout is not fluid. On a non-responsive website on a small screen, PhotoSwipe’s controls would look tiny because the page will be zoomed out. Consider using Magnific Popup instead.</li>
+				<li>… 이미지가 작거나 품질이 떨어지거나 확대 / 축소하거나 격리 할 필요가없는 경우 대신 간단한 이미지 목록이나 수평 스크롤러를 사용하십시오.</li>
+				<li>… 이미지가 매우 크고 크기가 조정되지 않아야합니다 (예 : 텍스트가있는 키가 큰 infographics). 단순히 이미지 파일에 링크하거나 이미지와 함께 별도의 HTML 페이지를 만듭니다.</li>
+				<li>… 자막은 이미지 자체보다 길거나 중요합니다. 아래 또는 옆에 캡션이있는 단순한 이미지 목록을 사용해보십시오. 사용자가 더 큰 버전을 사용할 수있는 이미지를 클릭하면 캡션없이 PhotoSwipe를 열어 이미지 자체에주의를 끌 수 있습니다.</li>
+				<li>… 귀하의 웹 사이트 레이아웃은 유동적이지 않습니다. 작은 화면의 응답하지 않는 웹 사이트에서는 페이지가 축소되어 PhotoSwipe의 컨트롤이 작아 보입니다. Magnificic Popup을 대신 사용해보십시오.</li>
 			</ul>
 		</div>
-
     </div>
-
-
-
     <div class="section section--developers">
 
 	    <div class="row title-block row--large">
-			<h2>Technical specifications</h2>
-			<p>PhotoSwipe is built for performance and integration with your product needs.</p>
+			<h2>기술 사양</h2>
+			<p>PhotoSwipe는 제품의 요구 사항과 성능 및 통합을 위해 제작되었습니다.</p>
 	    </div>
-
 	    <div class="row">
-			<h3>Modules and size breakdown</h3>
-			<p>PhotoSwipe is broken down into modules. All of them, except the controller, events &amp; gestures and framework bridge, may be excluded from your build to reduce the size. You’re free to edit any of these to fit your requirements. Built with <a href="http://gruntjs.com/"><img src="test/grunt-logo.png" style="transform: translateY(3px);margin-right:4px;">Grunt</a>, linted with <a href="http://www.jshint.com/">JSHint</a>.</p>
+			<h3>모듈 및 크기 고장</h3>
+			<p>PhotoSwipe는 모듈로 나뉩니다. 컨트롤러, 이벤트 & amp; 제스처 및 프레임 워크 브리지는 크기를 줄이기 위해 빌드에서 제외 될 수 있습니다. 요구 사항에 맞게 자유롭게 편집 할 수 있습니다. Built with <a href="http://gruntjs.com/"><img src="test/grunt-logo.png" style="transform: translateY(3px);margin-right:4px;">Grunt</a>, linted with <a href="http://www.jshint.com/">JSHint</a>.</p>
 	    </div>
-
 		<div class="row">
 			<div class="size-chart">
 				<div style="width:24%; background:#EDEDDF;color:#333;">3.6 KB<!-- Core --></div>
@@ -370,129 +283,89 @@
 
 			</div>
 		</div>
-
 	    <div class="row row--modules row ">
 	        <div class="col-50">
 				<ul>
-					<li><span style="border-color:#EDEDDF;">Core</span><br>basic functionality, like switching items or zooming</li>
-					<li><span style="border-color:#4ECDC4;">User interface</span><br>all buttons and their actions, captions, etc. (the interface is built exclusively with public methods &mdash; an example of what the API can do)</li>
-					<li><span style="border-color:#3BBDEC;">Events &amp; gestures</span><br>touch, pointer, mouse events and gestures</li>
-					<li><span style="border-color:#C7F464;">Controller</span><br>managing gallery items; adding content to the gallery; returning the sizes of images</li>
+					<li><span style="border-color:#EDEDDF;">Core</span><br>항목 전환 또는 확대 / 축소와 같은 기본 기능</li>
+					<li><span style="border-color:#4ECDC4;">User interface</span><br>모든 버튼 및 해당 액션, 캡션 등 (인터페이스는 공개 메소드로만 작성되며 API가 수행 할 수있는 작업의 예)</li>
+					<li><span style="border-color:#3BBDEC;">Events &amp; gestures</span><br>터치, 포인터, 마우스 이벤트 및 제스처</li>
+					<li><span style="border-color:#C7F464;">Controller</span><br>갤러리 항목 관리; 갤러리에 내용 추가하기; 이미지 크기 반환</li>
 					
 				</ul>
 	        </div>
 	        <div class="col-50">
 				<ul>
-					<li><span style="border-color:#FF6B6B;">Framework bridge</span><br>generic functions, like <code>addClass</code> and <code>addEventListener</code>; feature detection</li>
-					<li><span style="border-color:#C44D58;">History</span><br>changes URL’s hash suffix (<code>#</code>); enables browser’s “back” button to close gallery</li>
-					<li><span style="border-color:#513E30;">Desktop zoom</span><br>clicking to zoom; panning with trackpad or mouse wheel.</li>
-					<li><span style="border-color:#556270;">Tap</span><br>firing tap and double-tap events</li>
+					<li><span style="border-color:#FF6B6B;">Framework bridge</span><br><code>addClass</code> 및 <code>addEventListene</code>과 같은 일반 함수</li>
+					<li><span style="border-color:#C44D58;">History</span><br>URL의 해시 접미사를 변경합니다.(<code>#</code>); 브라우저의 "뒤로"버튼으로 갤러리를 닫을 수 있습니다.</li>
+					<li><span style="border-color:#513E30;">Desktop zoom</span><br>클릭하여 확대 / 축소. 트랙 패드 또는 마우스 휠로 패닝.</li>
+					<li><span style="border-color:#556270;">Tap</span><br>발사 탭 및 두 번 탭 이벤트</li>
 				</ul>
 	        </div>
 	    </div>
-	     
 		<div class="row row--large ">
-			<p>The total size of core modules (Gzip’d) is about 11 KB + 3 KB UI, which is about <span class="highlight">three times lighter than jQuery 1.11</span> and only <span style="white-space:nowrap;">2 KB</span> heavier than FancyBox.<br>The CSS comes out to 0.5 KB core + 1.5 KB skin + single SVG or PNG icons sprite. Uses <a href="http://sass-lang.com/">Sass</a> preprocessor.</p><p></p>
+			<p>코어 모듈의 전체 크기 (Gzip'd)는 약 11KB + 3KB UI로  <span class="highlight">jQuery 1.11보다 약 3 배 가벼우며</span> FancyBox보다 <span style="white-space:nowrap;">2KB</span>가 크다.<br> CSS는 0.5KB 코어 + 1.5KB 스킨 + 단일 SVG 또는 PNG 아이콘 스프라이트. <a href="http://sass-lang.com/">Sass</a> 전 처리기를 사용합니다.</p>
 	    </div>
-
 	    <div class="row row--large">
 	        <div class="col-50">
 	        	<h3>Animation</h3>
 	        	<ul class="text-list">
-		            <li><code>RequestAnimationFrame</code> is used wherever possible.</li>
-		            <li>Only the <code>transform</code> and <code>opacity</code> properties are animated. Almost no paints occur during animation, making transitions as smooth as possible.</li>
-		            <li>The frames-per-second (FPS) rate largely depends on the sizes of the images and the device itself. For example, landscape-oriented images that are 1000 pixels wide and displayed in portrait mode on an iPhone 4s running iOS 8 will animate smoothly at 60 FPS. If the images were 1400 pixels wide, then the FPS rate would drop noticeably.</li>
+		            <li>가능한 경우 <code>RequestAnimationFrame</code>이 사용됩니다.</li>
+		            <li><code>transform</code> 및 <code>opacity</code> 속성 만 애니메이션으로 표시됩니다. 애니메이션 도중 거의 페인트가 발생하지 않으므로 가능한 한 매끄러운 전환이 이루어집니다.</li>
+		            <li>초당 프레임 속도 (FPS)는 이미지 및 장치 자체의 크기에 따라 크게 달라집니다. 예를 들어, iOS 8을 실행하는 iPhone 4에서 1000 픽셀 너비의 세로 방향 모드로 표시되는 가로 방향 이미지는 60FPS로 부드럽게 움직입니다. 이미지의 너비가 1400 픽셀이면 FPS 속도가 현저하게 떨어집니다.</li>
 	        	</ul>
 	        </div>
-
 	        <div class="col-50">
 	          <h3>Memory</h3>
 	        	<ul class="text-list">
-		            <li>PhotoSwipe keeps only three images in the DOM at once, because each “slide” is a composited layer, which consumes quite a lot of memory.</li>
-		            <li>Almost no memory is consumed until the gallery is first opened.</li>
-		            <li>The script has been tested for memory leaks. Navigating images back and forth and creating or deleting a gallery doesn’t leave a trace in memory.</li>
+		            <li>PhotoSwipe는 한 번에 DOM에 세 개의 이미지 만 유지합니다. 각 "슬라이드"는 합성 된 레이어이기 때문에 많은 메모리를 소비합니다.</li>
+		            <li>갤러리가 처음 열릴 때까지 거의 메모리가 소모되지 않습니다.</li>
+		            <li>스크립트의 메모리 누수 여부가 테스트되었습니다. 이미지를 앞뒤로 이동하고 갤러리를 만들거나 삭제해도 메모리에 추적이 남지 않습니다.</li>
 	        	</ul>
 	        </div>
 	    </div>
-	    
-
 		<div class="row">
 			<h3>Supported browsers and devices</h3>
-			<p>The script has been developed to work on every device, which means that basic functionality should be supported everywhere:</p>
+			<p>이 스크립트는 모든 장치에서 작동하도록 개발되었으므로 모든 기능이 기본 기능을 지원해야합니다.:</p>
 			<ul class="text-list">
-				<li>desktop Chrome, Firefox, Safari, Opera and IE 8 and above</li>
-				<li>Android 2.3.7+ (2.1 not tested yet): default browser, Chrome, Firefox (latest), Dolphin (latest)</li>
+				<li>데스크톱 크롬, 파이어 폭스, 사파리, 오페라, IE 8 이상</li>
+				<li>Android 2.3.7 이상 (2.1 아직 테스트되지 않음) : 기본 브라우저, Chrome, Firefox (최신), 돌고래 (최신)</li>
 				<li>iOS 5+</li>
-				<li>Windows Phone 7+: default browser (touch gestures are supported from 8+)</li>
-				<li>BlackBerry OS 10+: default browser (older versions not tested yet)</li>
-				<li>devices with multiple input methods (Surface, Chromebook Pixel, etc.)</li>
+				<li>Windows Phone 7 이상 : 기본 브라우저 (터치 제스처는 8 이상에서 지원됨)</li>
+				<li>BlackBerry OS 10 이상 : 기본 브라우저 (이전 버전은 아직 테스트되지 않음)</li>
+				<li>여러 입력기가있는 기기 (표면, Chromebook Pixel 등)</li>
 			</ul>
-			<p>If you discover a problem on your device, please <a href="https://github.com/dimsemenov/PhotoSwipe/issues">open an issue on GitHub</a>, and provide as much detail as possible (OS name and version, browser name and version, screenshot or screencast, etc.).</p>
 		</div>
-
 		<div class="row">
-			<h3>How PhotoSwipe determines whether a mouse is being used</h3>
-			<p>If both touch and mouse input methods are detected, the script waits for two consecutive <code>mousemove</code> events to occur and only then applies the mouse-only features (for example left/right arrow buttons).</p>
+			<h3>PhotoSwipe가 마우스 사용 여부를 결정하는 방법</h3>
+			<p>터치 및 마우스 입력 방법이 모두 감지되면 스크립트는 두 개의 연속 된 <code>mousemove</code> 이벤트가 발생하기를 기다린 다음 마우스 전용 기능 (예 : 왼쪽 / 오른쪽 화살표 단추) 만 적용합니다.</p>
 	    </div>
-		
 		<div class="row">
-	        <h3>How the zoom animation works for opening images</h3>
+	        <h3>이미지를 여는 데 줌 애니메이션이 어떻게 작동하는가</h3>
 	        <ol>
-				<li>Once a thumbnail is clicked, its large version instantly starts loading.</li>
-				<li>Meanwhile, PhotoSwipe creates a fixed-positioned layer with the duplicated thumbnail image, background, buttons and caption. The background and controls are styled with <code>opacity: 0.001</code> (if it had <code>opacity: 0</code>, the paint would not occur in some browsers).</li>
-				<li>A 50-millisecond timer starts. It is added to give the browser time to render the new layers (background, controls, image). Otherwise, the animation would start with a noticeable lag. TODO: change this delay depending on browser/os/device?</li>
-				<li>Three CSS transitions start: one scales the image (<code>scale</code> and <code>translate</code> are animated), the second changes the opacity of the background, and the third changes the opacity of the controls.<br>By default, the transition lasts 333 milliseconds.<br>The background is a separate element, because animating <code>opacity</code> looks much smoother than animating an RGBa <code>background-color</code>.</li>
-				<li>Once the transition is complete, the large image is added on top of the stretched thumbnail, whether or not it’s fully loaded.</li>
-				<li>To make the swipe transition smooth, the two neighboring slides are readied at the sides of the viewport.</li>
-				<li>If lazy-loading is enabled on more than two neighboring images, then those images would start to load now, too.</li>
+				<li>미리보기 이미지를 클릭하면 큰 이미지가 즉시로드되기 시작합니다.</li>
+				<li>한편, PhotoSwipe는 축소 된 축소판 이미지, 배경, 버튼 및 캡션이있는 고정 위치 레이어를 만듭니다. 배경과 컨트롤의 스타일은 <code>opacity : 0.001</code>입니다 (<code>opacity : 0</code> 인 경우 일부 브라우저에서는 페인트가 발생하지 않습니다).</li>
+				<li>50 밀리 초 타이머가 시작됩니다. 브라우저에 새 레이어 (배경, 컨트롤, 이미지)를 렌더링 할 시간을주기 위해 추가됩니다. 그렇지 않으면 애니메이션이 눈에 띄는 지연으로 시작됩니다. TODO : 브라우저 / OS / 장치에 따라이 지연을 변경 하시겠습니까?</li>
+				<li>세 가지 CSS 전환이 시작됩니다. 하나는 이미지의 크기를 조절하고 <code> translate </code>는 애니메이션으로, 두 번째는 배경의 불투명도를 변경하고 세 번째는 컨트롤의 불투명도를 변경합니다. <br> 기본적으로 전환 효과는 333 밀리 초입니다. <br> 배경이 별도 요소이므로 <code>opacity</code> 애니메이션은 RGBa <code> background-color</code>.</li>
+				<li>전환이 완료되면 완전히로드되었는지 여부에 관계없이 확장 된 미리보기 이미지 위에 큰 이미지가 추가됩니다.</li>
+				<li>스 와이프 전환을 부드럽게 만들기 위해 두 개의 인접한 슬라이드가 뷰포트의 측면에서 준비됩니다.</li>
+				<li>둘 이상의 인접한 이미지에서 지연로드가 활성화 된 경우 해당 이미지가로드되기 시작합니다.</li>
 			</ol>
 	    </div>
-
 		<div class="row">
-			<h3>Are PhotoSwipe images crawlable by search engines?</h3>
-			<p>PhotoSwipe does not force any HTML markup into the gallery &mdash; you have full control. Images will be crawlable if you'll have list of links to large images or the images themselves.</p>
+			<h3>PhotoSwipe 이미지는 검색 엔진에서 크롤링 하는가?</h3>
+			<p>PhotoSwipe는 갤러리에 HTML 마크 업을 강요하지 않습니다. &mdash; 당신은 완전히 통제 할 수 있습니다. 큰 이미지 또는 이미지 자체에 대한 링크 목록이 있으면 이미지를 크롤링 할 수 있습니다.</p>
 		</div>
-
     </div>
-
-
-
-
     <div class="section">
-
 		<div class="row row--large">
 			<h2>License and price</h2>
-			<p>The script is free to use for personal and commercial projects. It falls under the MIT license with one exception: Do not create a public WordPress plugin based on it, as I will develop it.<br><span style="font-size:14px;line-height:20px;">If you need to use it for a public WordPress plugin right now, please <a href="http://dimsemenov.com/">ask me</a> by email first. Thanks!</span></p>
-			<p>Attribution is not required, but much appreciated, especially if you're making product for developers.</p>
+			<p>스크립트는 개인 및 상업 프로젝트에 무료로 사용할 수 있습니다. 한 가지 예외를 제외하면 MIT 라이선스에 해당합니다. 개발할 때 공개 WordPress 플러그인을 만들지 마십시오. <br> <span style = "font-size : 14px; line-height : 20px;"> 지금 당장 공개 WordPress 플러그인에 사용해야합니다. 먼저 <a href="http://dimsemenov.com/"> 저에게 물어보십시오 </a>. 감사합니다!</span></p>
+			<p>저작자 표시는 필수 사항은 아니지만 특히 개발자를위한 제품을 제작하는 경우 큰 도움이됩니다.</p>
 		</div>
-
 		<div class="row row--large">
 			<h2>About</h2>
 			<p>The script was created by <a href="http://www.codecomputerlove.com/" style="white-space:nowrap;">Code Computerlove</a>, a digital agency in Manchester. In March 2014, it <a href="https://twitter.com/PhotoSwipe/status/444134042787930113">passed</a> on development to <a href="http://dimsemenov.com/">Dmitry Semenov</a>.<br>The new version of PhotoSwipe (4.0) was entirely rewritten, supports a much longer list of devices, and contains a lot of performance and UX improvements. Built-in support for jQuery Mobile has been dropped.</p>
 		</div>
-
-		<div class="row row--large">
-			<div class="share-buttons" style="text-align:center">
-			  <h2>Please spread the word if you find the script useful</h2>
-			  <div id="buttons-row">
-			    <a id="tweet" rel="nofollow" target="_blank" href="https://twitter.com/intent/tweet?text=New%20PhotoSwipe&amp;url=http://photoswipe.com">Tweet!</a>
-			    <a id="like" rel="nofollow" target="_blank" href="http://www.facebook.com/sharer.php?u=http://photoswipe.com">Like!</a> 
-			    <a id="gplus" rel="nofollow" target="_blank" href="https://plus.google.com/share?url=http://photoswipe.com">+1</a>
-			    <iframe src="http://ghbtns.com/github-btn.html?user=dimsemenov&amp;repo=photoswipe&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="155" height="30" style="transform: translateY(8px);-moz-transform: translateY(8px);-webkit-transform: translateY(8px); margin-left: 9px;"></iframe>
-			  </div>
-			</div>
-		</div>
-
-
-
-		<div class="row row--footer">
-
-			<p><span title="Coded">&lt;/&gt;</span> with <span title="love">&lt;3</span> in <a class="ukraine-flag" href="http://en.wikipedia.org/wiki/Ukraine" title="Ukraine"></a> by <a href="http://twitter.com/dimsemenov">@dimsemenov</a></p>
-			
-		</div>
-
-
-
     </div>
 
 
