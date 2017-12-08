@@ -129,7 +129,7 @@
 
   - 사용 설명서를 작성해보니 개발자들과 사람들의 높은 참여도로 인해 계속 개선됨에 따라 더이상 오류나 개선사항이 쉽게 찾아지지 않는 완성도 높은 오픈소스라고 생각되어, 직접 오픈소스를 활용하여 데모 사이트를 제작하여 이전 번역작성하였던 `PhotoSwipe 소개글`과 `PhotoSwipe갤러리`를 직접 구현해 보았습니다.
   - 서버는 Google에서 서비스 중인 `GoogleCloud`를 통해 Ubuntu OS를 탑재한 리눅스 서버를 이용하였습니다.
-  - `node.js`와 `express.js`를 사용하여 `PhotoSwipe갤러리`구현을 위한 단일페이지 `http서비스를 제공`하고 있습니다.
+  - `node.js`와 `express.js`를 사용하여 `PhotoSwipe갤러리`구현을 위한 단일페이지 `http서비스를 제공`하고 있습니다. ( [server.js](https://github.com/hun1451/PhotoSwipe/blob/master/server.js) & [router/main.js](https://github.com/hun1451/PhotoSwipe/blob/master/router/main.js) )
   - [데모사이트로 이동](http://35.200.120.12)
 
 ---------
@@ -140,7 +140,7 @@
   - [Insights](https://github.com/hun1451/PhotoSwipe/pulse/monthly)
   - [README.md](https://github.com/hun1451/PhotoSwipe/blob/master/README.md)
   - 결과 보고서 - [REPORT.md](https://github.com/hun1451/PhotoSwipe/blob/master/REPORT.md)
-  - 구현한 [데모 사이트](http://35.200.120.12/)
+  - 구현한 [데모 사이트](http://35.200.120.12/)   (접속이 안될시 [DEMO_SITE.pdf](https://github.com/hun1451/PhotoSwipe/blob/master/DEMO_SITE.pdf)를 참조.)
   - 사용 설명서 [/website_kr/documentation](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/documentation)
       - 시작 안내서 - [getting-started.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/getting-started.md)
       - 옵션 값 명세 - [options.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/options.md)
