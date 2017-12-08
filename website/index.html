@@ -1,19 +1,7 @@
----
-
-layout: default
-
-title: "PhotoSwipe: Responsive JavaScript Image Gallery"
-
-description: Touch-friendly JavaScript image gallery for mobile and desktop, without dependencies. Responsive layout. Swipe and zoom gestures.
-
-canonical_url: http://photoswipe.com
-
-include_credit: false
-
-buildtool: false
-
----
-
+<head>
+	<link rel="stylesheet" href="site-assets/site.css">
+	<link rel="stylesheet" href="site-assets/photoswipe.css">
+</head>
 	<div class="section section--head">
 
 	    <div class="row row--heading">
@@ -572,10 +560,12 @@ buildtool: false
 
     </div>
     
-  
+	<script  type = "text/javascript" src="js/photoswipe-ui-default.js" ></script>
+	<script  type = "text/javascript" src="js/photoswipe-ui-default.min.js" ></script>
+	<script  type = "text/javascript" src="js/photoswipe.min.js" ></script>
+	<script  type = "text/javascript" src="js/photoswipe.js" ></script>
     <script type="text/javascript">
     (function() {
-
 		var initPhotoSwipeFromDOM = function(gallerySelector) {
 
 			var parseThumbnailElements = function(el) {
