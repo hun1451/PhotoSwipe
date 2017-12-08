@@ -45,6 +45,8 @@
   "license": "MIT",
   "dependencies": {
     "ejs": "^2.5.7",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "markdown-to-html": "0.0.13",
+    "marked": "^0.3.7"
   }
 }

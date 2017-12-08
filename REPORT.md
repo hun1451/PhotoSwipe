@@ -123,8 +123,33 @@
 <br>
 
 ------------
-### 5. 오류 개선
+### 5. 데모 사이트 구현
+
+  - 사용 설명서를 작성해보니 개발자들과 사람들의 높은 참여도로 인해 계속 개선됨에 따라 더이상 오류나 개선사항이 쉽게 찾아지지 않는 완성도 높은 오픈소스라고 생각되어, 직접 오픈소스를 활용하여 데모 사이트를 제작하여 이전 번역작성하였던 `PhotoSwipe 소개글`과 `PhotoSwipe갤러리`를 직접 구현해 보았습니다.
+  - 서버는 Google에서 서비스 중인 `GoogleCloud`를 통해 Ubuntu OS를 탑재한 리눅스 서버를 이용하였습니다.
+  - `node.js`와 `express.js`를 사용하여 `PhotoSwipe갤러리`구현을 위한 단일페이지 `http서비스를 제공`하고 있습니다.
+  - [데모사이트로 이동](http://35.200.120.12)
 
 ---------
-### 6. 마무리
+### 6. 과제 결과 링크
+  - 오픈 소스 - [`PhotoSwipe`](https://github.com/dimsemenov/PhotoSwipe)
+  - 프로젝트 진행 - [`GitHub`](https://github.com/hun1451/PhotoSwipe)
+  - 협업 진행 과정 - [Commit](https://github.com/hun1451/PhotoSwipe/commits/master)
+  - [Insights](https://github.com/hun1451/PhotoSwipe/pulse/monthly)
+  - [README.md](https://github.com/hun1451/PhotoSwipe/blob/master/README.md)
+  - 결과 보고서 - [REPORT.md](https://github.com/hun1451/PhotoSwipe/blob/master/REPORT.md)
+  - 구현한 [데모 사이트](http://35.200.120.12/)
+  - 사용 설명서 [/website_kr/documentation](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/documentation)
+      - 시작 안내서 - [getting-started.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/getting-started.md)
+      - 옵션 값 명세 - [options.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/options.md)
+      - api 명세 - [api.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/api.md)
+      - 커스텀 슬라이드 - [custom-html-in-slides.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/custom-html-in-slides.md)
+      - 자주 묻는 질문 답변 - [faq.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/faq.md)
+      - 성능 향상 팁 - [performance-tips.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/performance-tips.md)
+      - 반응형 이미지 - [responsive-images.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/responsive-images.md)
+      - SEO - [seo.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/seo.md)
+      - 업데이트 사항 - [updates.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/updates.md)
+
 ---------
+### 7. 마무리
+---

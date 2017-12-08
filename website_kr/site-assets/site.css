@@ -296,7 +296,9 @@ img {
   border: 0;
 }
 
-
+.right{
+  float:right;
+}
 .video {
   width: 100%;
   margin: 0 0 24px 0;
