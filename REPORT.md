@@ -1,157 +1,160 @@
 # &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; REPORT
 ---
 
-## 2017ë…„ë„ 2í•™ê¸° `ì˜¤í”„ì†ŒìŠ¤ì†Œí”„íŠ¸ì›¨ì–´` ê³¼ëª© ë³´ê³ ì„œ
+## 2017³âµµ 2ÇÐ±â `¿ÀÇÁ¼Ò½º¼ÒÇÁÆ®¿þ¾î` °ú¸ñ º¸°í¼­
 
 ---
 
-### 1. íŒ€ì›
+### 1. ÆÀ¿ø
 ```
-> íŒ€ìž¥ : ì „ì˜ìš±(20134789 / hun1451)
-> íŒ€ì› : ê¹€í¬í™˜(20104696 / Heehwan-Kim), í•œìƒì›(20134793 / hth9021)
+> ÆÀÀå : Àü¿µ¿í(20134789 / hun1451)
+> ÆÀ¿ø : ±èÈñÈ¯(20104696 / Heehwan-Kim), ÇÑ»ó¿ø(20134793 / hth9021)
 ```
 
 ---
 
-### 2. ì˜¤í”ˆ ì†ŒìŠ¤ ì„ íƒ ì´ìœ  ë° ì†Œê°œ
+### 2. ¿ÀÇÂ ¼Ò½º ¼±ÅÃ ÀÌÀ¯ ¹× ¼Ò°³
 
-&nbsp;ìµœê·¼ì˜ ì›¹ì„œë¹„ìŠ¤ë“¤ì€ ë§Žì€ ì‚¬ìš©ìžë“¤ì˜ ëª¨ë°”ì¼ ì ‘ì†ì— ëŒ€ì‘í•˜ê¸° ìœ„í•˜ì—¬, ë‹¤ìˆ˜ì˜ ì„œë¹„ìŠ¤ì œê³µìžë“¤ì€ ë°˜ì‘í˜• ì›¹ì•±ì„ ì œìž‘í•˜ì—¬ ì„œë¹„ìŠ¤í•˜ê³  ìžˆìŠµë‹ˆë‹¤.<br>
-&nbsp;ëª¨ë°”ì¼ ì›¹íŽ˜ì´ì§€ì—ì„œ ì£¼ë¥˜ë¥¼ ì´ë£¨ëŠ” ì»¨í…ì¸ ëŠ” ì‚¬ì§„ê³¼ ë™ì˜ìƒì¼ ê²ƒìž…ë‹ˆë‹¤. ì´ëŸ¬í•œ ì‚¬ì§„ì„ ë³´ê¸°ìœ„í•´ì„œ ê³¼ê±°ì—ëŠ” `ë²„íŠ¼`ì„ í´ë¦­í•˜ì—¬ `ë‹¤ìŒ` í˜¹ì€ `ì´ì „` ì‚¬ì§„ìœ¼ë¡œ ì´ë™í•´ì•¼ í–ˆì—ˆìŠµë‹ˆë‹¤.<br>
-&nbsp;í•˜ì§€ë§Œ í„°ì¹˜ê°€ ê°€ëŠ¥í•œ ìŠ¤ë§ˆíŠ¸í°ì˜ ëŒ€ì¤‘í™”ë¡œ ì¸í•´ `ì‚¬ìš©ìž`ë“¤ì˜ ìš”êµ¬ì— ë§žëŠ” ì˜¤í”ˆì†ŒìŠ¤ì˜ ê°œë°œì´ ì´ë£¨ì–´ì ¸ì™”ê³ , í˜„ìž¬ì—ëŠ” ì‚¬ìš©ìžë“¤ì—ê²Œ ìŠ¤ë§ˆíŠ¸í°ì„ í†µí•œ ëª¨ë°”ì¼ ì›¹íŽ˜ì´ì§€ì—ì„œì˜ ì‚¬ì§„ê°ìƒì— íŽ¸ë¦¬í•¨ì„ ì œê³µí•˜ê³  ìžˆìŠµë‹ˆë‹¤.<br>
+&nbsp;ÃÖ±ÙÀÇ À¥¼­ºñ½ºµéÀº ¸¹Àº »ç¿ëÀÚµéÀÇ ¸ð¹ÙÀÏ Á¢¼Ó¿¡ ´ëÀÀÇÏ±â À§ÇÏ¿©, ´Ù¼öÀÇ ¼­ºñ½ºÁ¦°øÀÚµéÀº ¹ÝÀÀÇü À¥¾ÛÀ» Á¦ÀÛÇÏ¿© ¼­ºñ½ºÇÏ°í ÀÖ½À´Ï´Ù.<br>
+&nbsp;¸ð¹ÙÀÏ À¥ÆäÀÌÁö¿¡¼­ ÁÖ·ù¸¦ ÀÌ·ç´Â ÄÁÅÙÃ÷´Â »çÁø°ú µ¿¿µ»óÀÏ °ÍÀÔ´Ï´Ù. ÀÌ·¯ÇÑ »çÁøÀ» º¸±âÀ§ÇØ¼­ °ú°Å¿¡´Â `¹öÆ°`À» Å¬¸¯ÇÏ¿© `´ÙÀ½` È¤Àº `ÀÌÀü` »çÁøÀ¸·Î ÀÌµ¿ÇØ¾ß Çß¾ú½À´Ï´Ù.<br>
+&nbsp;ÇÏÁö¸¸ ÅÍÄ¡°¡ °¡´ÉÇÑ ½º¸¶Æ®ÆùÀÇ ´ëÁßÈ­·Î ÀÎÇØ `»ç¿ëÀÚ`µéÀÇ ¿ä±¸¿¡ ¸Â´Â ¿ÀÇÂ¼Ò½ºÀÇ °³¹ßÀÌ ÀÌ·ç¾îÁ®¿Ô°í, ÇöÀç¿¡´Â »ç¿ëÀÚµé¿¡°Ô ½º¸¶Æ®ÆùÀ» ÅëÇÑ ¸ð¹ÙÀÏ À¥ÆäÀÌÁö¿¡¼­ÀÇ »çÁø°¨»ó¿¡ Æí¸®ÇÔÀ» Á¦°øÇÏ°í ÀÖ½À´Ï´Ù.<br>
 
-&nbsp;ì €í¬ê°€ ì„ íƒí•œ ì´ ì˜¤í”ˆì†ŒìŠ¤ëŠ” `PhotoSwipe`ìž…ë‹ˆë‹¤. ê³¼ê±° ë²„íŠ¼í´ë¦­ ë°©ì‹ì˜ ì‚¬ì§„ì´ë™ì„ `ì œìŠ¤ì²˜` ê¸°ë°˜ì˜ ê²½í—˜ì„ ì œê³µí•  ìˆ˜ ìžˆê²Œ í•´ì£¼ëŠ” ìžë°”ìŠ¤í¬ë¦½íŠ¸(`java script`)ê¸°ë°˜ì˜ ì˜¤í”ˆì†ŒìŠ¤ ìž…ë‹ˆë‹¤.<br>
-- `ë©€í‹°í„°ì¹˜`(ë‘ì†ê°€ë½ì„ ì´ìš©í•œ í„°ì¹˜)ë¥¼ í†µí•´ ì‚¬ì§„ì„ í™•ëŒ€í•˜ê±°ë‚˜,
-- ì—´ë ¤ìžˆëŠ” ì‚¬ì§„ì„ ë‹«ê³  ê°¤ëŸ¬ë¦¬ë¡œ ì´ë™í•  ìˆ˜ ìžˆìœ¼ë©°,  
-- `ë‹¨ë…í„°ì¹˜`(í•œì†ê°€ë½orë§ˆìš°ìŠ¤)ë¥¼ í†µí•´ ì‚¬ì§„ì„ ìœ„ë¡œ ì˜¬ë ¤ ì‚¬ì§„ì„ ë‹«ê³  ê°¤ëŸ¬ë¦¬ë¡œ ì´ë™í•˜ê±°ë‚˜,
-- ì˜†ìœ¼ë¡œ ë„˜ê²¨ ì´ì „ í˜¹ì€ ë‹¤ìŒ ì‚¬ì§„ìœ¼ë¡œì˜ ì´ë™ì„ ê°€ëŠ¥í•˜ê²Œ í•´ì¤ë‹ˆë‹¤. 
-- ë˜í•œ ë¸Œë¼ìš°ì € `ížˆìŠ¤í† ë¦¬ ê¸°ëŠ¥`ì„ í†µí•˜ì—¬ ë’¤ë¡œ ê°€ê¸°ì‹œ(ë°±ìŠ¤íŽ˜ì´ìŠ¤orë’¤ë¡œê°€ê¸°ë²„íŠ¼) ê°¤ëŸ¬ë¦¬ê°€ ë‹«ížˆì§€ ì•Šê³  ì‚¬ì§„ì—ì„œ ê°¤ëŸ¬ë¦¬ë¡œì˜ ì´ë™ì„ ê°€ëŠ¥í•˜ê²Œ í•´ì£¼ë©°, 
-- ì´ì™¸ì—ë„ ë°ì´í„° ë„ì°©ì „ `ì ì§„ì  ì´ë¯¸ì§€í‘œì‹œ` ê¸°ëŠ¥, 
-- `ë¯¸ë¦¬ë³´ê¸°(ì¸ë„¤ì¼)` ì‚¬ì§„ ì¦‰ì‹œ í‘œì‹œ í›„ ê³ í•´ìƒë„ ì´ë¯¸ì§€ ì „í™˜, 
-- `ë°˜ì‘í˜• ì´ë¯¸ì§€ ì§€ì›` ë“±ì˜ ì—¬ëŸ¬ ê¸°ëŠ¥ë“¤ì„ ì§€ì› ì¤‘ìž…ë‹ˆë‹¤.
+&nbsp;ÀúÈñ°¡ ¼±ÅÃÇÑ ÀÌ ¿ÀÇÂ¼Ò½º´Â `PhotoSwipe`ÀÔ´Ï´Ù. °ú°Å ¹öÆ°Å¬¸¯ ¹æ½ÄÀÇ »çÁøÀÌµ¿À» `Á¦½ºÃ³` ±â¹ÝÀÇ °æÇèÀ» Á¦°øÇÒ ¼ö ÀÖ°Ô ÇØÁÖ´Â ÀÚ¹Ù½ºÅ©¸³Æ®(`java script`)±â¹ÝÀÇ ¿ÀÇÂ¼Ò½º ÀÔ´Ï´Ù.<br>
+- `¸ÖÆ¼ÅÍÄ¡`(µÎ¼Õ°¡¶ôÀ» ÀÌ¿ëÇÑ ÅÍÄ¡)¸¦ ÅëÇØ »çÁøÀ» È®´ëÇÏ°Å³ª,
+- ¿­·ÁÀÖ´Â »çÁøÀ» ´Ý°í °¶·¯¸®·Î ÀÌµ¿ÇÒ ¼ö ÀÖÀ¸¸ç,  
+- `´Üµ¶ÅÍÄ¡`(ÇÑ¼Õ°¡¶ôor¸¶¿ì½º)¸¦ ÅëÇØ »çÁøÀ» À§·Î ¿Ã·Á »çÁøÀ» ´Ý°í °¶·¯¸®·Î ÀÌµ¿ÇÏ°Å³ª,
+- ¿·À¸·Î ³Ñ°Ü ÀÌÀü È¤Àº ´ÙÀ½ »çÁøÀ¸·ÎÀÇ ÀÌµ¿À» °¡´ÉÇÏ°Ô ÇØÁÝ´Ï´Ù. 
+- ¶ÇÇÑ ºê¶ó¿ìÀú `È÷½ºÅä¸® ±â´É`À» ÅëÇÏ¿© µÚ·Î °¡±â½Ã(¹é½ºÆäÀÌ½ºorµÚ·Î°¡±â¹öÆ°) °¶·¯¸®°¡ ´ÝÈ÷Áö ¾Ê°í »çÁø¿¡¼­ °¶·¯¸®·ÎÀÇ ÀÌµ¿À» °¡´ÉÇÏ°Ô ÇØÁÖ¸ç, 
+- ÀÌ¿Ü¿¡µµ µ¥ÀÌÅÍ µµÂøÀü `Á¡ÁøÀû ÀÌ¹ÌÁöÇ¥½Ã` ±â´É, 
+- `¹Ì¸®º¸±â(½æ³×ÀÏ)` »çÁø Áï½Ã Ç¥½Ã ÈÄ °íÇØ»óµµ ÀÌ¹ÌÁö ÀüÈ¯, 
+- `¹ÝÀÀÇü ÀÌ¹ÌÁö Áö¿ø` µîÀÇ ¿©·¯ ±â´ÉµéÀ» Áö¿ø ÁßÀÔ´Ï´Ù.
 
 ---
 
-### 3. ì—­í•  ë¶„ë‹´
--	**ì „ì˜ìš±**
-> - `api`ì‚¬ìš© ì„¤ëª…ì„œ ìž‘ì„±.
-> - `ì»¤ìŠ¤í…€ ìŠ¬ë¼ì´ë“œ` ì„¤ëª…ì„œ ìž‘ì„±.
-> - PhotoSwipeì›ìž‘ìž í”„ë¡œì íŠ¸ì—ì„œì˜ `FAQ` ë²ˆì—­ìž‘ì„±.
--	**ê¹€í¬í™˜**
-> - `ì‹œìž‘ ë‹¨ê³„`ì— ëŒ€í•œ ì„¤ëª…ì„œ ìž‘ì„±. 
-> - ì†ŒìŠ¤ì½”ë“œì—ì„œì˜ `ì˜µì…˜` ê°’ ì„¤ëª…ì„œ ìž‘ì„±. 
-> - ì„±ëŠ¥ í–¥ìƒì„ ìœ„í•œ `Tip` ìž‘ì„±. 
-> - `README.md` ìž‘ì„±.
-> - `index.md` ìž‘ì„±.
-> - `ë°ëª¨ì‚¬ì´íŠ¸` ì œìž‘.
--	**í•œìƒì›**
-> - `ë°˜ì‘í˜• ì´ë¯¸ì§€` ì„¤ëª…ì„œ ìž‘ì„±.
-> - ì´ë¯¸ì§€ê°¤ëŸ¬ë¦¬`SEO` ì„¤ëª…ì„œ ìž‘ì„±.
-> - `ì—…ë°ì´íŠ¸ì‚¬í•­` ë²ˆì—­ ìž‘ì„±. 
+### 3. ¿ªÇÒ ºÐ´ã
+-	**Àü¿µ¿í**
+> - `api`»ç¿ë ¼³¸í¼­ ÀÛ¼º.
+> - `Ä¿½ºÅÒ ½½¶óÀÌµå` ¼³¸í¼­ ÀÛ¼º.
+> - PhotoSwipe¿øÀÛÀÚ ÇÁ·ÎÁ§Æ®¿¡¼­ÀÇ `FAQ` ¹ø¿ªÀÛ¼º.
+-	**±èÈñÈ¯**
+> - `½ÃÀÛ ´Ü°è`¿¡ ´ëÇÑ ¼³¸í¼­ ÀÛ¼º. 
+> - ¼Ò½ºÄÚµå¿¡¼­ÀÇ `¿É¼Ç` °ª ¼³¸í¼­ ÀÛ¼º. 
+> - ¼º´É Çâ»óÀ» À§ÇÑ `Tip` ÀÛ¼º. 
+> - `README.md` ÀÛ¼º.
+> - `index.md` ÀÛ¼º.
+> - `µ¥¸ð»çÀÌÆ®` Á¦ÀÛ.
+-	**ÇÑ»ó¿ø**
+> - `¹ÝÀÀÇü ÀÌ¹ÌÁö` ¼³¸í¼­ ÀÛ¼º.
+> - ÀÌ¹ÌÁö°¶·¯¸®`SEO` ¼³¸í¼­ ÀÛ¼º.
+> - `¾÷µ¥ÀÌÆ®»çÇ×` ¹ø¿ª ÀÛ¼º. 
 
 ------------
-### 4. ì§„í–‰ ì‚¬í•­
+### 4. ÁøÇà »çÇ×
 <br>
 
-- ì´ˆê¸°í™”ë©´ì— í‘œì‹œë  `README.md`ì˜ ë²ˆì—­ ìž‘ì„±.  
-  - ì´ì— ë”°ë¥¸ ë§í¬ ìˆ˜ì •, ë³´ê³ ì„œ, ìƒì„¸ì„¤ëª…ì„œ ë§í¬ ì¶”ê°€í•¨. 
-  - `README.md`ë¡œ ( > [ì´ë™](https://github.com/hun1451/PhotoSwipe/blob/master/README.md). )  
+- ÃÊ±âÈ­¸é¿¡ Ç¥½ÃµÉ `README.md`ÀÇ ¹ø¿ª ÀÛ¼º.  
+  - ÀÌ¿¡ µû¸¥ ¸µÅ© ¼öÁ¤, º¸°í¼­, »ó¼¼¼³¸í¼­ ¸µÅ© Ãß°¡ÇÔ. 
+  - `README.md`·Î ( > [ÀÌµ¿](https://github.com/hun1451/PhotoSwipe/blob/master/README.md). )  
 <br>
 
-- `ë³´ê³ ì„œ` ìž‘ì„±. ( í˜„ìž¬íŽ˜ì´ì§€ )
+- `º¸°í¼­` ÀÛ¼º. ( ÇöÀçÆäÀÌÁö )
 <br>
 
-#### ì‚¬ìš© ì„¤ëª…ì„œ ìž‘ì„±. ( [website_kr/documentation/](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/documentation) í´ë”ì— ìž‘ì„±ë¨. )
+#### »ç¿ë ¼³¸í¼­ ÀÛ¼º. ( [website_kr/documentation/](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/documentation) Æú´õ¿¡ ÀÛ¼ºµÊ. )
  
-- `index.md` ìž‘ì„± ( PhotoSwipe ì†Œê°œ íŽ˜ì´ì§€ ë²ˆì—­) > [ì´ë™](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/index.md)
-  - ê¸°ìˆ , ë¼ì´ì„¼ìŠ¤ ë¬¸ì œì  ë“± ì •ë¦¬ë˜ì–´ìžˆëŠ” http://photoswipe.com/ íŽ˜ì´ì§€ ë²ˆì—­ ìž‘ì„±.
+- `index.md` ÀÛ¼º ( PhotoSwipe ¼Ò°³ ÆäÀÌÁö ¹ø¿ª) > [ÀÌµ¿](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/index.md)
+  - ±â¼ú, ¶óÀÌ¼¾½º ¹®Á¦Á¡ µî Á¤¸®µÇ¾îÀÖ´Â http://photoswipe.com/ ÆäÀÌÁö ¹ø¿ª ÀÛ¼º.
 <br>
 
-- `api.md` ìž‘ì„±. > [ì´ë™](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/api.md)
-  - ë©”ì†Œë“œ, ì†ì„± ì†ŒìŠ¤ì½”ë“œ ì£¼ì„ ì„¤ëª… ìž‘ì„±
-  - ì´ë²¤íŠ¸ ì„¤ëª…ê³¼ ì†ŒìŠ¤ì½”ë“œ ì£¼ì„ ì„¤ëª… ìž‘ì„±.
-  - ë™ì ìœ¼ë¡œ ìŠ¬ë¼ì´ë“œ ì¶”ê°€í•˜ëŠ” ë°©ë²• ìž‘ì„±.
+- `api.md` ÀÛ¼º. > [ÀÌµ¿](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/api.md)
+  - ¸Þ¼Òµå, ¼Ó¼º ¼Ò½ºÄÚµå ÁÖ¼® ¼³¸í ÀÛ¼º
+  - ÀÌº¥Æ® ¼³¸í°ú ¼Ò½ºÄÚµå ÁÖ¼® ¼³¸í ÀÛ¼º.
+  - µ¿ÀûÀ¸·Î ½½¶óÀÌµå Ãß°¡ÇÏ´Â ¹æ¹ý ÀÛ¼º.
  <br>
   
-- `custom-html-in-slides.md` ìž‘ì„± > [ì´ë™](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/custom-html-in-slides.md)
-  - ìŠ¬ë¼ì´ë“œì— ë§žì¶¤ HTMLì„ ì¶”ê°€ í•˜ëŠ” ë°©ë²• ìž‘ì„±.
-  - ì¶”ê°€ ì¤‘ìš” ë©”ëª¨(ì£¼ì˜ì‚¬í•­) ìž‘ì„±.
-  - ì†ŒìŠ¤ì½”ë“œ ì£¼ì„ ì„¤ëª… ìž‘ì„±.
+- `custom-html-in-slides.md` ÀÛ¼º > [ÀÌµ¿](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/custom-html-in-slides.md)
+  - ½½¶óÀÌµå¿¡ ¸ÂÃã HTMLÀ» Ãß°¡ ÇÏ´Â ¹æ¹ý ÀÛ¼º.
+  - Ãß°¡ Áß¿ä ¸Þ¸ð(ÁÖÀÇ»çÇ×) ÀÛ¼º.
+  - ¼Ò½ºÄÚµå ÁÖ¼® ¼³¸í ÀÛ¼º.
  <br>
   
-- `faq.md` ìž‘ì„±  > [ì´ë™](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/faq.md)
-  - PhotoSwipeì— ëŒ€í•´ ìžì£¼ ë¬»ëŠ” ì§ˆë¬¸ê³¼ ë‹µë³€ ë²ˆì—­ìž‘ì„±.
-  - PhotoSwipeì— ëŒ€í•´ ì•Œë ¤ì§„ ë¬¸ì œì  ë²ˆì—­ìž‘ì„±.
-  - ë³€ê²½ ë‚´ì—­ í™•ì¸ì´ë‚˜ ì—…ë°ì´íŠ¸ ì•Œë¦¼ ë°›ëŠ” ë°©ë²• ìž‘ì„±.
+- `faq.md` ÀÛ¼º  > [ÀÌµ¿](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/faq.md)
+  - PhotoSwipe¿¡ ´ëÇØ ÀÚÁÖ ¹¯´Â Áú¹®°ú ´äº¯ ¹ø¿ªÀÛ¼º.
+  - PhotoSwipe¿¡ ´ëÇØ ¾Ë·ÁÁø ¹®Á¦Á¡ ¹ø¿ªÀÛ¼º.
+  - º¯°æ ³»¿ª È®ÀÎÀÌ³ª ¾÷µ¥ÀÌÆ® ¾Ë¸² ¹Þ´Â ¹æ¹ý ÀÛ¼º.
  <br>
 
-- `ì‹œìž‘í•˜ê¸°(getting-started)` ìž‘ì„±. > [ì´ë™](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/getting-started.md).
-  - `PhotoSwipe` ì‚¬ì§„ê°¤ëŸ¬ë¦¬ë¥¼ ì‹œìž‘í•˜ê¸° ìœ„í•œ ê°€ì´ë“œ  
-  - ì´ˆê¸°í™”í•˜ëŠ” 3ë‹¨ê³„ ìˆœì„œ ìž‘ì„±.
-  - ìŠ¬ë¼ì´ë“œ ê°ì²´ë¥¼ ë§Œë“œëŠ” ë°©ë²• ìž‘ì„±.  
-  - ë§í¬ ëª©ë¡ì—ì„œ ìŠ¬ë¼ì´ë“œ ë°°ì—´ì„ ë§Œë“œëŠ” ë°©ë²• ìž‘ì„±.
-  - ì›ìž‘ìžì˜ ì½”ë“œíŽœ ë§í¬ ì¶”ê°€.
+- `½ÃÀÛÇÏ±â(getting-started)` ÀÛ¼º. > [ÀÌµ¿](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/getting-started.md).
+  - `PhotoSwipe` »çÁø°¶·¯¸®¸¦ ½ÃÀÛÇÏ±â À§ÇÑ °¡ÀÌµå  
+  - ÃÊ±âÈ­ÇÏ´Â 3´Ü°è ¼ø¼­ ÀÛ¼º.
+  - ½½¶óÀÌµå °´Ã¼¸¦ ¸¸µå´Â ¹æ¹ý ÀÛ¼º.  
+  - ¸µÅ© ¸ñ·Ï¿¡¼­ ½½¶óÀÌµå ¹è¿­À» ¸¸µå´Â ¹æ¹ý ÀÛ¼º.
+  - ¿øÀÛÀÚÀÇ ÄÚµåÆæ ¸µÅ© Ãß°¡.
 <br>
 
-- `ì˜µì…˜ ìƒì„¸(options)` ìž‘ì„±. > [ì´ë™](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/options.md).  
-  - PhotoSwipe ì „ì²´ ì˜µì…˜ë“¤ì— ëŒ€í•œ ì„¤ëª… ìž‘ì„±.
-  - ì˜µì…˜ ê°’ì— ë”°ë¥¸ í”„ë¡œê·¸ëž¨ì˜ ë³€í™” ì„¤ëª… ë° ì†ŒìŠ¤ì½”ë“œ ì£¼ì„ ì„¤ëª… ìž‘ì„±. 
-  - UI ì˜µì…˜ì— ëŒ€í•œ ì„¤ëª… ìž‘ì„±  
+- `¿É¼Ç »ó¼¼(options)` ÀÛ¼º. > [ÀÌµ¿](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/options.md).  
+  - PhotoSwipe ÀüÃ¼ ¿É¼Çµé¿¡ ´ëÇÑ ¼³¸í ÀÛ¼º.
+  - ¿É¼Ç °ª¿¡ µû¸¥ ÇÁ·Î±×·¥ÀÇ º¯È­ ¼³¸í ¹× ¼Ò½ºÄÚµå ÁÖ¼® ¼³¸í ÀÛ¼º. 
+  - UI ¿É¼Ç¿¡ ´ëÇÑ ¼³¸í ÀÛ¼º  
 <br>
 
-- `ê°¤ëŸ¬ë¦¬ ì„±ëŠ¥í–¥ìƒ ë°©ë²•(performance-tips)` ìž‘ì„±. > [ì´ë™](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/performance-tips.md).  
-  - ì• ë‹ˆë©”ì´ì…˜ì— ë”°ë¥¸ ì„±ëŠ¥í–¥ìƒ ë°©ë²• ìž‘ì„±.
-  - íŒŒì¼ í¬í•¨í•˜ëŠ” ë°©ë²• ìž‘ì„±.
+- `°¶·¯¸® ¼º´ÉÇâ»ó ¹æ¹ý(performance-tips)` ÀÛ¼º. > [ÀÌµ¿](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/performance-tips.md).  
+  - ¾Ö´Ï¸ÞÀÌ¼Ç¿¡ µû¸¥ ¼º´ÉÇâ»ó ¹æ¹ý ÀÛ¼º.
+  - ÆÄÀÏ Æ÷ÇÔÇÏ´Â ¹æ¹ý ÀÛ¼º.
 <br>
 
-- `ë°˜ì‘í˜• ì´ë¯¸ì§€` ì„¤ëª…ì„œ ìž‘ì„±. > [ì´ë™](http://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/responsive-images.md).  
-  -  PhotoSwipeì—ì„œ ë°˜ì‘í•˜ëŠ” ì´ë¯¸ì§€ë¥¼ ì–´ë–»ê²Œ ì œê³µí•˜ëŠ”ì§€ ìž‘ì„±.
-  - "ë§¤ì²´" ì´ë¯¸ì§€ì™€ "ì›ë³¸"ì´ë¯¸ì§€ ìžˆë‹¤ëŠ” ê°€ì •í•˜ì— ë°˜ì‘ì´ë¯¸ì§€ ì œê³µ ê³¼ì • ìž‘ì„±.
-  - ì†ŒìŠ¤ ì½”ë“œì— ëŒ€í•œ ì£¼ì„ë¬¸ ìž‘ì„±.
-  - ì‚¬ìš©ì‹œ ìœ ì˜ì  ìž‘ì„±.
+- `¹ÝÀÀÇü ÀÌ¹ÌÁö` ¼³¸í¼­ ÀÛ¼º. > [ÀÌµ¿](http://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/responsive-images.md).  
+  -  PhotoSwipe¿¡¼­ ¹ÝÀÀÇÏ´Â ÀÌ¹ÌÁö¸¦ ¾î¶»°Ô Á¦°øÇÏ´ÂÁö ÀÛ¼º.
+  - "¸ÅÃ¼" ÀÌ¹ÌÁö¿Í "¿øº»"ÀÌ¹ÌÁö ÀÖ´Ù´Â °¡Á¤ÇÏ¿¡ ¹ÝÀÀÀÌ¹ÌÁö Á¦°ø °úÁ¤ ÀÛ¼º.
+  - ¼Ò½º ÄÚµå¿¡ ´ëÇÑ ÁÖ¼®¹® ÀÛ¼º.
+  - »ç¿ë½Ã À¯ÀÇÁ¡ ÀÛ¼º.
 <br>
 
-- ì´ë¯¸ì§€ ê°¤ëŸ¬ë¦¬`SEO` ì„¤ëª…ì„œ ìž‘ì„±. > [ì´ë™](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/seo.md).
-  - ìžë°”ìŠ¤í¬ë¦½íŠ¸ ì´ë¯¸ì§€ ê°¤ëŸ¬ë¦¬ì— ëŒ€í•œ ì´ìƒì ì¸ HTMLë§ˆí¬ì—… ì–¸ì–´ì™€ì˜ ê´€ê³„ ìž‘ì„±.
-  - ex)ê°€ìž¥ ê°„ë‹¨í•œ ì´ë¯¸ì§€ë¡œ ì—°ê²°ë˜ëŠ” ë¯¸ë¦¬ë³´ê¸° ëª©ë¡ ì½”ë“œ ìž‘ì„±.
-  - <figure>ê³¼ <figcaption> ì‚¬ìš©í•˜ëŠ” ê²½ìš°, ì½”ë“œ ìž‘ì„±.
-  - `ImagePalleryforImaging` ë° `ImageObject` ë° `ImageObject` ì‚¬ìš©ê°€ëŠ¥ê³¼ ê´€ë ¨ ì½”ë“œ ìž‘ì„±. > [ì´ë™](http://schema.org/ImageGallery). 
-  - `Schema.org markup`ë¥¼ ì‚¬ìš©í•´ì•¼ í•˜ëŠ” ê²½ìš° ì˜ˆì‹œë¥¼ ë“¤ì–´ì„œ ìž‘ì„±
-  - ì¶”ê°€ ê¶Œìž¥ ì‚¬í•­ ìž‘ì„±  
+- ÀÌ¹ÌÁö °¶·¯¸®`SEO` ¼³¸í¼­ ÀÛ¼º. > [ÀÌµ¿](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/seo.md).
+  - ÀÚ¹Ù½ºÅ©¸³Æ® ÀÌ¹ÌÁö °¶·¯¸®¿¡ ´ëÇÑ ÀÌ»óÀûÀÎ HTML¸¶Å©¾÷ ¾ð¾î¿ÍÀÇ °ü°è ÀÛ¼º.
+  - ex)°¡Àå °£´ÜÇÑ ÀÌ¹ÌÁö·Î ¿¬°áµÇ´Â ¹Ì¸®º¸±â ¸ñ·Ï ÄÚµå ÀÛ¼º.
+  - <figure>°ú <figcaption> »ç¿ëÇÏ´Â °æ¿ì, ÄÚµå ÀÛ¼º.
+  - `ImagePalleryforImaging` ¹× `ImageObject` ¹× `ImageObject` »ç¿ë°¡´É°ú °ü·Ã ÄÚµå ÀÛ¼º. > [ÀÌµ¿](http://schema.org/ImageGallery). 
+  - `Schema.org markup`¸¦ »ç¿ëÇØ¾ß ÇÏ´Â °æ¿ì ¿¹½Ã¸¦ µé¾î¼­ ÀÛ¼º
+  - Ãß°¡ ±ÇÀå »çÇ× ÀÛ¼º  
 <br>
 
-- `ì—…ë°ì´íŠ¸ ì‚¬í•­` ë²ˆì—­  .> [ì´ë™](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/updates.md)
-  - PhotoSwipe ê°¤ëŸ¬ë¦¬ ìµœì‹  ìƒíƒœë¡œ ìœ ì§€í•˜ëŠ” ë°©ë²• ìž‘ì„±
-  - ì•Œë¦¼ ì—…ë°ì´íŠ¸ URL ë° ì„¤ì • ìž‘ì„± 
+- `¾÷µ¥ÀÌÆ® »çÇ×` ¹ø¿ª  .> [ÀÌµ¿](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/updates.md)
+  - PhotoSwipe °¶·¯¸® ÃÖ½Å »óÅÂ·Î À¯ÁöÇÏ´Â ¹æ¹ý ÀÛ¼º
+  - ¾Ë¸² ¾÷µ¥ÀÌÆ® URL ¹× ¼³Á¤ ÀÛ¼º 
 <br>
 
 ------------
-### 5. ë°ëª¨ ì‚¬ì´íŠ¸ êµ¬í˜„
+### 5. µ¥¸ð »çÀÌÆ® ±¸Çö
 
-  - ì‚¬ìš© ì„¤ëª…ì„œë¥¼ ìž‘ì„±í•´ë³´ë‹ˆ ê°œë°œìžë“¤ê³¼ ì‚¬ëžŒë“¤ì˜ ë†’ì€ ì°¸ì—¬ë„ë¡œ ì¸í•´ ê³„ì† ê°œì„ ë¨ì— ë”°ë¼ ë”ì´ìƒ ì˜¤ë¥˜ë‚˜ ê°œì„ ì‚¬í•­ì´ ì‰½ê²Œ ì°¾ì•„ì§€ì§€ ì•ŠëŠ” ì™„ì„±ë„ ë†’ì€ ì˜¤í”ˆì†ŒìŠ¤ë¼ê³  ìƒê°ë˜ì–´, ì§ì ‘ ì˜¤í”ˆì†ŒìŠ¤ë¥¼ í™œìš©í•˜ì—¬ ë°ëª¨ ì‚¬ì´íŠ¸ë¥¼ ì œìž‘í•˜ì—¬ ì´ì „ ë²ˆì—­ìž‘ì„±í•˜ì˜€ë˜ `PhotoSwipe ì†Œê°œê¸€`ê³¼ `PhotoSwipeê°¤ëŸ¬ë¦¬`ë¥¼ ì§ì ‘ êµ¬í˜„í•´ ë³´ì•˜ìŠµë‹ˆë‹¤.
-  - ì„œë²„ëŠ” Googleì—ì„œ ì„œë¹„ìŠ¤ ì¤‘ì¸ `GoogleCloud`ë¥¼ í†µí•´ Ubuntu OSë¥¼ íƒ‘ìž¬í•œ ë¦¬ëˆ…ìŠ¤ ì„œë²„ë¥¼ ì´ìš©í•˜ì˜€ìŠµë‹ˆë‹¤.
-  - `node.js`ì™€ `express.js`ë¥¼ ì‚¬ìš©í•˜ì—¬ `PhotoSwipeê°¤ëŸ¬ë¦¬`êµ¬í˜„ì„ ìœ„í•œ ë‹¨ì¼íŽ˜ì´ì§€ `httpì„œë¹„ìŠ¤ë¥¼ ì œê³µ`í•˜ê³  ìžˆìŠµë‹ˆë‹¤.
-  - [ë°ëª¨ì‚¬ì´íŠ¸ë¡œ ì´ë™](http://35.200.120.12)
+  - »ç¿ë ¼³¸í¼­¸¦ ÀÛ¼ºÇØº¸´Ï °³¹ßÀÚµé°ú »ç¶÷µéÀÇ ³ôÀº Âü¿©µµ·Î ÀÎÇØ °è¼Ó °³¼±µÊ¿¡ µû¶ó ´õÀÌ»ó ¿À·ù³ª °³¼±»çÇ×ÀÌ ½±°Ô Ã£¾ÆÁöÁö ¾Ê´Â ¿Ï¼ºµµ ³ôÀº ¿ÀÇÂ¼Ò½º¶ó°í »ý°¢µÇ¾î, Á÷Á¢ ¿ÀÇÂ¼Ò½º¸¦ È°¿ëÇÏ¿© µ¥¸ð »çÀÌÆ®¸¦ Á¦ÀÛÇÏ¿© ÀÌÀü ¹ø¿ªÀÛ¼ºÇÏ¿´´ø `PhotoSwipe ¼Ò°³±Û`°ú `PhotoSwipe°¶·¯¸®`¸¦ Á÷Á¢ ±¸ÇöÇØ º¸¾Ò½À´Ï´Ù.
+  - ¼­¹ö´Â Google¿¡¼­ ¼­ºñ½º ÁßÀÎ `GoogleCloud`¸¦ ÅëÇØ Ubuntu OS¸¦ Å¾ÀçÇÑ ¸®´ª½º ¼­¹ö¸¦ ÀÌ¿ëÇÏ¿´½À´Ï´Ù.
+  - `node.js`¿Í `express.js`¸¦ »ç¿ëÇÏ¿© `PhotoSwipe°¶·¯¸®`±¸ÇöÀ» À§ÇÑ ´ÜÀÏÆäÀÌÁö `http¼­ºñ½º¸¦ Á¦°ø`ÇÏ°í ÀÖ½À´Ï´Ù.
+  - [µ¥¸ð»çÀÌÆ®·Î ÀÌµ¿](http://35.200.120.12)
 
 ---------
-### 6. ê³¼ì œ ê²°ê³¼ ë§í¬
-  - ì˜¤í”ˆ ì†ŒìŠ¤ - [`PhotoSwipe`](https://github.com/dimsemenov/PhotoSwipe)
-  - í”„ë¡œì íŠ¸ ì§„í–‰ - [`GitHub`](https://github.com/hun1451/PhotoSwipe)
-  - í˜‘ì—… ì§„í–‰ ê³¼ì • - [Commit](https://github.com/hun1451/PhotoSwipe/commits/master)
+### 6. °úÁ¦ °á°ú ¸µÅ©
+  - ¿ÀÇÂ ¼Ò½º - [`PhotoSwipe`](https://github.com/dimsemenov/PhotoSwipe)
+  - ÇÁ·ÎÁ§Æ® ÁøÇà - [`GitHub`](https://github.com/hun1451/PhotoSwipe)
+  - Çù¾÷ ÁøÇà °úÁ¤ - [Commit](https://github.com/hun1451/PhotoSwipe/commits/master)
   - [Insights](https://github.com/hun1451/PhotoSwipe/pulse/monthly)
   - [README.md](https://github.com/hun1451/PhotoSwipe/blob/master/README.md)
-  - ê²°ê³¼ ë³´ê³ ì„œ - [REPORT.md](https://github.com/hun1451/PhotoSwipe/blob/master/REPORT.md)
-  - êµ¬í˜„í•œ [ë°ëª¨ ì‚¬ì´íŠ¸](http://35.200.120.12/)
-  - ì‚¬ìš© ì„¤ëª…ì„œ [/website_kr/documentation](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/documentation)
-      - ì‹œìž‘ ì•ˆë‚´ì„œ - [getting-started.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/getting-started.md)
-      - ì˜µì…˜ ê°’ ëª…ì„¸ - [options.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/options.md)
-      - api ëª…ì„¸ - [api.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/api.md)
-      - ì»¤ìŠ¤í…€ ìŠ¬ë¼ì´ë“œ - [custom-html-in-slides.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/custom-html-in-slides.md)
-      - ìžì£¼ ë¬»ëŠ” ì§ˆë¬¸ ë‹µë³€ - [faq.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/faq.md)
-      - ì„±ëŠ¥ í–¥ìƒ íŒ - [performance-tips.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/performance-tips.md)
-      - ë°˜ì‘í˜• ì´ë¯¸ì§€ - [responsive-images.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/responsive-images.md)
+  - °á°ú º¸°í¼­ - [REPORT.md](https://github.com/hun1451/PhotoSwipe/blob/master/REPORT.md)
+  - ±¸ÇöÇÑ [µ¥¸ð »çÀÌÆ®](http://35.200.120.12/)
+  - »ç¿ë ¼³¸í¼­ [/website_kr/documentation](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/documentation)
+      - ½ÃÀÛ ¾È³»¼­ - [getting-started.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/getting-started.md)
+      - ¿É¼Ç °ª ¸í¼¼ - [options.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/options.md)
+      - api ¸í¼¼ - [api.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/api.md)
+      - Ä¿½ºÅÒ ½½¶óÀÌµå - [custom-html-in-slides.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/custom-html-in-slides.md)
+      - ÀÚÁÖ ¹¯´Â Áú¹® ´äº¯ - [faq.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/faq.md)
+      - ¼º´É Çâ»ó ÆÁ - [performance-tips.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/performance-tips.md)
+      - ¹ÝÀÀÇü ÀÌ¹ÌÁö - [responsive-images.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/responsive-images.md)
       - SEO - [seo.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/seo.md)
-      - ì—…ë°ì´íŠ¸ ì‚¬í•­ - [updates.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/updates.md)
+      - ¾÷µ¥ÀÌÆ® »çÇ× - [updates.md](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/updates.md)
 
 ---------
-### 7. ë§ˆë¬´ë¦¬
+### 7. ¸¶¹«¸®
+#### ÇÁ·ÎÁ§Æ® ÈÄ±â ¹× ¼Ò°¨
+-	**Àü¿µ¿í**
+> - Ã³À½ ¿ÀÇÂ¼Ò½ºSW¸¦ ¼±Á¤ ÇÒ¶§ºÎÅÍ ¾î¶»°Ô ÇØ¾ßÇÒ±î ¸¹Àº °í¹ÎÀ» ¾È°í ½ÃÀÛÇÏ¿´´Âµ¥, ¼±Á¤ÇÏ°í »ç¿ë¼³¸í¼­¸¦ ÀÛ¼ºÇÏ´Ùº¸´Ï  github¸¦ »ç¿ëÇÏ´Â ¹ýÀÌ È®½ÇÇÏ°Ô Çâ»óµÈ°Å °°´Ù. ±×¸®°í ÆÀ¿øµé°úÀÇ github·ÎÀÇ Çù¾÷ÀÌ Ã³À½¿¡´Â ³¸¼³°í ¾î·Æ°Ô ´À²¸Á³Áö¸¸ »ç¿ëÇÒ¼ö·Ï È¿À²ÀûÀÎ ¹æ½ÄÀÌ¶ó°í »ý°¢µÇ°í, PhotoSwipeÀÇ »ç¿ë¼³¸í¼­¸¦ »õ·Î ÀÛ¼ºÇÏ°í ¶Ç ¿µ¹®À» ¹ø¿ªÀ» ÇÏ°í ¸ðµç°Ô »õ·Î¿î °æÇèÀÌ¿´´Ù°í »ý°¢ÇÏ°í ¸¸Á·½º·¯¿î ÇÁ·ÎÁ§Æ® °á°ú¶ó°í »ý°¢ÇÑ´Ù.
 ---
