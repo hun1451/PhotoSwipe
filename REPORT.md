@@ -7,8 +7,8 @@
 
 ### 1. 팀원
 ```
-> 팀장 : 전영욱(20134789)
-> 팀원 : 김희환(20104696), 한상원(20134793)
+> 팀장 : 전영욱(20134789 / hun1451)
+> 팀원 : 김희환(20104696 / Heehwan-Kim), 한상원(20134793 / hth9021)
 ```
 
 ---
@@ -42,6 +42,7 @@
 > - 성능 향상을 위한 `Tip` 작성. 
 > - `README.md` 작성.
 > - `index.md` 작성.
+> - `데모사이트` 제작.
 -	**한상원**
 > - `반응형 이미지` 설명서 작성.
 > - 이미지갤러리`SEO` 설명서 작성.
@@ -60,27 +61,28 @@
 <br>
 
 #### 사용 설명서 작성. ( [website_kr/documentation/](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/documentation) 폴더에 작성됨. )
-- `api.md` 작성. > [이동](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/api.md)
+ 
+- `index.md` 작성 ( PhotoSwipe 소개 페이지 번역) > [이동](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/index.md)
+  - 기술, 라이센스 문제점 등 정리되어있는 http://photoswipe.com/ 페이지 번역 작성.
+<br>
+
+- `api.md` 작성. > [이동](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/api.md)
   - 메소드, 속성 소스코드 주석 설명 작성
   - 이벤트 설명과 소스코드 주석 설명 작성.
   - 동적으로 슬라이드 추가하는 방법 작성.
  <br>
   
-- `custom-html-in-slides.md` 작성 > [이동](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/custom-html-in-slides.md)
+- `custom-html-in-slides.md` 작성 > [이동](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/custom-html-in-slides.md)
   - 슬라이드에 맞춤 HTML을 추가 하는 방법 작성.
   - 추가 중요 메모(주의사항) 작성.
   - 소스코드 주석 설명 작성.
  <br>
   
-- `faq.md` 작성  > [이동](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/faq.md)
+- `faq.md` 작성  > [이동](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/faq.md)
   - PhotoSwipe에 대해 자주 묻는 질문과 답변 번역작성.
   - PhotoSwipe에 대해 알려진 문제점 번역작성.
   - 변경 내역 확인이나 업데이트 알림 받는 방법 작성.
  <br>
- 
-- `index.md` 작성 ( PhotoSwipe 소개 페이지 번역) > [이동](https://github.com/hun1451/PhotoSwipe/tree/master/website_kr/index.md)
-  - 기술, 라이센스 문제점 등 정리되어있는 http://photoswipe.com/ 페이지 번역 작성.
-<br>
 
 - `시작하기(getting-started)` 작성. > [이동](https://github.com/hun1451/PhotoSwipe/blob/master/website_kr/documentation/getting-started.md).
   - `PhotoSwipe` 사진갤러리를 시작하기 위한 가이드  
